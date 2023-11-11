@@ -87,8 +87,25 @@ when hover on link http://www.traversymedia.com Traversy media is appearing. Bel
 | John Doe | john@gmail.com |
 | Jane Doe | jane@gmail.com |
 
+<!-- Simple formatted Tables -->
+<!-- items on the center alignment on cell  -->
+| Name     | Email          |
+| :--------: | :--------------: |
+| John Doe | john@gmail.com |
+| Jane Doe | jane@gmail.com |
+
+<!-- items on the right alignment on cell  -->
+| Name     | Email          |
+| --------: | --------------: |
+| John Doe | john@gmail.com |
+| Jane Doe | jane@gmail.com |
+
+
 <!-- Check List -->
 Task List isn't appearing in VS code markdown preview. but in github it will show
 * [x] Task 1
 * [x] Task 2
 * [ ] Task 3
+* like this
+
+![git hub preview](./images/Screenshot%202023-11-12%20001541.png)
