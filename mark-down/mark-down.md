@@ -35,9 +35,7 @@ ___
 <!-- Links -->
 [Traversy Media](http://www.traversymedia.com)
 
-when hover on link http://www.traversymedia.com Traversy media is appearing. Below line contain syntax
-
-[Traversy Media](http://www.traversymedia.com "Traversy Media")
+when hover on link http://www.traversymedia.com Traversy media is appearing. Here is the syntax- [Traversy Media](http://www.traversymedia.com "Traversy Media")
 
 <!-- UL -->
 * Item 1
@@ -48,7 +46,7 @@ when hover on link http://www.traversymedia.com Traversy media is appearing. Bel
 -----------------------------------------------
 
 <!-- OL -->
-**here only 1 is enter in .md file but output preview relevent order**
+**here only 1 is enter in .md file but output preview relevant order**
 1. Item 1
 1. Item 2
 1. Item 3
@@ -108,4 +106,4 @@ Task List isn't appearing in VS code markdown preview. but in github it will sho
 * [ ] Task 3
 * like this
 
-![git hub preview](./images/Screenshot%202023-11-12%20001541.png)
+![git hub preview](./images/Screenshot%202023-11-12%20001541.png)![[Pasted image 20231123063118.png]]
