@@ -1,1 +1,9 @@
-{}
+{
+  "livePreview": true,
+  "newFileLocation": "current",
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative",
+  "autoPairMarkdown": false,
+  "tabSize": 2,
+  "attachmentFolderPath": "./assets"
+}
