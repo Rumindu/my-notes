@@ -5,5 +5,12 @@
   "newLinkFormat": "relative",
   "autoPairMarkdown": false,
   "tabSize": 2,
-  "attachmentFolderPath": "./assets"
+  "attachmentFolderPath": "./assets",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

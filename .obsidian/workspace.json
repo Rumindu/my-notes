@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b2992595875d6e10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/2Node.JS REPL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -94,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "a236e38ca92e472a",
@@ -110,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/1Node.JS introduction.md",
+                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/2Node.JS REPL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/1Node.JS introduction.md",
+                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/2Node.JS REPL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/1Node.JS introduction.md"
+                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/2Node.JS REPL.md"
               }
             }
           }
@@ -171,13 +184,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "35fc2b59a7616ca8",
+  "active": "b2992595875d6e10",
   "lastOpenFiles": [
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Pasted image 20231123112626.png",
-    "mark-down/mark-down.md",
-    "Obsidian Tips.md",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/1Node.JS introduction.md",
     "Pasted image 20231123111355.png",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/2Node.JS REPL.md",
+    "Obsidian Tips.md",
+    "mark-down/mark-down.md",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/1Node.JS introduction.md",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Pasted image 20231123112626.png",
     "Pasted image 20231123104700.png",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Screenshot 2023-11-23 085212.png",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Screenshot 2023-11-23 063114.png",
