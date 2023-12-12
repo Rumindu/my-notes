@@ -32,24 +32,24 @@
             }
           },
           {
-            "id": "35fc2b59a7616ca8",
+            "id": "ea53548a3e1001ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/1Node.JS introduction.md",
+                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/5Synchronous vs Asynchronous.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8509294e54d91f97",
+            "id": "2f51a9f438b72c13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/4Reading and writing files in NodeJS.md",
+                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/4Reading and writing files in NodeJS Synchronous way.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a236e38ca92e472a",
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/4Reading and writing files in NodeJS.md",
+                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/4Reading and writing files in NodeJS Synchronous way.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/4Reading and writing files in NodeJS.md",
+                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/4Reading and writing files in NodeJS Synchronous way.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/4Reading and writing files in NodeJS.md"
+                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/4Reading and writing files in NodeJS Synchronous way.md"
               }
             }
           }
@@ -184,23 +183,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8509294e54d91f97",
+  "active": "2f51a9f438b72c13",
   "lastOpenFiles": [
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/1Node.JS introduction.md",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/4Reading and writing files in NodeJS.md",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/2Node.JS REPL.md",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/3Hello World In Node.md",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/1Node.JS introduction.md",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/Draft.md",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/5Synchronous vs Asynchronous.md",
+    "Internship/2023-11-30.md",
+    "Internship",
+    "mark-down/mark-down.md",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/4Reading and writing files in NodeJS Synchronous way.md",
+    "Prizma ORM",
+    "Obsidian Tips.md",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Pasted image 20231129192535.png",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/2Node.JS REPL.md",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Pasted image 20231129114441.png",
     "Pasted image 20231123111355.png",
-    "Obsidian Tips.md",
-    "mark-down/mark-down.md",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Pasted image 20231123112626.png",
     "Pasted image 20231123104700.png",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Screenshot 2023-11-23 085212.png",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Screenshot 2023-11-23 063114.png",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Screenshot 2023-11-23 080925.png",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets",
-    "Untitled",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman",
     "Node",
     "mark-down/images/Pasted image 20231123063118.png"
