@@ -18,6 +18,7 @@
 * starting server
   ```js
   server.listen(8000, '127.0.0.1',()=>{
+	  //this is how sending plain text response.
     console.log('Listening to requests on port 8000');
  })
   ```
