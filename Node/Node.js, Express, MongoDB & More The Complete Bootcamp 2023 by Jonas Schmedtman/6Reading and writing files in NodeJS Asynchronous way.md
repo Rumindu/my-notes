@@ -80,4 +80,4 @@ console.log('Will read file!');
 ```
 ****Output***
 ![](./assets/Pasted%20image%2020231218174503.png)
-
+[source codes](https://github.com/Rumindu/work-Node.js-Jonas-Schmedtman/tree/main/2%20-%20Introduction%20to%20Nodejs%20and%20NPM/1File%20read%20and%20write)
