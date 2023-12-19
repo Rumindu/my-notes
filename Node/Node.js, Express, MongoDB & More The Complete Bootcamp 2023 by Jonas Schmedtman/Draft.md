@@ -1,3 +1,2 @@
-* 
-* callbacks != Asynch
+* url module eke onema ne nee.
 * 
