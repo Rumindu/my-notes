@@ -56,7 +56,7 @@ root.render(
 * Here we are **nested** `Pizza` component in the `App` component. 
 * we should **never write a function inside another function** as nesting.
 
-##Adding a image and paragraph to Pizza component 
+## Adding a image and paragraph to Pizza component 
 * All the assets of the app *like images* will go into the **public folder**. Because webpack/module bundler will automatically get them from there.
 
 ```js
