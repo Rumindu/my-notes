@@ -1,5 +1,5 @@
 # Simple routing
-* Routing is implementing deferent actions for deferent URLS.
+* Routing is **implementing deferent actions for deferent URLS.**
 * for advanced routing we use **express** frame work.
 * for simple routing we need built in node module called `url`. but for this session we are just require it only. we only need `http` module
 ```js
@@ -58,7 +58,7 @@ server.listen(8000, '127.0.0.1',()=>{
     else{
       res.end('Page not found!');
     }
- })
+  })
   ```
   ![](./assets/Pasted%20image%2020231219143335.png)
 ## Setting up http status code
