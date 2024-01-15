@@ -1,14 +1,17 @@
-* **Flat List** - Like `<ScrollView>` but Flat List is more optimize than ScrollView>
+- **Flat List** - Like `<ScrollView>` but Flat List is more optimize than ScrollView>
+
 1. **Display List item using `<FlatList>`**
-* There is considerable difference between `<ScrollView>` and `<Flat List>`. In `<Flat List>` we aren't using array **map** function. We are passing several types of props into <FlatList> component.
+
+- There is considerable difference between `<ScrollView>` and `<Flat List>`. In `<Flat List>` we aren't using array **map** function. We are passing several types of props into <FlatList> component.
 
 **<FlatList
-        {/* passing props */}
-        data={people} 
-        renderItem={({ item }) => ( 
-          <Text style={styles.item}>{item.name}</Text>
-        )}
-      />** 
+{/_ passing props _/}
+data={people}
+renderItem={({ item }) => (
+<Text style={styles.item}>{item.name}</Text>
+)}
+/>**
+
 ```js
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, FlatList } from 'react-native';
@@ -28,8 +31,8 @@ export default function App() {
     <View style={styles.container}>
       <FlatList
         {/* passing props */}
-        data={people} 
-        renderItem={({ item }) => ( 
+        data={people}
+        renderItem={({ item }) => (
           <Text style={styles.item}>{item.name}</Text>
         )}
       />
@@ -54,56 +57,55 @@ const styles = StyleSheet.create({
     fontSize: 24,
   },
 });
-
 ```
-<img src="./images/Screenshot 2023-09-18 153403.png">
-<br>
 
-* flat list look at 'key' property. Each item must have 'key property'
+![](images/Screenshot%202023-09-18%20153403.png)
+
+
+- flat list look at 'key' property. Each item must have 'key property'
 
 2. **When list has 'id' property intend of 'key' property**
 
 **keyExtractor={(item) => item.id}**
+
 ```js
-import React, { useState } from 'react';
-import { StyleSheet, Text, View, FlatList } from 'react-native';
+import React, { useState } from "react";
+import { StyleSheet, Text, View, FlatList } from "react-native";
 
 export default function App() {
   const [people, setPeople] = useState([
-    { name: 'shaun',id: '1' },
-    { name: 'yoshi',id: '2' },
-    { name: 'mario',id: '3' },
-    { name: 'luigi',id: '4' },
-    { name: 'peach',id: '5' },
-    { name: 'toad',id: '6' },
-    { name: 'bowser',id: '7' },
+    { name: "shaun", id: "1" },
+    { name: "yoshi", id: "2" },
+    { name: "mario", id: "3" },
+    { name: "luigi", id: "4" },
+    { name: "peach", id: "5" },
+    { name: "toad", id: "6" },
+    { name: "bowser", id: "7" },
   ]);
 
   return (
     <View style={styles.container}>
-      {/* passing keyExtractor prop */} 
+      {/* passing keyExtractor prop */}
       <FlatList
         keyExtractor={(item) => item.id}
-        data={people} 
-        renderItem={({ item }) => ( 
-          <Text style={styles.item}>{item.name}</Text>
-        )}
+        data={people}
+        renderItem={({ item }) => <Text style={styles.item}>{item.name}</Text>}
       />
-
     </View>
   );
 }
 ```
+
 3. **Adding numColumns prop**
+
 ```js
 <FlatList
-        numColumns={2}
-        keyExtractor={(item) => item.id}
-        data={people} 
-        renderItem={({ item }) => ( 
-          <Text style={styles.item}>{item.name}</Text>
-        )}
-      />
+  numColumns={2}
+  keyExtractor={(item) => item.id}
+  data={people}
+  renderItem={({ item }) => <Text style={styles.item}>{item.name}</Text>}
+/>
 ```
 
-<img src='./images/Screenshot 2023-09-18 184944.png'>
+![](images/Screenshot%202023-09-18%20184944.png)
+

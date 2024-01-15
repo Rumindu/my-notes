@@ -1,4 +1,4 @@
-* <h2>Using 'UseState' hook.</h2>
+# Using 'UseState' hook.
 * adding "OnPress" prop in to "button component"
 ```js
 import React, { useState } from 'react'; //importing useState react hook
@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
 
 ```
 * Befor click
-<img src="./images/Screenshot 2023-09-16 134812.png">
+![](./images/Screenshot%202023-09-16%20134812.png)
 
 * After click
-<img src="./images/Screenshot 2023-09-16 134820.png">
+![](./images/Screenshot%202023-09-16%20134820.png)

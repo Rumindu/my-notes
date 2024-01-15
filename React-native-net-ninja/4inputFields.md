@@ -92,8 +92,7 @@ export default function App() {
         style={styles.input}
         onChangeText={(value) => setName(value)} />
 ```
-<img src='./images/Screenshot 2023-09-17 192014.png'>
-<br>
+![](./images/Screenshot%202023-09-17%20192014.png)
 
 2. `keyboardType='numeric'` 
 ```js
@@ -104,10 +103,10 @@ export default function App() {
         //Adding Event Listner with anonymous function
         onChangeText={(value) => setAge(value)} />
 ```
-**props athara , demmoth weradi**
+**props athara ,(comma) demmoth weradi**
 
-<img src='./images/Screenshot 2023-09-17 192537.png\'>
-<br>
+![](images/Screenshot%202023-09-17%20192537.png)
+
 * More about TextInput props
 
 https://reactnative.dev/docs/textinput

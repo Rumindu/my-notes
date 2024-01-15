@@ -2,6 +2,10 @@
 
 ![](./Screenshot%202023-08-03%20213808.png)
 
+# This is a React Native crash course by academind
+
+![](./Screenshot%202023-08-03%20213808.png)
+
 `npm install -g expo—cli`
 
 *meka gahanna onee command line eke VS code eke terminal eke gehuwama case
