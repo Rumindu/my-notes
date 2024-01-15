@@ -3,5 +3,7 @@
   "enabledCssSnippets": [
     "snippet"
   ],
-  "baseFontSize": 15
+  "baseFontSize": 17,
+  "showViewHeader": true,
+  "nativeMenus": false
 }

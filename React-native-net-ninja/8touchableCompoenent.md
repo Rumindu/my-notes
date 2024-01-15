@@ -67,8 +67,8 @@ const styles = StyleSheet.create({
   },
 });
 ```
-<img src="./images/Screenshot 2023-09-19 101516.png">
-<img src="./images/Screenshot 2023-09-19 101535.png">
+![](./images/Screenshot%202023-09-19%20101516.png)
+![](./images/Screenshot%202023-09-19%20101535.png)
 
 * **How to set When click on item item will be no longer there**
 * using `filter` method
@@ -132,14 +132,12 @@ const styles = StyleSheet.create({
 });
 
 ```
-<img src='./images/Screenshot 2023-09-19 111157.png'>
+![](./images/Screenshot%202023-09-19%20111157.png)
 
 * After click 1st tab
+![](./images/Screenshot%202023-09-19%20111212.png)
 
-<img src='./images/Screenshot 2023-09-19 111212.png'>
-<br>
-<br>
 These are console logs of arrays
-<img src='./images/Screenshot 2023-09-19 111236.png'>
+![](images/Screenshot%202023-09-19%20111236.png)
 
 * Here we can see using 'useState' and 'filter' existing list is changing
