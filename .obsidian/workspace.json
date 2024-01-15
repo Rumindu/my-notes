@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Tips.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "151ecda017734cf1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "mark-down/mark-down.md",
+                "file": "Internship/Daily-notes/2024-01-11.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,26 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/5Synchronous vs Asynchronous.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2f51a9f438b72c13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/4Reading and writing files in NodeJS Synchronous way.md",
+                "file": "Internship/Daily-notes/2024-01-02.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 420.5
   },
   "right": {
     "id": "a236e38ca92e472a",
@@ -122,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/4Reading and writing files in NodeJS Synchronous way.md",
+                "file": "Internship/Daily-notes/2024-01-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/4Reading and writing files in NodeJS Synchronous way.md",
+                "file": "Internship/Daily-notes/2024-01-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/4Reading and writing files in NodeJS Synchronous way.md"
+                "file": "Internship/Daily-notes/2024-01-11.md"
               }
             }
           }
@@ -183,31 +158,50 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2f51a9f438b72c13",
+  "active": "c05f6e76e95b89c0",
   "lastOpenFiles": [
+    "Internship/Daily-notes/assets/Pasted image 20240111083039.png",
+    "Internship/Daily-notes/assets/Pasted image 20240111083003.png",
+    "Internship/Daily-notes/assets/Pasted image 20240111082605.png",
+    "Internship/Daily-notes/assets",
+    "Internship/Daily-notes/2023-11-30.md",
+    "Internship/Daily-notes/2024-01-11.md",
+    "Internship/prisma.md",
+    "Internship/Daily-notes",
+    "Internship/notes.md",
+    "React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/33Rendering the Root Component and Strict Mode.md",
+    "React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/Screenshot 2023-08-09 163831.png",
+    "Internship/Daily-notes/2024-01-02.md",
+    "Prizma ORM/Traversy YT.md",
+    "Internship/Daily-notes/2024-01-10.md",
+    "React-Native-Academind/1uptoStyles/react-native-my-note.md",
+    "React by Jonas Schmedtman notes/From 14 to/14React.md",
+    "React by Jonas Schmedtman notes/From 14 to/Screenshot 2023-08-09 103537.png",
+    "React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/37theoryJSX.md",
+    "React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/35theoryPartOfComponents.md",
+    "React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/34someTipsToIdentifyBugs.md",
+    "Internship/Daily-notes/2024-01-03.md",
+    "Internship/Daily-notes/2024-01-04.md",
+    "Internship/Daily-notes/2024-01-05.md",
+    "Obsidian Tips.md",
+    "mark-down/mark-down.md",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/5Synchronous vs Asynchronous.md",
-    "2023-12-12.md",
+    "2024-01-02.md",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/4Reading and writing files in NodeJS Synchronous way.md",
+    "Prizma ORM",
+    "2023-12-12.md",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/3Hello World In Node.md",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/1Node.JS introduction.md",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/Draft.md",
-    "Internship/2023-11-30.md",
     "Internship",
-    "mark-down/mark-down.md",
-    "Prizma ORM",
-    "Obsidian Tips.md",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Pasted image 20231129192535.png",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/2Node.JS REPL.md",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Pasted image 20231129114441.png",
     "Pasted image 20231123111355.png",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Pasted image 20231123112626.png",
     "Pasted image 20231123104700.png",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Screenshot 2023-11-23 085212.png",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Screenshot 2023-11-23 063114.png",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Screenshot 2023-11-23 080925.png",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman",
-    "Node",
-    "mark-down/images/Pasted image 20231123063118.png"
+    "Node"
   ]
 }

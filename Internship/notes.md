@@ -1,0 +1,1 @@
+- create a function in parent component to update state variable onces it calls and pass to the child component and call it here.
