@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
   )
 ```
 here some error is occurring
-<img src='./images/Screenshot 2023-09-18 143254.png'>
+![](./images/Screenshot%202023-09-18%20143254.png)
 
 * Error- Each child in a list should have a unique "key" prop.
 
@@ -119,8 +119,9 @@ const styles = StyleSheet.create({
 });
 
 ```
-<br>
-<img src="./images/Screenshot 2023-09-18 153403.png">
+
+![](images/Screenshot%202023-09-18%20153403.png)
+
 
 we can write this function like this
 ```js

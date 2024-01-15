@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1544be4662353829",
+            "id": "519e3722732bd71b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/9Building a simple API.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "448733b54672a51a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Internship/2023-11-30.md",
+                "file": "JEST/Jest tutorial by Alex Horea.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "create a server",
+                "query": "tag:#This",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 364.5
   },
   "right": {
     "id": "a236e38ca92e472a",
@@ -110,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Internship/2023-11-30.md",
+                "file": "JEST/Jest tutorial by Alex Horea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Internship/2023-11-30.md",
+                "file": "JEST/Jest tutorial by Alex Horea.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Internship/2023-11-30.md"
+                "file": "JEST/Jest tutorial by Alex Horea.md"
               }
             }
           }
@@ -171,39 +158,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "448733b54672a51a",
+  "active": "519e3722732bd71b",
   "lastOpenFiles": [
+    "mark-down/mark-down.md",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/3Hello World In Node.md",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/2Node.JS REPL.md",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/1Node.JS introduction.md",
+    "React-native-net-ninja/10todoItemComponent.md",
+    "React-native-net-ninja/9ToDoHeaderComponent.md",
+    "React-native-net-ninja/8touchableCompoenent.md",
+    "React-native-net-ninja/7flatListComponent.md",
+    "React-native-net-ninja/6list&ScrollView.md",
+    "React-native-net-ninja/4inputFields.md",
+    "React-native-net-ninja/3stateUsingReacthook.md",
+    "React-native-net-ninja/2setup.md",
+    "React-Native-Academind/06 ReactNativeNavigationwithReactNavigation/RN_navigation.md",
+    "React-Native-Academind/Screenshot 2023-08-04 114758.png",
+    "React-Native-Academind/3HandlingEvents/HandlingEvents.md",
+    "React-Native-Academind/2LayoutsAndFlexbox/2LayoutsAndFlexbox.md",
+    "React-Native-Academind/2LayoutsAndFlexbox/Screenshot 2023-08-05 120331.png",
+    "React-Native-Academind/2LayoutsAndFlexbox/Screenshot 2023-08-05 120331-1.png",
+    "React-Native-Academind/1uptoStyles/react-native-my-note.md",
+    "React-Native-Academind/2LayoutsAndFlexbox/2LayoutsAndFlexbox.pdf",
+    "JEST/Jest tutorial by Alex Horea.md",
+    "React-Native-Academind/1uptoStyles/Screenshot 2023-08-04 114758.png",
+    "React-Native-Academind/1uptoStyles/Screenshot 2023-08-04 120948.png",
+    "React-Native-Academind/1uptoStyles/Screenshot 2023-08-03 214418.png",
+    "React-Native-Academind/1uptoStyles/Screenshot 2023-08-03 213808.png",
+    "React by Jonas Schmedtman notes/1 Setup the environment _230729_132955.pdf",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/9Building a simple API.md",
+    "JEST",
     "Internship/2023-12-13.md",
     "Internship/2023-12-20.md",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/1What is typeScript.md",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/9Building a simple API.md",
     "TS by Acedimind",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/8Routing.md",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/Draft.md",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/7Simple Web Server.md",
     "2023-12-20.md",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/6Reading and writing files in NodeJS Asynchronous way.md",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/4Reading and writing files in NodeJS Synchronous way.md",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/5Synchronous vs Asynchronous.md",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Pasted image 20231219145727.png",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Pasted image 20231219144844.png",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Pasted image 20231219143335.png",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Pasted image 20231219142541.png",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Pasted image 20231219121623.png",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Pasted image 20231219121311.png",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Pasted image 20231219121251.png",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Pasted image 20231219121231.png",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Pasted image 20231219120854.png",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/2Node.JS REPL.md",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/3Hello World In Node.md",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/().md",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Pasted image 20231218184601.png",
-    "mark-down/mark-down.md",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/4Reading and writing files in NodeJS asynchronous way.md",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/1Node.JS introduction.md",
-    "Obsidian Tips.md",
-    "Internship/2023-11-30.md",
-    "2023-12-12.md",
     "Internship",
     "Prizma ORM",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets",

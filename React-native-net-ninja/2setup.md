@@ -1,4 +1,4 @@
-* According to the latest Reactnative documentation **No need to install expo cli globally now**
+* According to the latest React native documentation **No need to install expo cli globally now**
 * `npx create-expo-app myproject` // 'myproject' is project name
 then
   `cd myproject`

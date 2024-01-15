@@ -1,22 +1,23 @@
-* Here we pass *props* from one component file to another component file.
+- Here we pass _props_ from one component file to another component file.
 
-**<u>`<App>` Component</u>**
+## `<App>` Component
+
 ```js
-import React, { useState } from 'react';
-import { StyleSheet, Text, View, FlatList } from 'react-native';
-import Header from './components/header';
-import TodoItem from './components/todoItem';//Importing TodoItem component
+import React, { useState } from "react";
+import { StyleSheet, Text, View, FlatList } from "react-native";
+import Header from "./components/header";
+import TodoItem from "./components/todoItem"; //Importing TodoItem component
 
 export default function App() {
   const [todos, setTodos] = useState([
-    { text: 'buy coffee', key: '1' },
-    { text: 'create an app', key: '2' },
-    { text: 'play on the switch', key: '3' }
+    { text: "buy coffee", key: "1" },
+    { text: "create an app", key: "2" },
+    { text: "play on the switch", key: "3" },
   ]);
 
   const pressHandler = (key) => {
-    setTodos(prevTodos => {
-      return prevTodos.filter(todo => todo.key != key);
+    setTodos((prevTodos) => {
+      return prevTodos.filter((todo) => todo.key != key);
     });
   };
 
@@ -41,7 +42,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: "#fff",
   },
   content: {
     padding: 40,
@@ -50,5 +51,4 @@ const styles = StyleSheet.create({
     marginTop: 20,
   },
 });
-
 ```

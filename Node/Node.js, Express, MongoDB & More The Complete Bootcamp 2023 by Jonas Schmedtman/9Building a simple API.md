@@ -1,4 +1,5 @@
 ## Getting a data from JSON file
+
 ```js
 const http = require("http");
 const fs = require("fs");
