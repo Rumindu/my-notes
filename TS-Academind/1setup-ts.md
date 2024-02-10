@@ -1,0 +1,5 @@
+- Install ts globally `npm install -g typescript`
+- Compile ts file to create js file `tsc fiulename.ts`
+- By default Even having ts type error js file will be create from above command.
+- For this academind project, he use development server called "lite-server". To run this we need to run `npm start` on terminal.
+- So then it will automatically refresh the browser after occure changes on js file. ==not in TS file==. There fore we need to manually compile ts file using `tsc` command

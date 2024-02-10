@@ -1,8 +1,8 @@
 * First create node module using `npm init`
 * Install type script as dev dependencies `npm i typescript ts-node @types/node -D`
 * Creating TSX config file `npx tsc --init`
-* Installing prisma `npm i prisma`
-* Start prisma `npx prisma init --datasource-provider mysql`
+* Installing Prisma `npm i prisma`
+* Start Prisma `npx prisma init --datasource-provider mysql`
 \* Here `mysql` is data source provider name if it is PostgreSQL it should change as `postgresql`.
 * After execute this command we can see *.env* file. Here we need to add our db name.
 ```.env

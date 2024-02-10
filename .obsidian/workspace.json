@@ -1,52 +1,100 @@
 {
   "main": {
-    "id": "946097733fc4d7d1",
+    "id": "8eaabdfe65d9dcf9",
     "type": "split",
     "children": [
       {
-        "id": "517a4f9e8a7b2ba9",
+        "id": "b092dc2a7891b2f4",
         "type": "tabs",
         "children": [
           {
-            "id": "f05d6a3e893b25f3",
+            "id": "6a33e0186f6ea06c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Internship/Daily-notes/2024-01-31.md",
+                "file": "TS-Academind/1setup-ts.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b130d44e358eedd8",
+            "id": "5f9b71f927b3a2d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Internship/Daily-notes/2024-01-30.md",
+                "file": "Internship/Daily-notes/2024-02-08.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "430959162b4ecc7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Internship/Daily-notes/2024-02-08.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "851332d6ee4d0875",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TS-Academind/16Object-types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a3c26efe69c44404",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TS-Academind/18Array-types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "06a66d6b71da4e6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TS-Academind/22Union-type.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "2d4c627c99cc6058",
+    "id": "f8179c813a0a9e3e",
     "type": "split",
     "children": [
       {
-        "id": "2d6c26bdf917424e",
+        "id": "cea7801342327a5d",
         "type": "tabs",
         "children": [
           {
-            "id": "8d243cdd8b501cf4",
+            "id": "db9b125923eba926",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,12 +104,12 @@
             }
           },
           {
-            "id": "9d9cee31512b6e1c",
+            "id": "6f5ec65da2aa78eb",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "nv",
+                "query": "state",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,7 +119,7 @@
             }
           },
           {
-            "id": "815090bd2ddf9ab8",
+            "id": "7315846de3d4f55a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -82,23 +130,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 386.5
+    "width": 224.5,
+    "collapsed": true
   },
   "right": {
-    "id": "a236e38ca92e472a",
+    "id": "433037792581bf34",
     "type": "split",
     "children": [
       {
-        "id": "aaaa21c98c5e28fc",
+        "id": "1277f6a5a5cd8627",
         "type": "tabs",
         "children": [
           {
-            "id": "6e741ae0f0a1af78",
+            "id": "53137deeadb06e7d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Internship/Daily-notes/2024-01-30.md",
+                "file": "TS-Academind/22Union-type.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,19 +159,19 @@
             }
           },
           {
-            "id": "800db5d9e97518a3",
+            "id": "25b4e51ba648664d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Internship/Daily-notes/2024-01-30.md",
+                "file": "TS-Academind/22Union-type.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "a0ebbfa3f9eb77b8",
+            "id": "068089acf332dfd7",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,12 +182,12 @@
             }
           },
           {
-            "id": "1eed1422de7f0108",
+            "id": "13cc8018baad1fc9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Internship/Daily-notes/2024-01-30.md"
+                "file": "TS-Academind/22Union-type.md"
               }
             }
           }
@@ -159,53 +208,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b130d44e358eedd8",
+  "active": "db9b125923eba926",
   "lastOpenFiles": [
-    "Internship/Daily-notes/2024-01-31.md",
+    "TS-Academind/18Array-types.md",
+    "TS-Academind/22Union-type.md",
+    "TS-Academind/16Object-types.md",
+    "To-do-task.md",
+    "Internship/Daily-notes/2024-02-08.md",
+    "Prizma ORM/Traversy YT.md",
+    "TS-Academind/assets/Pasted image 20240208074848.png",
+    "TS-Academind/assets/Pasted image 20240208074511.png",
+    "TS-Academind/assets",
+    "TS-Academind/14 Working-with-Numbers-Strings-Booleans.md",
+    "TS-Academind/11using-typs.md",
+    "TS-Academind/1setup-ts.md",
+    "TS-Academind/16Boject-types.md",
+    "Internship/Daily-notes/2024-02-07.md",
+    "Internship/Daily-notes/2024-02-06.md",
+    "Untitled",
+    "TS-Academind",
     "Internship/Daily-notes/2024-01-30.md",
+    "Internship/Daily-notes/2024-02-02.md",
+    "Internship/Daily-notes/2024-01-31.md",
     "Internship/Daily-notes/2024-01-29.md",
-    "Internship/Daily-notes/2024-01-18.md",
+    "Internship/Daily-notes/2024-01-26.md",
     "Internship/Daily-notes/2024-01-24.md",
     "Internship/Daily-notes/2024-01-23.md",
-    "Internship/Daily-notes/2024-01-22.md",
-    "Internship/Daily-notes/assets/Pasted image 20240129095743.png",
-    "Internship/Daily-notes/2024-01-26.md",
-    "Internship/Daily-notes/2024-01-19.md",
-    "Internship/Daily-notes/2024-01-27.md",
-    "Internship/Daily-notes/2024-01-28.md",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/1Node.JS introduction.md",
-    "Prizma ORM/Traversy YT.md",
-    "Internship/Daily-notes/2024-01-10.md",
-    "Internship/Daily-notes/2024-01-16.md",
     "Internship/Daily-notes/2024-01-11.md",
-    "Internship/Daily-notes/2024-01-21.md",
-    "Internship/Daily-notes/2023-11-30.md",
-    "Internship/Daily-notes/2024-01-02.md",
-    "Internship/Daily-notes/2024-01-03.md",
-    "Internship/Daily-notes/2024-01-04.md",
-    "Internship/Daily-notes/2024-01-05.md",
-    "Internship/Daily-notes/assets/Node Assingment 2 1.pdf",
-    "React-native-net-ninja/4inputFields.md",
+    "Internship/Daily-notes/2024-01-16.md",
+    "Internship/Daily-notes/2024-01-18.md",
+    "Internship/Daily-notes/2024-02-05.md",
+    "Internship/Daily-notes/2024-01-22.md",
+    "Internship/Daily-notes/2024-01-19.md",
+    "mark-down/mark-down.md",
     "React-Native-Academind/2LayoutsAndFlexbox/Screenshot 2023-08-05 120331-1.png",
     "React-Native-Academind/1uptoStyles/Screenshot 2023-08-03 214418.png",
-    "React-native-net-ninja/3stateUsingReacthook.md",
-    "React-native-net-ninja/2setup.md",
-    "React-Native-Academind/3HandlingEvents/HandlingEvents.md",
-    "JEST",
-    "Internship/Daily-notes/assets/Pasted image 20240111083039.png",
-    "Internship/Daily-notes/assets/Pasted image 20240111083003.png",
-    "Internship/Daily-notes/assets/Pasted image 20240111082605.png",
-    "Internship/Daily-notes/assets",
-    "Internship/Daily-notes",
-    "React-Native-Academind/2LayoutsAndFlexbox/2LayoutsAndFlexbox.pdf",
-    "React-Native-Academind/Screenshot 2023-08-04 114758.png",
-    "Prizma ORM",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Pasted image 20231219145727.png",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Pasted image 20231219144844.png",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets/Pasted image 20231219143335.png",
-    "Internship",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/assets",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman",
-    "Node"
+    "Internship/Daily-notes/assets/Pasted image 20240129095743.png",
+    "Internship/Daily-notes/assets/Node Assingment 2 1.pdf"
   ]
 }
