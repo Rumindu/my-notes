@@ -9,7 +9,7 @@ value = "123"; // OK
 value = true; // Error: Type 'boolean' is not assignable to type 'number | string'
 ```
 
-- In below example we again checked type of input variables because TS compiler show error.
+- In below example we again checked type of input variables Otherwise TS compiler show error.
 ```js
 //Here input1 and input2 has union data type
 function combine(input1: number | string, input2: number | string) {
