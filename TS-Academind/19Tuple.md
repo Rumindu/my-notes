@@ -17,7 +17,14 @@ const person: {
 };
 ```
 
-- If we try to assign number in the 2nd element of the tuple like this`person.role[1]=10` vs code show an error.
-![](assets/Pasted%20image%2020240211101320.png)
+- If we try to assign number in the 2nd element of the tuple like this
+	```js
+	 person.role[1]=10
+	 ```
+ - vs code show an error.
+	  ![](assets/Pasted%20image%2020240211101320.png)
 
-- 
+- But when we try to add an element to the tuple using ***push method*** it will work.
+	```js
+	person.role.push("admin");
+	```
