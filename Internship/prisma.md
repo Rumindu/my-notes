@@ -1,1 +1,0 @@
-* `npx prisma db push` - to update db according to the prisma schema

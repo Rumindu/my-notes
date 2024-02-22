@@ -15,6 +15,6 @@ console.log(result);
 
 - In TypeScript, you work with types like `string` or `number` all the times.
 
-- **Important**: It is `string` and `number` (etc.), ==**NOT** `String`, `Number` etc.==
+- **Important**: It is `string` and `number` (etc.), ==**NOT** `String`, `Number` etc.==. (not begin with Capital letter)
 
 - The core primitive types in TypeScript are all lowercase!**

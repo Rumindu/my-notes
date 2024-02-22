@@ -28,5 +28,4 @@ model task{
 }
 ```
  * migrating prisma schema `npx prisma migrate dev --name init`
-
-
+- `npx prisma db push` - to update db according to the prisma schema
