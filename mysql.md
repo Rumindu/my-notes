@@ -10,3 +10,4 @@
 5. `SELCT user, plugin FROM user;`
 	![](assets/Pasted%20image%2020240212140945.png)
 	here we need to update root password plugin like this .
+

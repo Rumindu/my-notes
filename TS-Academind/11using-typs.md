@@ -17,4 +17,4 @@ console.log(result);
 
 - **Important**: It is `string` and `number` (etc.), ==**NOT** `String`, `Number` etc.==. (not begin with Capital letter)
 
-- The core primitive types in TypeScript are all lowercase!**
+- The core primitive types in TypeScript are all **lowercase!**

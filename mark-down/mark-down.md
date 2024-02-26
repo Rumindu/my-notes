@@ -7,6 +7,7 @@
 ##### Heading 5
 ###### Heading 6
 
+#
 <!-- Italics -->
 *This text* is italic
 
@@ -17,9 +18,9 @@ _This text_ is italic
 
 
 <!-- Strong -->
-**This text** is italic
+**This text** is bold
 
-__This text__ is italic
+__This text__ is bold
 
 <!-- Strikethrough -->
 ~~This text~~ is strikethrough
