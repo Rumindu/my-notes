@@ -1,5 +1,5 @@
 # Class
-
+- to run ts compiler in watching mode `tsc -w`
 - convention to the naming class is
 	1. Use a noun for naming it
 	2. Begin from a capital letter
