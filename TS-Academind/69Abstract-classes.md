@@ -2,7 +2,7 @@
 
 - In abstract methods Base class only has only name and return type of the method even it doesn't contain curly brackets. You have to implement the method in sub class.
 ```js
-//to initiate abstract method we need abstract class
+//To initiate abstract method we need abstract class
 //Abstract classes can't be initiated directly. ex: const department = new Department("d1", "IT"); can't be done.
 //only inherited class can be initiated. ex: const it = new ITDepartment("d1", ["Max"]);
 abstract class Department {
@@ -11,7 +11,7 @@ abstract class Department {
   constructor(protected readonly id: string, public name: string) {}
 
   //abstract method
-  //abstract method is only available in abstract class
+  //abstract method can be created only in the abstract class
   abstract describe(): void;
 
   addEmployee(employee: string) {

@@ -1,4 +1,4 @@
-#This is a React Native crash course by academind
+# This is a React Native crash course by academind
 <img src="./Screenshot 2023-08-03 213808.png">    
 
 `npm install -g expo—cli`

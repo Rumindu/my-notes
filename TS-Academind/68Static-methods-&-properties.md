@@ -25,7 +25,7 @@ const employee1 = Department.createEmployee("Max");
 console.log(employee1, Department.fiscalYear);
 ```
 
-- Inside the class we can't access static properties using this keyword. we can access using class_name.property_name.
+- Inside the class  also we can't access static properties using this keyword. we can access using class_name.property_name.
 ```js
 class Department {
   static fiscalYear = 2020;
