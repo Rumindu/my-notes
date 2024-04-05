@@ -1,3 +1,12 @@
+## Setup mysql using docker image
+
+#### Working way link- https://hevodata.com/learn/docker-mysql/
+
+- Access mysql client in WSL - `docker run -it mysql /bin/bash` In here create docker image of mysql client.
+- then type `mysql -h 172.17.0.2 -u root -p`
+- Finally enter the password
+
+
 ## Setup mysql in WSL
 
 - We need to configure mysql in WSL to login **root** user without having ***sudo*** permission.

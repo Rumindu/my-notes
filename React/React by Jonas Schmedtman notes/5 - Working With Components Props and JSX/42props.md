@@ -26,7 +26,8 @@ function Pizza(po) {
   .
  ```
  * console output
- <img src="./Screenshot 2023-08-10 134446.png">
+ ![](Screenshot%202023-08-10%20134446.png)
+ 
  * simply says parent component is calling `piza` function with passing object. Here console contain this object.
  <br>
  * **getting value from object using js** 

@@ -9,7 +9,7 @@ function Pizza(){
 ```
 but nothing will appear in UI. Because we aren't including this component any where. Even `ESLint` Vs code extension also warn us by yellow line.
 
-<img src="./Screenshot 2023-08-09 222440.png">
+![](Screenshot%202023-08-09%20222440.png)
 
 * So we should include `Pizza` component in `App` component. Because `App component` is currently rendering on screen. (If u can't remember this fact refer 33Rendering the Root Component and Strict Mode.)
 
@@ -51,8 +51,7 @@ root.render(
 </React.StrictMode>
 );
 ```
-<img src="./Screenshot 2023-08-09 231134.png">
-
+![](Screenshot%202023-08-09%20231134.png)
 * Here we are **nested** `Pizza` component in the `App` component. 
 * we should **never write a function inside another function** as nesting.
 
@@ -70,8 +69,7 @@ function Pizza(){
   );
 }
 ```
-<img src="./Screenshot 2023-08-09 234210.png">
-
+![](Screenshot%202023-08-09%20234210.png)
 ## Reusing Components
 
 ```js
@@ -88,5 +86,5 @@ function App(){
   }
 
 ```
-<img src="./Screenshot 2023-08-09 234548.png">
 
+![](Screenshot%202023-08-09%20234548.png)

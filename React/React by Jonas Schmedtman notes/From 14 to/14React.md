@@ -1,6 +1,6 @@
 **Officeial React documentation link**- https://react.dev/learn
 * first react hook we are going to learn is `UseState`
-<img  src="./Screenshot 2023-08-09 103537.png">
+![](Screenshot%202023-08-09%20103537.png)
 
 * There is two option for setting up a React project
   1. **Create React app** - Sutable for beginers not in use industry
