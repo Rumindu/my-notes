@@ -1,5 +1,5 @@
 * In react we are creating *Components* using *functions*.
-* InReact there is 2 important 2 rules, when we create Components as Function.
+* In React there is 2 important 2 rules, when we create Components as Function.
   1. First function name start with **Uppercase**.
   2. Function needs to **return** some **markup**. usually in the form of JSX. But we can return `null` also. Here just return `<h2>`
 ```js
@@ -9,7 +9,7 @@ function Pizza(){
 ```
 but nothing will appear in UI. Because we aren't including this component any where. Even `ESLint` Vs code extension also warn us by yellow line.
 
-![](Screenshot%202023-08-09%20222440.png)
+![](assets/Screenshot%202023-08-09%20222440.png)
 
 * So we should include `Pizza` component in `App` component. Because `App component` is currently rendering on screen. (If u can't remember this fact refer 33Rendering the Root Component and Strict Mode.)
 
@@ -35,7 +35,8 @@ import ReactDOM from "react-dom/client";
   //wrapping <h1> and <pizza/> using <div>
   return (
     <div>
-    <h1>Hello Reaact</h1><Pizza/>
+    <h1> Hello Reaact </h1> 
+    <Pizza/>
     </div>
   );
   }
@@ -51,7 +52,7 @@ root.render(
 </React.StrictMode>
 );
 ```
-![](Screenshot%202023-08-09%20231134.png)
+![](assets/Screenshot%202023-08-09%20231134.png)
 * Here we are **nested** `Pizza` component in the `App` component. 
 * we should **never write a function inside another function** as nesting.
 
@@ -69,7 +70,7 @@ function Pizza(){
   );
 }
 ```
-![](Screenshot%202023-08-09%20234210.png)
+![](assets/Screenshot%202023-08-09%20234210.png)
 ## Reusing Components
 
 ```js
@@ -87,4 +88,4 @@ function App(){
 
 ```
 
-![](Screenshot%202023-08-09%20234548.png)
+![](assets/Screenshot%202023-08-09%20234548.png)

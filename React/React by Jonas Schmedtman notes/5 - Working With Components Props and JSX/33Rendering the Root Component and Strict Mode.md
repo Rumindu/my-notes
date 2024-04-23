@@ -1,12 +1,12 @@
 # Starting React project from scratch
 
 - first delete those file created in React installing process
-![](Screenshot%202023-08-09%20163831.png)
+![](assets/Screenshot%202023-08-09%20163831.png)
   After we delete those files we get an error message
-  ![](Screenshot%202023-08-09%20165618.png)
+  ![](assets/Screenshot%202023-08-09%20165618.png)
 
 - we are going to create our first file inside `src` called `index.js`. we can't change this name because webpack of js looking index.js for start the project.
-![](Screenshot%202023-08-09%20170001.png)  <br>
+![](assets/Screenshot%202023-08-09%20170001.png)  <br>
 - in `index.js`
 
 ```js
@@ -45,9 +45,9 @@ const root = ReactDOM.createRoot(document.getElementById("root")); //Here div id
 root.render(<App />);
 ```
 
-![](Screenshot%202023-08-09%20174535.png)
+![](assets/Screenshot%202023-08-09%20174535.png)
 
-![](Screenshot%202023-08-09%20174752.png)
+![](assets/Screenshot%202023-08-09%20174752.png)
 
 - **StrictMode** - render a component at twice
 

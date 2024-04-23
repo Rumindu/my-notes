@@ -4,6 +4,7 @@
 - Custom tenant domain isn't available for the free plane, 
 
 ## Implementing Auth 0 for React-node full stack app
+
 - [You tube link from Mafia Codes](https://www.youtube.com/watch?v=GGGjnBkN8xk
 
 ### Front-end
@@ -26,7 +27,10 @@
 - axios
 #### Front-end code
 - From @auth0/auth0-react library we need to get `<Auth0Provider>` component and need to pass values for below props
-
+	- Domain == tenant name
+	- ClientID -> From the settings->Basic information
+	- audience -> From API settings
+	- redirect uri -> Callback url
 -  We can appear login page as a pop up `{loginWithPopup}`or redirect to the another page `{loginWithRedirect}`
 
 ### Back end
@@ -38,7 +42,7 @@
 	2. Identifier (it can be any thing normally providing url pf API- (http://localhost:4000))
 	3. Choose algorithm
 ### Back-end code
-- For back end we need to pass value for the `audience` when calling `auth` function. `audience` ===  Identifier in API settings
+- For back end we need to pass value for the `audience` when calling `auth` function. `audience` ===  `Identifier` in API settings
 ---
 ## Call back URL
 - Once the user is successfully login where to the redirect.

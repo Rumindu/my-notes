@@ -1,13 +1,14 @@
 # This is a React Native crash course by academind
-<img src="./Screenshot 2023-08-03 213808.png">    
-
+    
+![](Screenshot%202023-08-03%20213808.png)
 `npm install -g expo—cli`
 
 *meka gahanna onee command line eke VS code eke terminal eke gehuwama case
 *mekedi expo install wenne globally
 <br>
-`expo init RNCourse`
-<!-- <img src="./Screenshot 2023-08-03 214418.png"> -->
+`expo init RNCourse!
+![](Screenshot%202023-08-03%20214418.png)`
+
 
 * Meka gahannath onee cmd eke.Vs eke terminal eke epe. Here creating new file called RNCourse and create project here. Methana sub folder nethuwa project eke create karaganna one nam `expo init .`
 * meka run karain passe cmd eke ena option walin **blank project** eke thoraganna
@@ -17,26 +18,23 @@
 1. assert - will be use for store images
 2. app.json - configure some settings and behavior
 3. App.js- only real code file to start this project
-
 we are using expo go app to preview our project
-<hr>
-<img src="./Screenshot 2023-08-04 120948.png">
+---
 
+![](Screenshot%202023-08-04%20120948.png)
 Differ between mobile and browser. They don't suport html elements. html wala tiyena `div` eke wage preform karanne `View` kiyana eke.
  
 * This is the Root component of React native. Any other component must go throw this component
-
-<img src="./Screenshot 2023-08-04 114758.png">
-
+![](Screenshot%202023-08-04%20114758.png)
 Here we can create our own componenet combining build in react-native componenet. For more deteils about React native pre build component- https://reactnative.dev/docs/components-and-apis
-<img src="./Screenshot 2023-08-04 105959.png">
-
+![](Screenshot%202023-08-04%20105959.png)
 
 
 ##### Styling React Native Apps
 * react native doesn't have CSS
-* applying inline style using Props or Style sheet object in the code  
-<img src="./Screenshot 2023-08-04 120027.png">
+* applying inline style using Props or Style sheet object in the code
+![](Screenshot%202023-08-04%20120027.png)  
+
 <hr>
 
 * App is the root component in React

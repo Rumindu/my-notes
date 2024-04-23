@@ -28,7 +28,7 @@ function Footer(){
     // To do some js work. Get current time
   }
 ```
-![](Screenshot%202023-08-10%20105051.png)
+![](assets/Screenshot%202023-08-10%20105051.png)
 
 * nesting component further more
 ```js
@@ -56,5 +56,5 @@ function App(){
   }
 ```
 * Now we have same result but even more nested
-![](Screenshot%202023-08-10%20110105.png)
+![](assets/Screenshot%202023-08-10%20110105.png)
 
