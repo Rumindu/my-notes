@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "To-do-task.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5b232c12ece48780",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "React/React shopping cart by web-dev-simplified/React shopping cart by web-dev-simplified notes.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "2a84e42c7e955085",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/React boostrap.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "broa",
+                "query": "passw",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5026054382324,
+    "width": 209.50418853759766,
     "collapsed": true
   },
   "right": {
@@ -147,35 +172,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "94836cbdce73a2a5",
+  "active": "5b232c12ece48780",
   "lastOpenFiles": [
+    "React/React boostrap.md",
+    "React/React shopping cart by web-dev-simplified/React shopping cart by web-dev-simplified notes.md",
+    "To-do-task.md",
+    "Internship/Daily-notes/2024-04-28.md",
+    "Internship/Daily-notes/2024-02-19.md",
+    "Internship/Daily-notes/2024-01-19.md",
+    "Internship/Daily-notes/2024-01-18.md",
+    "Internship/Daily-notes/assets/Node Assingment 2 1.pdf",
+    "Internship/Sahan shopping cart folder structure.md",
+    "Internship/Daily-notes/2024-04-26.md",
+    "Internship/Daily-notes/2024-04-12.md",
+    "Internship/Daily-notes/2024-04-24.md",
     "Internship/Daily-notes/2024-04-22.md",
     "Internship/Daily-notes/2024-04-19.md",
-    "Internship/Daily-notes/2024-04-12.md",
     "Internship/Daily-notes/2024-04-13.md",
     "Internship/Daily-notes/2024-04-15.md",
     "Internship/Daily-notes/2024-04-17.md",
     "Internship/Daily-notes/2024-04-18.md",
-    "React/React shopping cart by web-dev-simplified/React shopping cart by web-dev-simplified notes.md",
-    "To-do-task.md",
     "mysql.md",
     "Internship/Daily-notes/2024-01-29.md",
     "React/1Create Reat app ts.md",
     "Internship/Daily-notes/2024-01-31.md",
-    "Internship/Sahan shopping cart folder structure.md",
     "React/React shopping cart by web-dev-simplified",
     "TS-Academind/68Static-methods-&-properties.md",
     "Internship/Daily-notes/2024-01-30.md",
     "React-Native/React-Native-Academind/1uptoStyles/react-native-my-note.md",
     "React-Native/React-Native-Academind/2LayoutsAndFlexbox/2LayoutsAndFlexbox.md",
     "React/React-Redux by Stephen Grider/1JSX.md",
-    "React/React Name export and default export.md",
-    "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/42props.md",
-    "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/38createMoreComponent.md",
-    "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/37theoryJSX.md",
-    "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/36creatingAndReusingAComponent.md",
-    "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/35theoryPartOfComponents.md",
-    "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/34someTipsToIdentifyBugs.md",
     "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/assets/Screenshot 2023-08-09 163831.png",
     "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/assets",
     "Internship/Daily-notes/assets/Pasted image 20240222160710.png",
@@ -193,7 +219,6 @@
     "React/React by Jonas Schmedtman notes/1 Setup the environment _230729_132955.pdf",
     "React",
     "git/Github.pdf",
-    "git/Git.pdf",
-    "git/Git-Stashing.pdf"
+    "git/Git.pdf"
   ]
 }
