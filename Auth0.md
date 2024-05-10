@@ -22,7 +22,7 @@
 	3. Allowed web origins -> (http://localhost:3000)
 5. Then save the changes
 
-#### Front-end Dependencies
+#### Front-end Dependencies 
 - @auth0/auth0-react
 - axios
 #### Front-end code

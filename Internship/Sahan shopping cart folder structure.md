@@ -24,7 +24,7 @@
 │   ├── shared
 │   │   ├── Alert.tsx
 │   │   └── Spinner.tsx
-│   └── skeletons // For while content are  loading appearing Skelton of the page 
+│   └── skeletons // For while content are loading appearing Skelton of the page 
 │       ├── CategoryTagSkeleton.tsx
 │       ├── OrderSummaryItemSkeleton.tsx
 │       └── ProductCardSkeleton.tsx

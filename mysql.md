@@ -3,7 +3,7 @@
 #### Working way link- https://hevodata.com/learn/docker-mysql/
 
 - Access mysql client in WSL - `docker run -it mysql /bin/bash` In here create docker image of mysql client.
-- then type `mysql -h 172.17.0.2 -u root -p`
+- then type `mysql -h 172.17.0.2 -u root -p`  (We can see this ip address from view `details of docker container -> Inspect -> Networks.IPAddress` )
 - Finally enter the password
 
 
