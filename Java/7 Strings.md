@@ -1,6 +1,7 @@
 # String
 - String is a ***reference type variable***, Even it declare as primitive type one.
   ```java
+  //String's 'S' is capital in other data types begin from simple
   String message = "Hello, World!";
   ```
 - We can concatenate or join string with another string using `+`
