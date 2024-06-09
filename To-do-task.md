@@ -1,6 +1,18 @@
+# Todo
+- [ ] Skiil migration
+	- [ ] US embassy
+	- [ ] Canada embassy
+	- [ ] Australia embassy
+- [ ] Make a LinkedIn post mentioning successfully complete internship
+- [ ] Update linkedIn about section
+- [ ] Update itelasoft experience section in likdin.
+
+
+
+
 ## SC Project
-- [ ] Email sending part
-- [ ] Pagination
+- [x] Email sending part
+- [x] Pagination
 - [x] Delete the data folder after implementing axios. 
 - Nipun suggestions
 	- [ ] apply arrow function
@@ -11,12 +23,12 @@
 	- [x] Form validation.
 	- [x] Once checkout is completed clear local storage
 - [x] Order history
-- [ ] get products by category
+- [x] get products by category
 - [x] Detailed view of order
-- [ ] Detailed view of item
+- [x] Detailed view of item
 
 ---
 
-- [ ] How can I retrieve a dependency from the Dl container?
+- [x] How can I retrieve a dependency from the Dl container?
 - [x] ubuntu WSAL issu stack-overflow feed back
 - [x] Anyone but you

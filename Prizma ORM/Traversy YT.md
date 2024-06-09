@@ -10,7 +10,7 @@ DATABASE_URL="mysql://root@localhost:3306/todo"
 ```
 * For more credential details according to the db provider visit  [Connection URLs](https://pris.ly/d/connection-strings)
 * **Prisma -> schema.prisma** file we model or create our tables.
-	```bash
+```bash
 	├── Prisma
 	│   ├── schema.prisma
 ```
