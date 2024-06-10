@@ -24,31 +24,30 @@
 2. "this" key word can be tricky
 	ex-
 
-```js
-class Department {
-  name: string;
+  ```js
+  class Department {
+    name: string;
 
-  constructor(n: string) {
-    this.name = n;
+    constructor(n: string) {
+      this.name = n;
+    }
+
+    describe() {
+      console.log("Department: " + this.name);
+    }
   }
 
-  describe() {
-    console.log("Department: " + this.name);
-  }
-}
+  const accounting = new Department("Accounting");
+  accounting.describe();
 
-const accounting = new Department("Accounting");
-accounting.describe();
+  // creating an object (not an instance of the class)
+  const accountingCopy = { describe: accounting.describe };
 
-// creating an object (not an instance of the class)
-const accountingCopy = { describe: accounting.describe };
-
-accountingCopy.describe(); // this will print "Department: undefined"
-//reason for being undefined is that the describe method is called on the accountingCopy object, but the method is not bound to the accountingCopy object, but to the accounting object. So the this keyword will refer to the accountingCopy object, which does not have a name property.
-//"this" typically refers to the thing which is responsible for calling the method. Here responsible for calling the method is accountingCopy object, Because "accountingCopy.describe" is called. So "this" refers to accountingCopy object. But accountingCopy object does not have name property. So it is undefined.
-```
-  
-	![](assets/Pasted%20image%2020240303132854.png)
+  accountingCopy.describe(); // this will print "Department: undefined"
+  //reason for being undefined is that the describe method is called on the accountingCopy object, but the method is not bound to the accountingCopy object, but to the accounting object. So the this keyword will refer to the accountingCopy object, which does not have a name property.
+  //"this" typically refers to the thing which is responsible for calling the method. Here responsible for calling the method is accountingCopy object, Because "accountingCopy.describe" is called. So "this" refers to accountingCopy object. But accountingCopy object does not have name property. So it is undefined.
+  ```
+![](assets/Pasted%20image%2020240303132854.png)
 
   - To prevent above ambiguity
 

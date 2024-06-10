@@ -36,6 +36,7 @@ public class Main {
 }
 ```
 - Here we are forcely casting `double x` to `int` then `x` value became 1.
+- `(int)x`, Here value of `x` is not rounding. just removing fraction values.
 - We can only do this explicit casting for compatible data types. It means we can't casting `String -> int` in this method
 
 ## Casting using wrapper class

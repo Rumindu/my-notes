@@ -4,8 +4,10 @@
 	- [ ] Canada embassy
 	- [ ] Australia embassy
 - [ ] Make a LinkedIn post mentioning successfully complete internship
-- [ ] Update linkedIn about section
-- [ ] Update itelasoft experience section in likdin.
+- [ ] Update LinkedIn 
+	- [ ] about section
+	- [ ] Update itelasoft experience section in LinkedIn.
+	- [ ] Update Cover photo
 
 
 

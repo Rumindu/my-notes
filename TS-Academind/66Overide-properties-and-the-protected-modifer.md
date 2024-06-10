@@ -26,7 +26,7 @@ class AccountingDepartment extends Department {
   constructor(id: string, private reports: string[]) {
     super(id, "Accounting");
   }
-  // overriding the addEmployee class in the base class
+  // overriding the addEmployee method in the base class
   addEmployee(name: string) {
     if (name === "Max") {
       return;

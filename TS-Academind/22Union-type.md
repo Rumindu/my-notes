@@ -1,4 +1,4 @@
-- Union datatype- type is a type formed from two or more other types,
+- Union datatype is a type formed from two or more other types,
 - Simple example
 
 ```js
