@@ -44,7 +44,7 @@
   }
   ```
 ![](assets/Pasted%20image%2020240603155217.png)
-##  Newer way to initialize array if we know the elements
+##  New way to initialize array if we know the elements
 ``` java
 public class Main {
     public static void main(String[] args) {

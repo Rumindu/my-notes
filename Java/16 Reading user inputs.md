@@ -11,6 +11,7 @@ public class Main {
         //use System.in to get input from the terminal
         Scanner scanner1= new Scanner(System.in);
         // assign the input to a byte type variable
+        // but, we don't get prompt without using instant.next(relevant_method)
         byte age= scanner1.nextByte();
         //implicitly casting byte -> String
         System.out.println("your age is "+ age);

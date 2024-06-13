@@ -1,4 +1,4 @@
-#Layouts and Flexbox
+# Layouts and Flexbox
 ```JavaScript
 import { StyleSheet, Text, View, Button, TextInput} from "react-native";
 

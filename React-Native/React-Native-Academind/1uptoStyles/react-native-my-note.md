@@ -39,7 +39,7 @@ Here we can create our own componenet combining build in react-native componenet
 
 * App is the root component in React
 * we can't put text without having `Text` component(tag).
-```JavaScript
+```Jsx
 //error will occur due to not having <Text>
 export default function App() {
   return (

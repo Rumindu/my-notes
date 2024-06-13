@@ -12,3 +12,6 @@
 - Current company
 - University
 - Add project you have done 
+---
+# How to email a resume
+ ![](assets/CV%20sending%20email%20template.pdf)
