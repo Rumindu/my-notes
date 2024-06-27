@@ -41,7 +41,7 @@ accounting.addReport("Something went wrong...");
 accounting.mostRecentReport = "Year End Report";
 
 //accessing data using getter
-//even we calling for function we aren't using perennates. just like accessing property in a class
+//even we calling for function we aren't using parenthesis. just like accessing property in a class
 console.log(accounting.mostRecentReport);
 
 ```

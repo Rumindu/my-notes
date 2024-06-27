@@ -7,7 +7,7 @@ math.pow()
 //here we arn't initiate instence of a math class. just class_name.method_name
 ```
 
-```js
+```ts
 class Department {
   //static property
   static fiscalYear = 2020;
@@ -27,7 +27,7 @@ console.log(Department.fiscalYear);
 ```
 
 - Inside the class  also we can't access static properties using this keyword. we can access using class_name.property_name.
-```js
+```ts
 class Department {
   static fiscalYear = 2020;
 
@@ -38,6 +38,8 @@ class Department {
 
   static createEmployee(name: string) {
     console.log(Department.fiscalYear);
+    //or can access using this keyword inside static method only
+    console.log("this keyword",this.fiscalYear);
     return { name: name };
   }
 }

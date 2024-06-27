@@ -42,8 +42,8 @@ public class Main {
 
 - ## ***use `next()` or `nextLine` getting String inputs***
 
-  | next | nextLine |
-  |:-----:|:----------:|
+  | next                                         | nextLine                |
+  |---:                                        |:----------:              |
   |only return first word of string| return whole string|
 
   ``` java 

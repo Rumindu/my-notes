@@ -4,47 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "225e2baa0d9c2b20",
+        "id": "8d634cd257f2c338",
         "type": "tabs",
         "children": [
           {
-            "id": "94836cbdce73a2a5",
+            "id": "927d25a38679c913",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-do-task.md",
+                "file": "Java/23 methods.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5b232c12ece48780",
+            "id": "18a9685a44dbb60d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/React shopping cart by web-dev-simplified/React shopping cart by web-dev-simplified notes.md",
+                "file": "Java/29 Classes, Objects & this keyWord in java.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2a84e42c7e955085",
+            "id": "71f30e95db70461d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/React boostrap.md",
+                "file": "Java/33 Getters and Setters.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7063c8a9d66fa5eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/32 Encapsulation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -73,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "passw",
+                "query": "getters",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209.50418853759766,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d29c399f9b26c6f3",
@@ -111,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/React shopping cart by web-dev-simplified/React shopping cart by web-dev-simplified notes.md",
+                "file": "Java/33 Getters and Setters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/React shopping cart by web-dev-simplified/React shopping cart by web-dev-simplified notes.md",
+                "file": "Java/33 Getters and Setters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/React shopping cart by web-dev-simplified/React shopping cart by web-dev-simplified notes.md"
+                "file": "Java/33 Getters and Setters.md"
               }
             }
           }
@@ -172,53 +183,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b232c12ece48780",
+  "active": "71f30e95db70461d",
   "lastOpenFiles": [
-    "React/React boostrap.md",
-    "React/React shopping cart by web-dev-simplified/React shopping cart by web-dev-simplified notes.md",
-    "To-do-task.md",
-    "Internship/Daily-notes/2024-04-28.md",
-    "Internship/Daily-notes/2024-02-19.md",
-    "Internship/Daily-notes/2024-01-19.md",
-    "Internship/Daily-notes/2024-01-18.md",
-    "Internship/Daily-notes/assets/Node Assingment 2 1.pdf",
-    "Internship/Sahan shopping cart folder structure.md",
-    "Internship/Daily-notes/2024-04-26.md",
-    "Internship/Daily-notes/2024-04-12.md",
-    "Internship/Daily-notes/2024-04-24.md",
-    "Internship/Daily-notes/2024-04-22.md",
-    "Internship/Daily-notes/2024-04-19.md",
-    "Internship/Daily-notes/2024-04-13.md",
-    "Internship/Daily-notes/2024-04-15.md",
-    "Internship/Daily-notes/2024-04-17.md",
-    "Internship/Daily-notes/2024-04-18.md",
-    "mysql.md",
-    "Internship/Daily-notes/2024-01-29.md",
-    "React/1Create Reat app ts.md",
-    "Internship/Daily-notes/2024-01-31.md",
-    "React/React shopping cart by web-dev-simplified",
+    "Java/assets/Pasted image 20240627133749.png",
+    "Java/assets/Pasted image 20240627133556.png",
+    "Java/assets/Pasted image 20240627133428.png",
+    "Java/32 Encapsulation.md",
+    "Java/33 Getters and Setters.md",
+    "Java/29 Classes, Objects & this keyWord in java.md",
+    "Java/assets/Pasted image 20240627095908.png",
+    "Java/28 Classes.md",
+    "Java/27 Introduction OOP.md",
+    "Java/26 Packaging Java Application.md",
+    "Java/25 Types of Errors & Debugging.md",
+    "Java/24 Code Refactoring.md",
+    "Java/23 methods.md",
+    "Java/22 Loops.md",
+    "Java/21 Switch.md",
+    "Java/20 Ternary Operator.md",
+    "Java/19.1 Assignment-FizzBuzz.md",
+    "Java/19 If statements.md",
+    "Java/17.1 Comparison Operators.md",
+    "Java/18 Logical operators.md",
+    "Java/17 Assignment-Morgage.md",
+    "Java/16 Reading user inputs.md",
+    "Java/15 Formatting  Numbers.md",
+    "Java/14 Math class.md",
+    "Java/31 Procedural Programming in java.md",
+    "Java/30 Memory allocation.md",
+    "TS-Academind/1setup-ts.md",
     "TS-Academind/68Static-methods-&-properties.md",
-    "Internship/Daily-notes/2024-01-30.md",
-    "React-Native/React-Native-Academind/1uptoStyles/react-native-my-note.md",
-    "React-Native/React-Native-Academind/2LayoutsAndFlexbox/2LayoutsAndFlexbox.md",
-    "React/React-Redux by Stephen Grider/1JSX.md",
-    "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/assets/Screenshot 2023-08-09 163831.png",
-    "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/assets",
-    "Internship/Daily-notes/assets/Pasted image 20240222160710.png",
-    "assets/Pasted image 20240129095743.png",
-    "Internship/Daily-notes/assets/Pasted image 20240129095743.png",
-    "assets/Pasted image 20240222160710.png",
-    "assets/Pasted image 20240222114540.png",
-    "Internship/Daily-notes/assets/Pasted image 20240222114540.png",
-    "React/React-Redux by Stephen Grider/assets/Pasted image 20240405114448.png",
-    "React/React-Redux by Stephen Grider/assets/Pasted image 20240405112820.png",
-    "React/React-Redux by Stephen Grider/assets/Pasted image 20240405112235.png",
-    "React/React-Redux by Stephen Grider/assets",
-    "React/React-Redux by Stephen Grider",
-    "React/React by Jonas Schmedtman notes/2 Essential js for React_230803_001649.pdf",
+    "TS-Academind/66Overide-properties-and-the-protected-modifer.md",
+    "Java/assets/SmartSelect_20240621_154502_Samsung Notes.jpg",
     "React/React by Jonas Schmedtman notes/1 Setup the environment _230729_132955.pdf",
-    "React",
-    "git/Github.pdf",
-    "git/Git.pdf"
+    "React/React by Jonas Schmedtman notes/2 Essential js for React_230803_001649.pdf",
+    "Java/assets/memory-alloation-java.png",
+    "Java/assets/Pasted image 20240619125025.png",
+    "Java/assets/Pasted image 20240619124406.png",
+    "Java/assets/Pasted image 20240619104436.png",
+    "Java/assets/Pasted image 20240618140257.png",
+    "Java/assets/SmartSelect_20240618_123025_Samsung Notes.jpg",
+    "React-Native/React-Native-Academind/2LayoutsAndFlexbox/2LayoutsAndFlexbox.pdf",
+    "assets/CV sending email template.pdf",
+    "Untitled",
+    "Java/assets",
+    "Java",
+    "Internship/Daily-notes/assets/Node Assingment 2 1.pdf",
+    "React/React shopping cart by web-dev-simplified",
+    "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/assets"
   ]
 }

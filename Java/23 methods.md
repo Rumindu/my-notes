@@ -7,7 +7,7 @@ public class Main {
       greetUser("Rumindu");
     }
     // "greetUser" method
-    //static means method belongs to the class not for the object
+    //"static" means method belongs to the class not for the object/ instence of a class
     //void means method does not return a value
     // "name" is a parameter
     public static void greetUser(String name) {
