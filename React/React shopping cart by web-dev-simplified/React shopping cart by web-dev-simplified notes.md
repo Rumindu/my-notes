@@ -189,5 +189,4 @@
   }
   ```
   - React Context - feature in React that allows you to share values between components without having to pass props.
-- Local Storage using custom hook called `useLocalStorage`
-- 
+- Local Storage using custom hook called `useLocalStorage` 
