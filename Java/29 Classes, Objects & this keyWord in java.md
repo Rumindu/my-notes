@@ -28,7 +28,7 @@ public class TextBox {
     }
 }
 ```
-- Creating object using "TextBox" class.
+- Creating object using "TextBox" class in the `Main.java`.
   ``` java
   //Main.java 
   public class Main {

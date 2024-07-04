@@ -4,47 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "8d634cd257f2c338",
+        "id": "d40651ed8bc02bb1",
         "type": "tabs",
         "children": [
           {
-            "id": "abba14d5f003223e",
+            "id": "9b094cc735de8343",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/34 Abstraction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7063c8a9d66fa5eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/36 Constructor.md",
+                "file": "Java/22 Loops.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "fd953bf9da1d257d",
+            "id": "2aab10ed0aa7bb63",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/37 Method Overloading.md",
-                "mode": "source",
+                "file": "Java/13 Casting.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "getters",
+                "query": "default import",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 248.50418853759766
   },
   "right": {
     "id": "d29c399f9b26c6f3",
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/37 Method Overloading.md",
+                "file": "Java/13 Casting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/37 Method Overloading.md",
+                "file": "Java/13 Casting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/37 Method Overloading.md"
+                "file": "Java/13 Casting.md"
               }
             }
           }
@@ -171,52 +159,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e60d7afd128d8e99",
+  "active": "2aab10ed0aa7bb63",
   "lastOpenFiles": [
-    "Docker",
-    "Java/36 Constructor.md",
-    "Java/37 Method Overloading.md",
-    "Java/35 Coupling.md",
-    "Java/34 Abstraction.md",
-    "Java/32 Encapsulation.md",
-    "React/React shopping cart by web-dev-simplified/React shopping cart by web-dev-simplified notes.md",
+    "Java/29 Classes, Objects & this keyWord in java.md",
+    "Java/28 Classes.md",
+    "Java/9 Arrays.md",
+    "Java/6 Reference data types.md",
+    "Java/5 Primitive data types.md",
+    "TS/69Abstract-classes.md",
     "Java/33 Getters and Setters.md",
+    "Java/36 Constructor.md",
+    "Java/35 Coupling.md",
+    "TS/16Object-types.md",
+    "React/React Name export and Default export.md",
+    "TS/59Creating-a-first-class.md",
+    "TS/40Working-with-Source-Maps..md",
+    "TS/23Literal-types.md",
+    "TS/22Union-type.md",
+    "TS/18Array-types.md",
+    "TS/assets/Pasted image 20240630222233.png",
+    "TS/19Tuple.md",
+    "TS/70Singleton-private-constructor.md",
+    "TS/Untitled.md",
+    "TS/1 setup-ts.md",
+    "TS/2 Set up Express project in TS.md",
+    "TS/68Static-methods-&-properties.md",
+    "TS/67getters-and-setters.md",
+    "TS/66Overide-properties-and-the-protected-modifer.md",
+    "TS/65Inheritance.md",
+    "Java/22 Loops.md",
+    "Docker/assets/Pasted image 20240629113717.png",
+    "Docker/assets/Pasted image 20240629113514.png",
+    "Docker/assets/Pasted image 20240629113009.png",
+    "Docker/assets/Pasted image 20240629095501.png",
+    "Docker/assets/Pasted image 20240629095233.png",
+    "Docker/assets/Pasted image 20240629095201.png",
+    "Docker/assets/Pasted image 20240629094600.png",
+    "Docker/assets",
+    "Docker",
     "Java/assets/Pasted image 20240627133749.png",
     "Java/assets/Pasted image 20240627133556.png",
-    "Java/assets/Pasted image 20240627133428.png",
-    "Java/29 Classes, Objects & this keyWord in java.md",
-    "Java/assets/Pasted image 20240627095908.png",
-    "Java/28 Classes.md",
-    "Java/27 Introduction OOP.md",
-    "Java/26 Packaging Java Application.md",
-    "Java/25 Types of Errors & Debugging.md",
-    "Java/24 Code Refactoring.md",
-    "Java/23 methods.md",
-    "Java/22 Loops.md",
-    "Java/21 Switch.md",
-    "Java/20 Ternary Operator.md",
-    "Java/19.1 Assignment-FizzBuzz.md",
-    "Java/19 If statements.md",
-    "Java/17.1 Comparison Operators.md",
-    "Java/18 Logical operators.md",
-    "Java/17 Assignment-Morgage.md",
-    "Java/16 Reading user inputs.md",
-    "Java/15 Formatting  Numbers.md",
-    "Java/14 Math class.md",
-    "Java/assets/SmartSelect_20240621_154502_Samsung Notes.jpg",
     "React/React by Jonas Schmedtman notes/1 Setup the environment _230729_132955.pdf",
     "React/React by Jonas Schmedtman notes/2 Essential js for React_230803_001649.pdf",
-    "Java/assets/memory-alloation-java.png",
-    "Java/assets/Pasted image 20240619125025.png",
-    "Java/assets/Pasted image 20240619124406.png",
-    "Java/assets/Pasted image 20240619104436.png",
-    "Java/assets/Pasted image 20240618140257.png",
     "React-Native/React-Native-Academind/2LayoutsAndFlexbox/2LayoutsAndFlexbox.pdf",
     "assets/CV sending email template.pdf",
     "Java/assets",
     "Java",
     "Internship/Daily-notes/assets/Node Assingment 2 1.pdf",
-    "React/React shopping cart by web-dev-simplified",
-    "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/assets"
+    "React/React shopping cart by web-dev-simplified"
   ]
 }

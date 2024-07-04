@@ -1,4 +1,8 @@
 # Todo
+- [ ] Download Mosh SQL course
+- [ ] Follow the TS mosh course
+- [ ] Create separate repository in the tutorial organization and publish those on Github
+- [ ] publish Mosh's java code on github
 - [ ] Skiil migration
 	- [ ] US embassy
 	- [ ] Canada embassy
@@ -6,7 +10,7 @@
 - [ ] Make a LinkedIn post mentioning successfully complete internship
 - [ ] Update LinkedIn 
 	- [ ] about section
-	- [ ] Update itelasoft experience section in LinkedIn.
+	- [x] Update itelasoft experience section in LinkedIn.
 	- [ ] Update Cover photo
 
 

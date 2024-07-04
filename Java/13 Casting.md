@@ -1,5 +1,6 @@
 # Casting
 ## Implicit Casting
+
 - Implicit casting means automatic conversion.
   ``` java 
   public class Main {
@@ -40,18 +41,19 @@ public class Main {
 - We can only do this explicit casting for compatible data types. It means we can't casting `String -> int` in this method
 
 ## Casting using wrapper class
-- to cast `String` in to `int` we use wrapper class of primitive data type.
+- To cast `String` in to `int` we use wrapper class of primitive data type.
   ``` java 
   public class Main {
       public static void main(String[] args) {
           String x ="1";
+          //"Integer" is the wrapper class of "int"
           int y=Integer.parseInt(x)+2; // 1 + 2
           System.out.println(y); //3
       }
   }
   ```
 - If we try to convert floating string using `parseInt()` we will get an exception.
-- `string floating number -> double`
+- `string floating number` is convert in to the `double`
   ``` java 
   public class Main {
       public static void main(String[] args) {
