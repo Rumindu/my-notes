@@ -3,4 +3,9 @@
 1. Go to the beginning of line and press ==ctrl+shift+c== to get bullet point
 2. then again press ==ctrl+shift+c== to get uncheck check box \* ctl+shift+c is manually maping for this option under settings->hotkeys->Cycle bullet/checkbox
 ## Format linking notes & images
-- [Embed files](https://help.obsidian.md/Linking+notes+and+files/Embed+files)
+- [Embed files](https://help.obsidian.md/Linking+notes+and+files/Embed+files)- Link the image or file or pdf with the preview of link's position. that why we put `!` before the image path
+- [Internal links](https://help.obsidian.md/Linking+notes+and+files/Internal+links)-
+	- Obsidian supports 2 links formats
+		- Wikilink: `[[Three laws of motion]]`
+		- Markdown: `[Three laws of motion](Three%20laws%20of%20motion.md)`
+	- Better to use Markdown because apart from obsidian, markdown editors also support those links. Here `%20` use for represent a space.

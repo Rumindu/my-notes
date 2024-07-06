@@ -1,6 +1,6 @@
 # Classes
 -   
-| Class                                         | Object            |
+| Class                                        | Object           |
 |:---------------------------------|:---------------|
 |***A blueprint for creating objects***| ***An instance of a class***|
 |ex- "Car" class![](assets/SmartSelect_20240617_234954_Samsung%20Notes.jpg)  | ex- objects of "Car" class ![](assets/SmartSelect_20240617_235025_Samsung%20Notes.jpg)|

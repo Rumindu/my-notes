@@ -15,8 +15,8 @@
 	```
 	![](assets/SmartSelect_20240621_154502_Samsung%20Notes.jpg)
 	- When java runtime execute `var textBox1 = new TextBox();` first it evaluate right side of assignment operator. 
-	- It will create new TextBox object and keep it on Heap and assume address is 8000
-	- Then java runtime environment left side from assignment operator and store 8000 on stack under textBox1.
+	- It will create new TextBox object and store it on Heap and assume stored memory address is 8000
+	- Then java runtime environment left side from assignment operator and store 8000 on stack part of the memory under textBox1.
 		``` java 
 			//Main.java
 			public class Main {

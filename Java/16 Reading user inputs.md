@@ -10,8 +10,8 @@ public class Main {
     public static void main(String[] args) {
         //use System.in to get input from the terminal
         Scanner scanner1= new Scanner(System.in);
-        // assign the input to a byte type variable
-        // but, we don't get prompt without using instant.next(relevant_method)
+        // assign user_input to a byte type variable
+        // we must use "instantName"."relevant_method"(If userInput is a byte use "nextByte" if userInput value is number use "nextInt") to get the prompt.
         byte age= scanner1.nextByte();
         //implicitly casting byte -> String
         System.out.println("your age is "+ age);
@@ -26,7 +26,7 @@ public class Main {
   public class Main {
       public static void main(String[] args) {
           Scanner scanner1= new Scanner(System.in);
-          // using println, therefore the cursor will be in the next line
+          // using println, therefore the typingLine/cursor will be available in next line
           System.out.println("Age: ");
           byte age= scanner1.nextByte();
           System.out.println("your age is "+ age);
@@ -43,7 +43,7 @@ public class Main {
 - ## ***use `next()` or `nextLine` getting String inputs***
 
   | next                                         | nextLine                |
-  |---:                                        |:----------:              |
+  |:---:                                        |:----------:              |
   |only return first word of string| return whole string|
 
   ``` java 

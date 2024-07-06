@@ -3,6 +3,7 @@
 - use for storage data temporary in memory.
 - Declare and assign a value to a variable
   ```java
+  //Code in the jshell
   int age = 30;
   //format
   //type identifier(name)=value

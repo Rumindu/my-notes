@@ -4,30 +4,30 @@
   ![](assets/Pasted%20image%2020240618140257.png)
 -  naming convention of class is ***Pascal Case***
 - Text Box class is mentioned below
-``` java 
-//TextBox.java
-public class TextBox {
-    //define attributes
-    public String text = "";
-
-    //define methods
-    public void setText(String text) {
-        //we couldn't set value of attribute "text" like this
-        // "text=text;", Because text=text; is ambiguous because
-        // both the instance variable and the parameter have the same name.
-        // Java will assume you are referring to the parameter text,
-        // not the attribute "text".
-
-        //"this" is reference to the current object
-        //we only need to use this when parameter name is same as attribute name.
-        this.text = text;
-    }
-    public void clear() {
-        // "this" is no need to use
-        text = "";
-    }
-}
-```
+	``` java 
+	//TextBox.java
+	public class TextBox {
+	    //define attributes
+	    public String text = "";
+	
+	    //define methods
+	    public void setText(String text) {
+	        //we couldn't set value of attribute "text" like this
+	        // "text=text;", Because text=text; is ambiguous because
+	        // both the instance variable and the parameter have the same name.
+	        // Java will assume you are referring to the parameter text,
+	        // not the attribute "text".
+	
+	        //"this" is reference to the current object
+	        //we only need to use this when parameter name is same as attribute name.
+	        this.text = text;
+	    }
+	    public void clear() {
+	        // "this" is no need to use
+	        text = "";
+	    }
+	}
+	```
 - Creating object using "TextBox" class in the `Main.java`.
   ``` java
   //Main.java 
@@ -55,7 +55,7 @@ public class TextBox {
       public static void main(String[] args) {
           TextBox textBox1 = new TextBox();
           var textBox = new TextBox();
-          //try to upper case null
+          //try to upper case a null string
           System.out.println(textBox.text.toUpperCase());//getting null pointer exception
       }
   }

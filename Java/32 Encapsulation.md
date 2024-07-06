@@ -2,7 +2,7 @@
 - Bundle the data and methods that operate on the data inside a single object.
 - We will apply encapsulation on previous lesson's code. 
 - Here we bundle attributes and "calculateWage" method in to the "Employee" class 
-- Add "Employee" class.
+- Add a "Employee" class.
   ``` java 
   //Employee.java
   public class Employee {

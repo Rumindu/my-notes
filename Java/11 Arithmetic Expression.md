@@ -14,7 +14,7 @@ public class Main {
 ![](assets/Pasted%20image%2020240608155738.png)
 ## Division
 
-- In java division of 2 [[whole numbers | whole]] numbers is a whole number.
+- In java division of 2 [whole](whole%20numbers.md) numbers is a whole number.
   ```java
   public class Main {
     public static void main(String[] args) {

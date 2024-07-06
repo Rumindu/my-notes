@@ -18,7 +18,9 @@ public class Main {
 public class Main {
     public static void main(String[] args) {
         int i=0;
-        //until condition is true, the loop will run
+        //once the condition became false, the loop stops
+        //or upto/until condtion is true, the loop will run
+        //If u confuse refer the below example
         while (i<5){
             System.out.println("Hello World");
             i++;
