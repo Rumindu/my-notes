@@ -8,55 +8,79 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3173783fef54316f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/16 Reading user inputs.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6b3022625df5fcb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/17 Comparison Operators.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c23dee2756a9d206",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/22 Loops.md",
+                "file": "To-do-task.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "9fbcd7bad28f4bac",
+            "id": "ecc8a6fd9d63f232",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/5 Primitive data types.md",
+                "file": "Java/24 Code Refactoring.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e68df9459dcc9fc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/24 Code Refactoring.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47ee84654d900c0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/39 Static members.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6975d83cee850cd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/40 Mortgage calculator Refactoring Towards an Object-oriented Design.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d8e359ad81b18c9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/22 Loops.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "whole",
+                "query": "for loop",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.50418853759766
+    "width": 200
   },
   "right": {
     "id": "d29c399f9b26c6f3",
@@ -122,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/22.1 Assignment- Mortgage calculator-Validation.md",
+                "file": "Java/40 Mortgage calculator Refactoring Towards an Object-oriented Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/22.1 Assignment- Mortgage calculator-Validation.md",
+                "file": "Java/40 Mortgage calculator Refactoring Towards an Object-oriented Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/22.1 Assignment- Mortgage calculator-Validation.md"
+                "file": "Java/40 Mortgage calculator Refactoring Towards an Object-oriented Design.md"
               }
             }
           }
@@ -183,52 +207,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "a7bc060fa1b0120f",
-    "type": "floating",
-    "children": [
-      {
-        "id": "e392ee15ebba8eb4",
-        "type": "window",
-        "children": [
-          {
-            "id": "1faff02e76bb6a6e",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d2f7566921821409",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Java/22.1 Assignment- Mortgage calculator-Validation.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 0,
-        "width": 697,
-        "height": 1032,
-        "maximize": false,
-        "zoom": -0.5
-      }
-    ]
-  },
-  "active": "d2f7566921821409",
+  "active": "6975d83cee850cd2",
   "lastOpenFiles": [
+    "Java/39 Static members.md",
+    "Java/40 Mortgage calculator Refactoring Towards an Object-oriented Design.md",
+    "Java/Missed topics.md",
+    "Java/35 Coupling.md",
+    "Java/34 Abstraction.md",
+    "Java/36 Constructor.md",
+    "Java/33 Getters and Setters.md",
+    "Java/32 Encapsulation.md",
+    "Java/31 Procedural Programming in java.md",
+    "Java/30 Memory allocation.md",
+    "Java/29 Classes, Objects & this keyWord in java.md",
+    "Java/28 Classes.md",
+    "Java/24.1 Assignment-Mortgage-calculator-payment-schedule.md",
+    "Java/24 Code Refactoring.md",
     "Java/22 Loops.md",
+    "Java/assets/Pasted image 20240708080203.png",
+    "Java/assets/Screenshot 2024-07-07 201101.png",
+    "Java/23 methods.md",
+    "To-do-task.md",
     "Java/5 Primitive data types.md",
     "Java/17 Comparison Operators.md",
     "Java/22.1 Assignment- Mortgage calculator-Validation.md",
     "Java/assets/Pasted image 20240706215723.png",
     "Java/16.1 Assignment-Mortgage-calculator.md",
-    "Java/23 methods.md",
     "Java/16 Reading user inputs.md",
     "Java/18 Logical operators.md",
     "Java/14 Math class.md",
@@ -236,27 +240,11 @@
     "Java/assets/Pasted image 20240706145856.png",
     "Java/assets/Pasted image 20240706145601.png",
     "Java/19.1 Assignment-FizzBuzz.md",
-    "Java/31 Procedural Programming in java.md",
-    "Java/26 Packaging Java Application.md",
-    "Java/27 Introduction OOP.md",
-    "Java/25 Types of Errors & Debugging.md",
-    "Java/1 Setup environment.md",
-    "Java/6 Reference data types.md",
-    "Java/3 Hello world.md",
-    "Java/35 Coupling.md",
-    "Java/34 Abstraction.md",
-    "Java/38 Constructor Overloading.md",
-    "Obsidian Tips.md",
-    "mark-down/mark-down.md",
-    "Java/11 Arithmetic Expression.md",
-    "Java/whole.md",
     "Java/assets/whole_numbers.png",
     "Java/assets/Pasted image 20240705111508.png",
     "Java/assets/Pasted image 20240705110921.png",
     "Java/assets/Screenshot 2024-07-05 103023.png",
     "Java/assets/Screenshot 2024-07-05 084150.png",
-    "Java/assets/Pasted image 20240705084153.png",
-    "TS/assets/Pasted image 20240630222233.png",
     "Docker/assets",
     "Docker",
     "React/React by Jonas Schmedtman notes/1 Setup the environment _230729_132955.pdf",

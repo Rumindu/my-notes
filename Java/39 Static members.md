@@ -57,11 +57,12 @@
 ``` java 
 //Employee.java
 public class Employee {
-
-    private int baseSalary;
-    private int hourlyRate;
+	private int baseSalary;
+	private int hourlyRate;
+    
     //static field
     public static int numberOfEmployees;
+    
     public Employee(int baseSalary, int hourlyRate) {
         setBaseSalary(baseSalary);
         setHourlyRate(hourlyRate);
@@ -124,13 +125,13 @@ public class Main {
 }
 ```
 
-- Static methods can only see other static methods inside the class. can't access instance/normal methods.
+- Inside the class, ***Static methods can only see other static methods and static attributes***. can't access instance/normal methods and normal attributes.
  ![](assets/Pasted%20image%2020240705111508.png)
 - To access instance methods we need to create an object. then we can access those methods using objectName with `.` operator. 
 	``` java 
 	public static void printNumberOfEmployees() {
 					System.out.println(numberOfEmployees);
-					new Employee(5000, 20).calculateWage();
+					new Employee(5000, 20).calculateWage(20);
 			}
 	```
 -  That's why At the first part of the series all the methods in the main class declared as static methods. Because main method is also a static method.
@@ -139,4 +140,4 @@ public class Main {
 - Because java runtime directly call the main method without create an object.
 ---
 - Some examples for static members
-	- `System.out.println();` This System class has many static members and out is one of it.
+	- `System.out.println();` This `System` class has many static members and `out` is one of it.
