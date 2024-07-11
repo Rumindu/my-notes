@@ -25,7 +25,7 @@
           int[] numbers=new int[5];
           numbers[0]=1;
           numbers[3]=2;
-          System.out.println(Arrays.toString(numbers));
+          System.out.println(Arrays.toString(numbers));//[1,0,0,2,0]
       }
   }
   ```
@@ -40,6 +40,7 @@
           names[0]="John";
           names[1]="Jane";
           System.out.println(Arrays.toString(names));
+          //[John, Jane, null, null, null]
       }
   }
   ```
@@ -49,7 +50,7 @@
 public class Main {
     public static void main(String[] args) {
         int[] numbers = {1, 2, 3, 4, 5};
-        System.out.println(Arrays.toString(numbers));
+        System.out.println(Arrays.toString(numbers));//[1, 2, 3, 4, 5]
     }
 }
 ```

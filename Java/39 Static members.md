@@ -70,9 +70,7 @@ public class Employee {
         // and the numberOfEmployees is incremented
         numberOfEmployees++;
     }
-		.
-		.
-		.
+	...
 }
 ```
 
@@ -107,9 +105,7 @@ public class Employee {
     public static void printNumberOfEmployees() {
         System.out.println(numberOfEmployees);
     }
-		.
-		.
-		.
+	...
 }
 ```
 

@@ -1,4 +1,16 @@
 # Hello world 
+
+## Packages - CodeWithMosh
+- when the project environment is building using IntelliJ we need to create a base package for grouping same type class. Convention of naming those packages is `com.anyNmae`. ex- `com.rumindu`
+- To add a package after create a project 
+	- Right click on `src` folder
+	- New->package
+	- give a name
+- After that create a java class inside the package.
+    ![](assets/Pasted%20image%2020240710144428.png)
+
+---
+## "Hello World" from Jshell
 - 
   ``` jshell
   jshell> System.out.print("Hello world");

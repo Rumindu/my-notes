@@ -1,4 +1,6 @@
 # Todo
+- [ ] Complete Mosh Java up to collection
+- [ ] Begin Chad's spring springboot hibernate
 - [ ] Download Mosh SQL course
 - [ ] Follow the TS mosh course
 - [ ] Create separate repository in the tutorial organization and publish those on Github

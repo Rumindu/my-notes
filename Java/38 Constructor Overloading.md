@@ -68,9 +68,7 @@ public class Employee {
         //calling first constructor
         this(baseSalary, 0);
     } 
-    .
-    .
-    .
+    ...
 
 }
 ```
