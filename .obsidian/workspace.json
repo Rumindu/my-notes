@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "350dbc587a1443eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/42 The Object class.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4b38622111893488",
             "type": "leaf",
             "state": {
@@ -44,19 +32,19 @@
             }
           },
           {
-            "id": "3744ec0bc0f27818",
+            "id": "23905194a8475833",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/43 Constructors and Inheritance.md",
+                "file": "Java/44 Access Modifiers.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 226.5,
+    "collapsed": true
   },
   "right": {
     "id": "d29c399f9b26c6f3",
@@ -122,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/43 Constructors and Inheritance.md",
+                "file": "Java/44 Access Modifiers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/43 Constructors and Inheritance.md",
+                "file": "Java/44 Access Modifiers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/43 Constructors and Inheritance.md"
+                "file": "Java/44 Access Modifiers.md"
               }
             }
           }
@@ -183,8 +172,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e60d7afd128d8e99",
+  "active": "23905194a8475833",
   "lastOpenFiles": [
+    "Java/43 Constructors and Inheritance.md",
+    "Java/44 Access Modifiers.md",
+    "Java/assets/Pasted image 20240710094403.png",
+    "Java/assets/Pasted image 20240711160150.png",
+    "Java/assets/Pasted image 20240710230601.png",
     "Java/32 Encapsulation.md",
     "Java/33 Getters and Setters.md",
     "Java/34 Abstraction.md",
@@ -196,10 +190,8 @@
     "Java/40 Mortgage calculator Refactoring Towards an Object-oriented Design.md",
     "Java/41 Inheritance.md",
     "Java/42 The Object class.md",
-    "Java/43 Constructors and Inheritance.md",
     "Java/assets/Pasted image 20240711162650.png",
     "Java/assets/Pasted image 20240711162549.png",
-    "Java/assets/Pasted image 20240711160150.png",
     "git/Git.pdf",
     "git/Git-Stashing.pdf",
     "git/Github.pdf",
@@ -207,7 +199,6 @@
     "Java/16 Reading user inputs.md",
     "TS/22Union-type.md",
     "Java/15 Formatting  Numbers.md",
-    "Java/assets/Pasted image 20240710230601.png",
     "Java/assets/Pasted image 20240710225809.png",
     "Docker/3 Linux.md",
     "Obsidian Tips.md",
@@ -219,9 +210,7 @@
     "Java/assets/Pasted image 20240710101734.png",
     "Java/29 Classes, Objects & this keyWord in java.md",
     "Java/28 Classes.md",
-    "Java/assets/Pasted image 20240710094403.png",
     "Java/23 methods.md",
-    "Java/Missed topics.md",
     "Java/assets/Pasted image 20240708080203.png",
     "Java/assets/Screenshot 2024-07-07 201101.png",
     "Docker/assets",
