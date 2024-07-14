@@ -20,31 +20,19 @@
             }
           },
           {
-            "id": "4b38622111893488",
+            "id": "e9d872496573123c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/43 Constructors and Inheritance.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "23905194a8475833",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/44 Access Modifiers.md",
+                "file": "Java/46 Upcasting and Downcasting Object.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "toString",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5,
-    "collapsed": true
+    "width": 226.5
   },
   "right": {
     "id": "d29c399f9b26c6f3",
@@ -111,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/44 Access Modifiers.md",
+                "file": "Java/46 Upcasting and Downcasting Object.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/44 Access Modifiers.md",
+                "file": "Java/46 Upcasting and Downcasting Object.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/44 Access Modifiers.md"
+                "file": "Java/46 Upcasting and Downcasting Object.md"
               }
             }
           }
@@ -172,47 +159,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "23905194a8475833",
+  "active": "e9d872496573123c",
   "lastOpenFiles": [
-    "Java/43 Constructors and Inheritance.md",
+    "Java/assets/Pasted image 20240714154923.png",
+    "Java/Untitled.md",
+    "Java/46 Upcasting and Downcasting Object.md",
+    "Java/assets/Pasted image 20240714152752.png",
+    "Java/assets/Pasted image 20240714151250.png",
+    "Java/45 Overriding methods.md",
     "Java/44 Access Modifiers.md",
+    "Java/43 Constructors and Inheritance.md",
+    "Java/42 The Object class.md",
+    "Java/41 Inheritance.md",
+    "Java/40 Mortgage calculator Refactoring Towards an Object-oriented Design.md",
+    "Java/6 Reference data types.md",
+    "To-do-task.md",
+    "Java/30 Memory allocation.md",
+    "Java/29 Classes, Objects & this keyWord in java.md",
+    "Java/28 Classes.md",
+    "Java/14 Math class.md",
+    "Java/13 Casting.md",
+    "Java/12 Increment Operator.md",
+    "Java/11 Arithmetic Expression.md",
+    "Java/10 Constants.md",
+    "Java/9 Arrays.md",
+    "Java/8 Escape Sequence.md",
+    "Java/7 Strings.md",
+    "Java/5 Primitive data types.md",
+    "Java/34 Abstraction.md",
+    "Java/3 Hello world.md",
+    "Java/assets/Pasted image 20240712074300.png",
+    "Java/assets/Pasted image 20240712073752.png",
     "Java/assets/Pasted image 20240710094403.png",
     "Java/assets/Pasted image 20240711160150.png",
     "Java/assets/Pasted image 20240710230601.png",
     "Java/32 Encapsulation.md",
-    "Java/33 Getters and Setters.md",
-    "Java/34 Abstraction.md",
-    "Java/35 Coupling.md",
-    "Java/36 Constructor.md",
-    "Java/37 Method Overloading.md",
-    "Java/38 Constructor Overloading.md",
-    "Java/39 Static members.md",
-    "Java/40 Mortgage calculator Refactoring Towards an Object-oriented Design.md",
-    "Java/41 Inheritance.md",
-    "Java/42 The Object class.md",
     "Java/assets/Pasted image 20240711162650.png",
     "Java/assets/Pasted image 20240711162549.png",
     "git/Git.pdf",
     "git/Git-Stashing.pdf",
     "git/Github.pdf",
-    "Java/9 Arrays.md",
-    "Java/16 Reading user inputs.md",
-    "TS/22Union-type.md",
-    "Java/15 Formatting  Numbers.md",
     "Java/assets/Pasted image 20240710225809.png",
-    "Docker/3 Linux.md",
-    "Obsidian Tips.md",
-    "To-do-task.md",
-    "Java/3 Hello world.md",
-    "Java/assets/Pasted image 20240710144428.png",
-    "Java/2 JShell.md",
-    "Java/1 Setup environment.md",
-    "Java/assets/Pasted image 20240710101734.png",
-    "Java/29 Classes, Objects & this keyWord in java.md",
-    "Java/28 Classes.md",
-    "Java/23 methods.md",
-    "Java/assets/Pasted image 20240708080203.png",
-    "Java/assets/Screenshot 2024-07-07 201101.png",
     "Docker/assets",
     "Docker",
     "React/React by Jonas Schmedtman notes/1 Setup the environment _230729_132955.pdf",
