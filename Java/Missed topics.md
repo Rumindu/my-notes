@@ -1,3 +1,3 @@
-- [ ] Topic Control Flow end mortgage calculator.
-- [ ] Refactoring this calculator with adding methods
-	- [ ] Clean Code 4,5,6,7,8,9
+- [x] Topic Control Flow end mortgage calculator.
+- [x] Refactoring this calculator with adding methods
+	- [x] Clean Code 4,5,6,7,8,9

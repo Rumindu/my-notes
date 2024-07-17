@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "e9d872496573123c",
+            "id": "ec742a29b66d5c75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/46 Upcasting and Downcasting Object.md",
+                "file": "Springboot-PSR.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "folder stru",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/46 Upcasting and Downcasting Object.md",
+                "file": "Springboot-PSR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/46 Upcasting and Downcasting Object.md",
+                "file": "Springboot-PSR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/46 Upcasting and Downcasting Object.md"
+                "file": "Springboot-PSR.md"
               }
             }
           }
@@ -159,21 +159,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e9d872496573123c",
+  "active": "ec742a29b66d5c75",
   "lastOpenFiles": [
+    "assets/Screenshot 2024-07-16 112257.png",
+    "assets/Pasted image 20240716214740.png",
+    "image.png",
+    "Obsidian Tips.md",
+    "Springboot-PSR.md",
+    "Internship/Sahan shopping cart folder structure.md",
+    "React-Native/React-Native-Academind/1uptoStyles/react-native-my-note.md",
+    "React/React shopping cart by web-dev-simplified/React shopping cart by web-dev-simplified notes.md",
+    "React/React-Redux by Stephen Grider/1JSX.md",
+    "Java/3 Hello world.md",
+    "assets/Pasted image 20240715201002.png",
+    "assets/Pasted image 20240715200940.png",
+    "assets/Pasted image 20240715200738.png",
+    "assets/Pasted image 20240715144033.png",
+    "assets/Pasted image 20240715143609.png",
+    "assets/Pasted image 20240715143328.png",
+    "To-do-task.md",
+    "Java/46 Upcasting and Downcasting Object.md",
+    "Java/45 Overriding methods.md",
+    "Java/Missed topics.md",
     "Java/assets/Pasted image 20240714154923.png",
     "Java/Untitled.md",
-    "Java/46 Upcasting and Downcasting Object.md",
     "Java/assets/Pasted image 20240714152752.png",
-    "Java/assets/Pasted image 20240714151250.png",
-    "Java/45 Overriding methods.md",
     "Java/44 Access Modifiers.md",
     "Java/43 Constructors and Inheritance.md",
     "Java/42 The Object class.md",
     "Java/41 Inheritance.md",
     "Java/40 Mortgage calculator Refactoring Towards an Object-oriented Design.md",
     "Java/6 Reference data types.md",
-    "To-do-task.md",
     "Java/30 Memory allocation.md",
     "Java/29 Classes, Objects & this keyWord in java.md",
     "Java/28 Classes.md",
@@ -181,25 +197,9 @@
     "Java/13 Casting.md",
     "Java/12 Increment Operator.md",
     "Java/11 Arithmetic Expression.md",
-    "Java/10 Constants.md",
-    "Java/9 Arrays.md",
-    "Java/8 Escape Sequence.md",
-    "Java/7 Strings.md",
-    "Java/5 Primitive data types.md",
-    "Java/34 Abstraction.md",
-    "Java/3 Hello world.md",
-    "Java/assets/Pasted image 20240712074300.png",
-    "Java/assets/Pasted image 20240712073752.png",
-    "Java/assets/Pasted image 20240710094403.png",
-    "Java/assets/Pasted image 20240711160150.png",
-    "Java/assets/Pasted image 20240710230601.png",
-    "Java/32 Encapsulation.md",
-    "Java/assets/Pasted image 20240711162650.png",
-    "Java/assets/Pasted image 20240711162549.png",
     "git/Git.pdf",
     "git/Git-Stashing.pdf",
     "git/Github.pdf",
-    "Java/assets/Pasted image 20240710225809.png",
     "Docker/assets",
     "Docker",
     "React/React by Jonas Schmedtman notes/1 Setup the environment _230729_132955.pdf",

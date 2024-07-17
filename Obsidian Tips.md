@@ -1,4 +1,4 @@
-## **Check box hot key mapping**
+## Check box hot key mapping
 
 1. Go to the beginning of line and press ==ctrl+shift+c== to get bullet point
 2. then again press ==ctrl+shift+c== to get uncheck check box \* ctl+shift+c is manually maping for this option under settings->hotkeys->Cycle bullet/checkbox
@@ -9,3 +9,12 @@
 		- Wikilink: `[[Three laws of motion]]`
 		- Markdown: `[Three laws of motion](Three%20laws%20of%20motion.md)`
 	- Better to use Markdown because apart from obsidian, markdown editors also support those links. Here `%20` use for represent a space.
+
+## Insert project folder structure
+- 1st method
+	- Enter the `tree` command and copy the folder structure
+- 2nd method- using alt code
+	- for that need to use laptop keyboard
+	- on number pad
+	- while pressing the `alt` enter the suitable code using ***only numpad digit***
+	- Then release the `alt` key
