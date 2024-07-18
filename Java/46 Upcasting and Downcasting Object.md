@@ -100,7 +100,7 @@ public class Main {
 }
 ```
 - ***Quick Recap***-
-	 Because `show()` accept `UIControl` type object or any of its [derivatives](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/inheritance)(`Object` class). At compile time we can only access members of the `UIControl`. Unless we explicitly cast this object in to different type. That is called ***Downcasting***.
+	 Because `show()` method accept `UIControl` type object or any of its [derivatives](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/inheritance)(ex-`Object` class). At compile time we can only access members of the `UIControl`. Unless we explicitly cast this object in to different type. That is called ***Downcasting***.
  
 ## Problem of above implementation and solution.
 - If we pass `control` object to `show()` method. There will be an exception

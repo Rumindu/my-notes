@@ -6,10 +6,9 @@
   //no need to add this "extends Object" part
   public class UIControl extends Object{}
   ```
-- This is why every class we declared has some additional methods.
 - `Object` class is declared in `java.lang` package. So it's available every where
   ![](assets/Pasted%20image%2020240710225809.png)
-
+- The `Object` class is the reason for having some additional methods apart from we declared in the class.
 ## Members of Object class
 - getClass() 
 	- returns `Class` object. From this we can read metadata of an object. Foe example we can find all attributes and methods define in object.
@@ -34,19 +33,21 @@ public class Main {
 - We get this integer `250421012`. This is calculated base on address of in this object(`box1`) on memory.
 - This isn't memory address.
 - We get same hash code when referencing same object 
-``` java 
-//Main.java
-public class Main {
-    public static void main(String[] args) {
-        var box1= new TextBox();
-        var box2= box1;
-        System.out.println(box1.hashCode());//250421012
-        System.out.println(box2.hashCode());//250421012
-    }
-}
-``` 
+  ``` java 
+  //Main.java
+  public class Main {
+      public static void main(String[] args) {
+          var box1= new TextBox();
+          var box2= box1;
+          System.out.println(box1.hashCode());//250421012
+          System.out.println(box2.hashCode());//250421012
+  }
+  }
+  ``` 
 
 ## equals()
+- This method comparing hash code of objects.
+- If hash codes are equal it returns true else it returns false
 - If compare above example's box1 and box2 objects using `object1Name.equals(object2Name)`. we will get result as `true`
   ``` java 
   //Main.java
@@ -60,17 +61,17 @@ public class Main {
   }
   ``` 
 - But is comparing 2 objects from the `TextBox` class, `equals()` returning false.
-``` java 
-//Main.java
-public class Main {
-    public static void main(String[] args) {
-        var box1= new TextBox();
-        var box2= new TextBox();
+  ``` java 
+  //Main.java
+  public class Main {
+      public static void main(String[] args) {
+          var box1= new TextBox();
+          var box2= new TextBox();
 
-        System.out.println(box1.equals(box2));//false
-    }
-}
-```
+          System.out.println(box1.equals(box2));//false
+      }
+  }
+  ```
 
 ## toString()
 - This methods is return string representation of an object.

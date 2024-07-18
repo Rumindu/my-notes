@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "935bd0ed450838dd",
+            "id": "c71781cdfe786b04",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,19 +20,67 @@
             }
           },
           {
-            "id": "ec742a29b66d5c75",
+            "id": "46f98baa88e0d038",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Springboot-PSR.md",
+                "file": "Java/46 Upcasting and Downcasting Object.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d573c35be463d944",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/47 Comparing Objects.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d79d2a1557bceb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/46 Upcasting and Downcasting Object.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4778b56982501421",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian Tips.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75a62899af740efa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "mysql.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -61,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "folder stru",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Springboot-PSR.md",
+                "file": "mysql.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Springboot-PSR.md",
+                "file": "mysql.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Springboot-PSR.md"
+                "file": "mysql.md"
               }
             }
           }
@@ -159,44 +207,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ec742a29b66d5c75",
+  "active": "75a62899af740efa",
   "lastOpenFiles": [
+    "assets/Pasted image 20240718211351.png",
+    "TS/1 setup-ts.md",
+    "Docker/1 What is Docker.md",
+    "Docker/2 Installing Docker.md",
+    "Docker/3 Linux.md",
+    "Java/48 Polymorphism.md",
+    "Obsidian Tips.md",
+    "Java/46 Upcasting and Downcasting Object.md",
+    "Java/47 Comparing Objects.md",
+    "Java/assets/Pasted image 20240718142422.png",
+    "Java/assets/Pasted image 20240718133949.png",
+    "To-do-task.md",
+    "Java/assets/Pasted image 20240718103937.png",
+    "Java/assets/Pasted image 20240718103719.png",
+    "Java/assets/Pasted image 20240718103718.png",
+    "Java/assets/Pasted image 20240718103513.png",
+    "Java/42 The Object class.md",
+    "42 The Object class.md",
+    "assets/Pasted image 20240717233051.png",
+    "Java/45 Overriding methods.md",
+    "Springboot-PSR.md",
     "assets/Screenshot 2024-07-16 112257.png",
     "assets/Pasted image 20240716214740.png",
     "image.png",
-    "Obsidian Tips.md",
-    "Springboot-PSR.md",
     "Internship/Sahan shopping cart folder structure.md",
     "React-Native/React-Native-Academind/1uptoStyles/react-native-my-note.md",
     "React/React shopping cart by web-dev-simplified/React shopping cart by web-dev-simplified notes.md",
     "React/React-Redux by Stephen Grider/1JSX.md",
     "Java/3 Hello world.md",
-    "assets/Pasted image 20240715201002.png",
-    "assets/Pasted image 20240715200940.png",
-    "assets/Pasted image 20240715200738.png",
-    "assets/Pasted image 20240715144033.png",
-    "assets/Pasted image 20240715143609.png",
-    "assets/Pasted image 20240715143328.png",
-    "To-do-task.md",
-    "Java/46 Upcasting and Downcasting Object.md",
-    "Java/45 Overriding methods.md",
     "Java/Missed topics.md",
-    "Java/assets/Pasted image 20240714154923.png",
-    "Java/Untitled.md",
-    "Java/assets/Pasted image 20240714152752.png",
     "Java/44 Access Modifiers.md",
     "Java/43 Constructors and Inheritance.md",
-    "Java/42 The Object class.md",
     "Java/41 Inheritance.md",
     "Java/40 Mortgage calculator Refactoring Towards an Object-oriented Design.md",
     "Java/6 Reference data types.md",
     "Java/30 Memory allocation.md",
-    "Java/29 Classes, Objects & this keyWord in java.md",
-    "Java/28 Classes.md",
-    "Java/14 Math class.md",
-    "Java/13 Casting.md",
-    "Java/12 Increment Operator.md",
-    "Java/11 Arithmetic Expression.md",
     "git/Git.pdf",
     "git/Git-Stashing.pdf",
     "git/Github.pdf",
