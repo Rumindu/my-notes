@@ -12,6 +12,7 @@
     }
     ```
 - Purpose of abstract class is provide some common code to its sub classes.
+- Abstract method should declared inside the abstract class.
 - Abstract method doesn't contain a body.
     ``` java 
     //parent class

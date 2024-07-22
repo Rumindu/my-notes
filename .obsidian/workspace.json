@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "d713314c414701ff",
+            "id": "277f5d6cfb1f9ccd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/React component Name export and Default export.md",
+                "file": "Java/50 Final classes & Methods.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/React component Name export and Default export.md",
+                "file": "Java/50 Final classes & Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/React component Name export and Default export.md",
+                "file": "Java/50 Final classes & Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/React component Name export and Default export.md"
+                "file": "Java/50 Final classes & Methods.md"
               }
             }
           }
@@ -159,12 +159,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d713314c414701ff",
+  "active": "277f5d6cfb1f9ccd",
   "lastOpenFiles": [
-    "React/React boostrap.md",
-    "React/React component Name export and Default export.md",
-    "Java/48 Polymorphism.md",
     "Java/49 Abstract Classes & Methods.md",
+    "Java/50 Final classes & Methods.md",
+    "Java/assets/Pasted image 20240722150611.png",
+    "Java/assets/Pasted image 20240722150417.png",
+    "Java/assets/Pasted image 20240722143842.png",
+    "React/React component Name export and Default export.md",
+    "React/React boostrap.md",
+    "Java/48 Polymorphism.md",
     "Java/47 Comparing Objects.md",
     "Obsidian Tips.md",
     "Jobs.md",
@@ -188,17 +192,12 @@
     "mark-down/images/Pasted image 20231123063118.png",
     "Java/43 Constructors and Inheritance.md",
     "Java/42 The Object class.md",
-    "Java/40 Mortgage calculator Refactoring Towards an Object-oriented Design.md",
-    "To-do-task.md",
     "assets/Pasted image 20240718215210.png",
     "assets/Pasted image 20240718215114.png",
     "assets/Pasted image 20240718215051.png",
     "assets/Pasted image 20240718215012.png",
     "assets/Pasted image 20240718214924.png",
     "assets/Pasted image 20240718211351.png",
-    "Java/assets/Pasted image 20240718142422.png",
-    "Java/assets/Pasted image 20240718133949.png",
-    "Java/assets/Pasted image 20240718103937.png",
     "git/Git.pdf",
     "git/Git-Stashing.pdf",
     "git/Github.pdf",
