@@ -1,6 +1,10 @@
 ## Install mysql server and  xampp on same PC
 
-[How to fix Xampp port 3306 in use by unable to open process [2024 Update]](https://www.youtube.com/watch?v=G-v3ofbPpMM)
+- [How to fix Xampp port 3306 in use by unable to open process [2024 Update]](https://www.youtube.com/watch?v=G-v3ofbPpMM)
+- After follow this video setups Apache php config file
+	![](assets/Pasted%20image%2020240718214924.png)
+	![](assets/Pasted%20image%2020240718215114.png)
+	![](assets/Pasted%20image%2020240718215210.png)
 
 ## Find the mysql running port
 
@@ -16,7 +20,6 @@
 - Access mysql client in WSL - `docker run -it mysql /bin/bash` In here create docker image of mysql client.
 - then type `mysql -h 172.17.0.2 -u root -p`  (We can see this ip address from view `details of docker container -> Inspect -> Networks.IPAddress` )
 - Finally enter the password
-
 
 ## Setup mysql in WSL
 

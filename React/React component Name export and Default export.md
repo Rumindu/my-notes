@@ -1,4 +1,4 @@
-# JS exports
+# React component exports / JS exports
 - Mainly there is 2 types of export in js or React
   1. Default exports
   2. Name exports

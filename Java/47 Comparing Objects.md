@@ -124,3 +124,5 @@ public class Main {
 
 ## Shortcut for overriding `equals()` and `hascode()`
 ![](assets/Pasted%20image%2020240718142422.png)
+
+[Github](https://github.com/Rumindu/CodeWithMosh-The-Ultimate-Java-Mastery-Series/tree/comparing-objects)
