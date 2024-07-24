@@ -28,7 +28,7 @@ function App() {
 }
 ```
 
-- **Component name should start with upper case**
+- **Component name should start with an upper case**
 
 - Render the app component
 

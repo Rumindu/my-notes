@@ -1,4 +1,5 @@
 # Todo
+- [ ] update Academind-react-native image links and copy all stuff in to main branch.
 - [ ] Complete Mosh Java up to collection
 - [ ] Prior to begging Chad's course follow the [PSR vlog springboot series](https://www.youtube.com/watch?v=Sg8O_0mzpSE&list=PLD1cq9h5WfZA-SR0-ASmolbdTNCL4Uslk&index=6)
 - [ ] Begin Chad's spring springboot hibernate

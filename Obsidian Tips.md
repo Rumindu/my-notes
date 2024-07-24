@@ -19,3 +19,4 @@
 	- on number pad
 	- while pressing the `alt` enter the suitable code using ***only numpad digit***
 	- Then release the `alt` key
+- Get tree view folders +files `tree /f`

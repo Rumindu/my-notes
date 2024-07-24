@@ -1,3 +1,5 @@
+# Creating and reusing a component
+
 * In react we are creating *Components* using *functions*.
 * In React there is 2 important 2 rules, when we create Components as Function.
   1. First function name start with **Uppercase**.
