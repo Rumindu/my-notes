@@ -1,4 +1,22 @@
-- **Check box hot key mapping**
+## Check box hot key mapping
 
 1. Go to the beginning of line and press ==ctrl+shift+c== to get bullet point
 2. then again press ==ctrl+shift+c== to get uncheck check box \* ctl+shift+c is manually maping for this option under settings->hotkeys->Cycle bullet/checkbox
+## Format linking notes & images
+- [Embed files](https://help.obsidian.md/Linking+notes+and+files/Embed+files)- Link the image or file or pdf with the preview of link's position. that why we put `!` before the image path
+- [Internal links](https://help.obsidian.md/Linking+notes+and+files/Internal+links)-
+	- Obsidian supports 2 links formats
+		- Wikilink: `[[Three laws of motion]]`
+		- Markdown: `[Three laws of motion](Three%20laws%20of%20motion.md)`
+	- Better to use Markdown because apart from obsidian, markdown editors also support those links. Here `%20` use for represent a space.
+- [How to link to a header in Markdown](https://blog.markdowntools.com/posts/how-to-link-to-a-header-in-markdown#:~:text=In%20Markdown%2C%20you%20can%20create,the%20text%20of%20the%20heading.&text=To%20link%20to%20a%20header%2C%20you%20need%20to%20use%20the,id%E2%80%9D%20attribute%20of%20the%20heading.)
+
+## Insert project folder structure
+- 1st method
+	- Enter the `tree` command and copy the folder structure
+- 2nd method- using alt code
+	- for that need to use laptop keyboard
+	- on number pad
+	- while pressing the `alt` enter the suitable code using ***only numpad digit***
+	- Then release the `alt` key
+- Get tree view folders +files `tree /f`

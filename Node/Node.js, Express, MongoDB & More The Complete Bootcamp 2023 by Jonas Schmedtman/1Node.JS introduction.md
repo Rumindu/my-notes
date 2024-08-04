@@ -7,12 +7,12 @@
 
 ## Why & When use Node.js
 
-|Node.js Pros| Use Node.js|
-|--------------|---------------|
-|Single-threaded, based on event driven, non blocking I/O model|API with database behind( NoSQL is more prefered)|
-|Perfect for building fast and scalable data-intensive app|Data streaming like Youtube|
-|JavaScript across the entire stack |Real-time chat applications|
-|NPM: huge library of open-source package available |Server-side web application(Entire content is generate by server )|
+| Node.js Pros                                                   | Use Node.js                                                        |
+| -------------------------------------------------------------- | ------------------------------------------------------------------ |
+| Single-threaded, based on event driven, non blocking I/O model | API with database behind( NoSQL is more prefered)                  |
+| Perfect for building fast and scalable data-intensive app      | Data streaming like Youtube                                        |
+| JavaScript across the entire stack                             | Real-time chat applications                                        |
+| NPM: huge library of open-source package available             | Server-side web application(Entire content is generate by server ) |
 
 \* Application with heavy server side processing isn't suitable for Node
 

@@ -1,5 +1,3 @@
-# Hello World
-
 * create a file called *index.js* 
 * type the code
 ```js
