@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/React-Vite-TS-Mosh/2 Building Components.md",
-                "mode": "preview",
+                "file": "To-do-task.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "d29c399f9b26c6f3",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/React-Vite-TS-Mosh/2 Building Components.md",
+                "file": "To-do-task.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/React-Vite-TS-Mosh/2 Building Components.md",
+                "file": "To-do-task.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/React-Vite-TS-Mosh/2 Building Components.md"
+                "file": "To-do-task.md"
               }
             }
           }
@@ -149,10 +148,11 @@
   },
   "active": "3478ab85eafca3fd",
   "lastOpenFiles": [
+    "React/React-Vite-TS-Mosh/2 Building Components.md",
+    "mark-down/mark-down.md",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240725135650.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240724150028.png",
     "React/React-Vite-TS-Mosh/1 Introduction.md",
-    "React/React-Vite-TS-Mosh/2 Building Components.md",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240724125628.png.~tmp",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240724125607.png.~tmp",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240724125628.png",
@@ -190,7 +190,6 @@
     "Java/assets/Pasted image 20240722150611.png",
     "Java/assets/Pasted image 20240722150417.png",
     "Java/assets/Pasted image 20240722143842.png",
-    "mark-down/images/Pasted image 20231123063118.png",
     "git/Git.pdf",
     "git/Git-Stashing.pdf",
     "git/Github.pdf",

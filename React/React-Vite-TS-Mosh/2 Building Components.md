@@ -1,4 +1,4 @@
-# Add Bootstrap to project
+# <center>Add Bootstrap to project </center>
 - Install bootstrap `npm i bootstrap@5.2.3`
 - Remove `index.css` from the `src` folder and import bootstrap by removing `import './index.css'` and add `import 'bootstrap/dist/css/bootstrap.css'` at `main.tsx`.
     ![](assets/Pasted%20image%2020240724125628.png)
@@ -109,7 +109,7 @@ export default App;
 
 # Conditional Rendering
 - To conditionally render content, we can use an ‘if’ statement or a ternary operator or && operator.
-## 1. If statement
+#### 1. If statement
 - Not much use because due to code duplication.
   ``` tsx 
   //ListGroup.tsx
@@ -139,7 +139,7 @@ export default App;
 
   export default ListGroup;
   ```
-## 2. Ternary operation
+#### 2. Ternary operation
 - Inside JSX we can't use `if statements`. 
   ``` tsx 
   //ListGroup.tsx
@@ -225,7 +225,7 @@ export default App;
   export default ListGroup;
   ```
 
-## 3. &&
+#### 3. &&
 - Mostly common use way for Conditional rendering
   ``` tsx 
   {/* "logic" && "value that return when condition is true" */}
