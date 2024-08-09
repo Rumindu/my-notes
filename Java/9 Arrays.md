@@ -1,6 +1,6 @@
 # Arrays
 - Use for store list of items(numbers, names,...)
-- Array is also a reference type.
+- Arrays are reference type.
 - initialization of array(If elements aren't yet defined) and assign values for elements
   ```java
   public class Main {
@@ -55,8 +55,10 @@ public class Main {
 }
 ```
 ![](assets/Pasted%20image%2020240603171041.png)
-- To get the length of array
-  `System.out.println(numbers.length);`
+- To get the length of an array `array_name.length`
+  ``` java
+  System.out.println(numbers.length); //5
+  ```
 ## Multi-dimensional Arrays
 - As an examples we can use 2 dimensional arrays for matrix and we can use 3 dimensional array for store data of cube
   ``` java 

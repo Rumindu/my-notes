@@ -30,9 +30,9 @@
   ```
 - This is bad implementation. Because when we are using object from Employee class we need to ***follow the order*** else we get 0.
 - To prevent this issue at the time we create object we can pass values to the attributes. Then we don't forget. For that we use constructor. 
-- ***Constructor*** is a special method called when create new object. 
+- ==***Constructor*** is a special method called when create new object.== 
 - Look at this object creation `var employee = new Employee();`. Here `Employee()` looks like calling a method.
-- We have a method in this same name(Employee()) in the Employee class created by java compiler automatically. This called constructor.
+- We have a **invisible method** which has the name of class(Employee()) and no parameters in the Employee class created by java compiler automatically. This called ==default constructor==.
 - It used to create/construct new employee object from the Employee class.
 - Job of this constructor initialized attributes from it's default value. It means if the attribute is a int is going to be `o`, Boolean is going to be `false`, String or reference type is going to be `null`.
 ``` java 
@@ -41,7 +41,7 @@ public class Employee {
     private int baseSalary;
     private int hourlyRate;
 
-    //Java compiler doesn't create default constructor
+    //Here Java compiler doesn't create default constructor due to having custome constructor.
     //this is a custom constructor. But it should name as class name
     //constructor doesn't have return type not even a void
     public Employee(int baseSalary, int hourlyRate) {

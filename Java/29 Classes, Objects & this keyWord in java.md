@@ -48,7 +48,7 @@
   }
   ```
 - If we `System.out.println(textBox.text);` without calling `textBox.setText();` We will get `null`. Because in "TextBox" class `text` variable is just initialize as a String only. not assigning a value. then by default it will allocated null. Because string is reference type.
-- These initialization can be dangerous it can crash programs
+- These initialization can be dangerous, it can crash programs
   ``` java
   //Main.java
   public class Main {

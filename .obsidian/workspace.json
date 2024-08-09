@@ -37,7 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/51 Deep Inheritance Hierarchies.md",
+                "file": "Java/52 Multiple Inheritance.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3790f0ac177d937a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/React-Vite-TS-Mosh/2 Building Components.md",
                 "mode": "preview",
                 "source": false
               }
@@ -106,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 340.5
   },
   "right": {
     "id": "d29c399f9b26c6f3",
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/52 Multiple Inheritance.md",
+                "file": "React/React-Vite-TS-Mosh/2 Building Components.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/52 Multiple Inheritance.md",
+                "file": "React/React-Vite-TS-Mosh/2 Building Components.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/52 Multiple Inheritance.md"
+                "file": "React/React-Vite-TS-Mosh/2 Building Components.md"
               }
             }
           }
@@ -183,39 +195,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cdc47e489b809147",
+  "active": "3790f0ac177d937a",
   "lastOpenFiles": [
-    "Java/46 Upcasting and Downcasting Object.md",
+    "Java/53 Interfaces.md",
+    "Java/whole numbers.md",
+    "Java/Missed topics.md",
+    "Java/29 Classes, Objects & this keyWord in java.md",
+    "Java/28 Classes.md",
+    "Java/37 Method Overloading.md",
+    "Java/45 Methods Overriding.md",
+    "Java/25 Types of Errors & Debugging.md",
+    "Java/24.1 Assignment-Mortgage-calculator-payment-schedule.md",
+    "Java/24 Code Refactoring.md",
+    "Java/23 methods.md",
+    "Java/27 Introduction OOP.md",
+    "Java/26 Packaging Java Application.md",
+    "Java/34 Abstraction.md",
+    "Java/35 Coupling.md",
+    "Java/36 Constructor.md",
+    "Java/9 Arrays.md",
+    "Java/7 Strings.md",
+    "Java/22 Loops.md",
+    "Java/assets/SmartSelect_20240809_143537_Samsung Notes.jpg",
+    "Java/assets/Pasted image 20240809142940.png",
+    "Java/assets/SmartSelect_20240809_142829_Samsung Notes.jpg",
     "Java/52 Multiple Inheritance.md",
-    "Java/51 Deep Inheritance Hierarchies.md",
-    "mysql.md",
-    "2024-01-02.md",
-    "Jobs.md",
-    "VS code.md",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/5Synchronous vs Asynchronous.md",
-    "Java/50 Final classes & Methods.md",
+    "Java/43 Constructors and Inheritance.md",
+    "Java/41 Inheritance.md",
+    "Java/40 Mortgage calculator Refactoring Towards an Object-oriented Design.md",
+    "Java/39 Static members.md",
+    "Java/38 Constructor Overloading.md",
+    "Java/10 Constants.md",
     "Java/assets/SmartSelect_20240809_085254_Samsung Notes.jpg",
-    "Springboot-PSR.md",
     "Java/assets/SmartSelect_20240808_071519_Samsung Notes.jpg",
-    "React/React-Vite-TS-Mosh/2 Building Components.md",
-    "HTML and CSS/1CSS-Selectors.md",
-    "Traversy Next.js From Scratch premium-docs/02 - Next.js Fundamentals & Project Start/05-navbar-component-start.md",
-    "Traversy Next.js From Scratch premium-docs/02 - Next.js Fundamentals & Project Start/04-client-components-next-router.md",
-    "Traversy Next.js From Scratch premium-docs/01 - Introduction/02-premium-docs.md",
-    "Traversy Next.js From Scratch premium-docs/01 - Introduction/01-welcome-to-the-course.md",
-    "Traversy Next.js From Scratch premium-docs/02 - Next.js Fundamentals & Project Start/06-navbar-links-dropdowns.md",
-    "Traversy Next.js From Scratch premium-docs/02 - Next.js Fundamentals & Project Start/03-file-based-routing.md",
-    "Traversy Next.js From Scratch premium-docs/02 - Next.js Fundamentals & Project Start/02-layout-homepage-metadata.md",
-    "Traversy Next.js From Scratch premium-docs/02 - Next.js Fundamentals & Project Start/01-creating-a-new-project.md",
-    "Traversy Next.js From Scratch premium-docs/01 - Introduction/05-environment-setup.md",
-    "Traversy Next.js From Scratch premium-docs/01 - Introduction/04-what-is-next-js.md",
-    "Traversy Next.js From Scratch premium-docs/01 - Introduction/03-final-project-intro.md",
-    "Tailwind CSS.md",
     "Traversy Next.js From Scratch premium-docs/images/vercel1.png",
     "Traversy Next.js From Scratch premium-docs/images/googleconsole.png",
     "Traversy Next.js From Scratch premium-docs/images/client-vs-server-components.png",
-    "Traversy Next.js From Scratch premium-docs/10 -Pagination, Photo Lightbox & Deployment/06-deploy-to-vercel.md",
-    "Traversy Next.js From Scratch premium-docs/10 -Pagination, Photo Lightbox & Deployment/05-featured-properties.md",
     "Traversy Next.js From Scratch premium-docs/images",
     "Traversy Next.js From Scratch premium-docs/10 -Pagination, Photo Lightbox & Deployment",
     "Traversy Next.js From Scratch premium-docs/09 - Messaging System",
@@ -227,9 +242,6 @@
     "Traversy Next.js From Scratch premium-docs/03 - Database, API Routes & Property Display",
     "Traversy Next.js From Scratch premium-docs/02 - Next.js Fundamentals & Project Start",
     "premium-docs/images/vercel1.png",
-    "premium-docs/images/googleconsole.png",
-    "premium-docs/images/client-vs-server-components.png",
-    "React/React-Vite-TS-Mosh/assets/Pasted image 20240725135650.png",
-    "React/React-Vite-TS-Mosh/assets/Pasted image 20240724150028.png"
+    "premium-docs/images/googleconsole.png"
   ]
 }

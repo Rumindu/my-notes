@@ -1,9 +1,9 @@
 # Classes
--   
-| Class                                        | Object           |
-|:---------------------------------|:---------------|
-|***A blueprint for creating objects***| ***An instance of a class***|
-|ex- "Car" class![](assets/SmartSelect_20240617_234954_Samsung%20Notes.jpg)  | ex- objects of "Car" class ![](assets/SmartSelect_20240617_235025_Samsung%20Notes.jpg)|
+  
+| Class                                                                      | Object                                                                                 |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| ***A blueprint for creating objects***                                     | ***An instance of a class***                                                           |
+| ex- "Car" class![](assets/SmartSelect_20240617_234954_Samsung%20Notes.jpg) | ex- objects of "Car" class ![](assets/SmartSelect_20240617_235025_Samsung%20Notes.jpg) |
 
 - All these car objects have same attributes and methods but they are independent each other. Each "Car" object is in separate space of memory and each one's attribute has sperate data.
 	- ex- 

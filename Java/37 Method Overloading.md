@@ -25,6 +25,7 @@ Can achieve method overloading in the "Employee.java" file in 2 ways
           setBaseSalary(baseSalary);
           setHourlyRate(hourlyRate);
       }
+      
       //overloading the method calculateWage
       public int calculateWage(int extraHours) {
           return baseSalary + (hourlyRate * extraHours);
