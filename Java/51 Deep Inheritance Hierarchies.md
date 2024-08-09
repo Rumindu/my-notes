@@ -8,4 +8,4 @@
 	  - ex- If we change the constructor of `Entity` by adding or removing parameters we have to modify all child classes.
   - When introduce methods or attribute one of base classes But that property doesn't make sense to inherit its child classes will polluting inheritance hierarchy from irrelevant stuff. 
 - Here is how to collapse above hierarchy. 
-![](assets/SmartSelect_20240809_085254_Samsung%20Notes.jpg)
+  ![](assets/SmartSelect_20240809_085254_Samsung%20Notes.jpg)

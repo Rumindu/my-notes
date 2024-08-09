@@ -1,9 +1,9 @@
-# <center>Add Bootstrap to project </center>
+# Add Bootstrap to project
 - Install bootstrap `npm i bootstrap@5.2.3`
 - Remove `index.css` from the `src` folder and import bootstrap by removing `import './index.css'` and add `import 'bootstrap/dist/css/bootstrap.css'` at `main.tsx`.
     ![](assets/Pasted%20image%2020240724125628.png)
     ![](assets/Pasted%20image%2020240724125607.png)
-
+---
 # Create List group component
 - By convention all the component will store on `components` folder in  the `src`.
 - Here create `ListGroup.tsx` file.
@@ -72,6 +72,7 @@ export default App;
 
     export default ListGroup;
     ```
+---
 # Rendering List using `map` function
 - To render a list in JSX or TSX, we use the `array.map()` method. Because JSX/TSX doesn't have `for-loops`
 - When mapping items to list, each item must have a unique key, which can be a string or a number. otherwise it will show an error on console.
@@ -106,7 +107,7 @@ export default App;
     ...
   }
   ```
-
+---
 # Conditional Rendering
 - To conditionally render content, we can use an ‘if’ statement or a ternary operator or && operator.
 #### 1. If statement
@@ -233,3 +234,4 @@ export default App;
   ```
 - explain how it works using console on chrome development tools
   ![](assets/Pasted%20image%2020240725135650.png)
+---
