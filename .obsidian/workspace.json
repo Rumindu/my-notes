@@ -8,67 +8,42 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3478ab85eafca3fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/50 Final classes & Methods.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "376fba193f93c391",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/5Synchronous vs Asynchronous.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "148cecd50f7c0696",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/52 Multiple Inheritance.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3790f0ac177d937a",
+            "id": "2c1e78ca4dc42e7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "React/React-Vite-TS-Mosh/2 Building Components.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cdc47e489b809147",
+            "id": "2f5c0b0e776ed19b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/52 Multiple Inheritance.md",
-                "mode": "preview",
+                "file": "React/React-Vite-TS-Mosh/1 Introduction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cdfd4c5585326148",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "To-do-task.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340.5
+    "width": 226.5,
+    "collapsed": true
   },
   "right": {
     "id": "d29c399f9b26c6f3",
@@ -195,42 +171,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3790f0ac177d937a",
+  "active": "2c1e78ca4dc42e7c",
   "lastOpenFiles": [
-    "Java/53 Interfaces.md",
-    "Java/whole numbers.md",
-    "Java/Missed topics.md",
+    "React/React-Vite-TS-Mosh/1 Introduction.md",
+    "React/React-Vite-TS-Mosh/2 Building Components.md",
+    "React/React-Vite-TS-Mosh/assets/SmartSelect_20240814_101050_Samsung Notes.jpg",
+    "React/React-Vite-TS-Mosh/assets/Pasted image 20240814100824.png",
+    "React/React-Vite-TS-Mosh/assets/SmartSelect_20240814_100710_Samsung Notes.jpg",
+    "React/React-Vite-TS-Mosh/assets/Pasted image 20240724125628.png",
+    "To-do-task.md",
+    "React/React component Name export and Default export.md",
+    "Java/49 Abstract Classes & Methods.md",
+    "Java/34 Abstraction.md",
+    "Java/33 Getters and Setters.md",
+    "Java/32 Encapsulation.md",
+    "Java/31 Procedural Programming in java.md",
+    "Java/30 Memory allocation.md",
+    "Java/48 Polymorphism.md",
+    "Java/47 Comparing Objects.md",
+    "Java/46 Upcasting and Downcasting Object.md",
+    "Java/45 Methods Overriding.md",
+    "Java/44 Access Modifiers.md",
+    "Java/37 Method Overloading.md",
+    "Java/36 Constructor.md",
+    "Java/35 Coupling.md",
     "Java/29 Classes, Objects & this keyWord in java.md",
     "Java/28 Classes.md",
-    "Java/37 Method Overloading.md",
-    "Java/45 Methods Overriding.md",
-    "Java/25 Types of Errors & Debugging.md",
-    "Java/24.1 Assignment-Mortgage-calculator-payment-schedule.md",
-    "Java/24 Code Refactoring.md",
-    "Java/23 methods.md",
-    "Java/27 Introduction OOP.md",
-    "Java/26 Packaging Java Application.md",
-    "Java/34 Abstraction.md",
-    "Java/35 Coupling.md",
-    "Java/36 Constructor.md",
-    "Java/9 Arrays.md",
-    "Java/7 Strings.md",
-    "Java/22 Loops.md",
+    "Java/15 Formatting  Numbers.md",
+    "Java/14 Math class.md",
+    "Java/6 Reference data types.md",
+    "Java/5 Primitive data types.md",
+    "Java/4 variables.md",
     "Java/assets/SmartSelect_20240809_143537_Samsung Notes.jpg",
     "Java/assets/Pasted image 20240809142940.png",
     "Java/assets/SmartSelect_20240809_142829_Samsung Notes.jpg",
-    "Java/52 Multiple Inheritance.md",
-    "Java/43 Constructors and Inheritance.md",
-    "Java/41 Inheritance.md",
-    "Java/40 Mortgage calculator Refactoring Towards an Object-oriented Design.md",
-    "Java/39 Static members.md",
-    "Java/38 Constructor Overloading.md",
-    "Java/10 Constants.md",
     "Java/assets/SmartSelect_20240809_085254_Samsung Notes.jpg",
     "Java/assets/SmartSelect_20240808_071519_Samsung Notes.jpg",
     "Traversy Next.js From Scratch premium-docs/images/vercel1.png",
-    "Traversy Next.js From Scratch premium-docs/images/googleconsole.png",
-    "Traversy Next.js From Scratch premium-docs/images/client-vs-server-components.png",
     "Traversy Next.js From Scratch premium-docs/images",
     "Traversy Next.js From Scratch premium-docs/10 -Pagination, Photo Lightbox & Deployment",
     "Traversy Next.js From Scratch premium-docs/09 - Messaging System",
@@ -240,8 +217,6 @@
     "Traversy Next.js From Scratch premium-docs/05 - Creating Properties",
     "Traversy Next.js From Scratch premium-docs/04 - Next Auth & Google Provider",
     "Traversy Next.js From Scratch premium-docs/03 - Database, API Routes & Property Display",
-    "Traversy Next.js From Scratch premium-docs/02 - Next.js Fundamentals & Project Start",
-    "premium-docs/images/vercel1.png",
-    "premium-docs/images/googleconsole.png"
+    "Traversy Next.js From Scratch premium-docs/02 - Next.js Fundamentals & Project Start"
   ]
 }

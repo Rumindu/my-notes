@@ -2,9 +2,9 @@
 - [x] Update CV for ASE and Intern position
 - [x] Change LinkedIn cover phot
 - [x] Add github readme file
-- [ ] add itelsoft description in linkedin
+- [x] add itelsoft description in linkedin
 - [ ] add 3rd year group prohect in linkedin
-- [ ] update Academind-react-native image links and copy all stuff in to main branch.
+- [x] update Academind-react-native image links and copy all stuff in to main branch.
 - [ ] Complete Mosh Java up to collection
 - [ ] Prior to begging Chad's course follow the [PSR vlog springboot series](https://www.youtube.com/watch?v=Sg8O_0mzpSE&list=PLD1cq9h5WfZA-SR0-ASmolbdTNCL4Uslk&index=6)
 - [ ] Begin Chad's spring springboot hibernate
