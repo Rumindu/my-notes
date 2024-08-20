@@ -171,7 +171,7 @@ export default App;
 
 ---
 # Conditional Rendering
-- To conditionally render content, we can use an ‘if’ statement or a ternary operator or && operator.
+- To conditionally render content, we can use an `if statement` or a `ternary` operator or `&&` operator.
 #### 1. If statement
 - Not much use because due to code duplication.
   ``` tsx 
@@ -202,69 +202,62 @@ export default App;
 
   export default ListGroup;
   ```
-#### 2. Ternary operation
+  [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/tree/dd5da8fff9e6f77fe8a215ea78b76283acacf379)
+  
+#### 2. Ternary operation ( `? :`)
 - Inside JSX we can't use `if statements`. 
-  ``` tsx 
+- Using `ternary` operations we can do conditional rendering inside JSX.
+- Inside the JSX we can only use html element or other react component. Only exception is `{ }` curly braces. Here we can render anything dynamically. 
+	``` tsx 
   //ListGroup.tsx
   function ListGroup() {
-    let items = ["New York", "San Francisco", "Tokyo", "London", "Paris"];
-    items= [];
+    ...
     return (
       <>
         <h1>List</h1>
         {/* if this condition is true return <p>No item found</p> */}
-        {/* else return nothing. */}
+        {/* else return null, null means nothing would be render. */}
         {items.length === 0 ? <p>No item found</p> : null}
         <ul className="list-group">
-          {items.map((item) => (
-            <li key={item} className="list-group-item">
-              {item}
-            </li>
-          ))}
+          ...
         </ul>
       </>
     );
   }
+    ...
 
-  export default ListGroup;
   ```
+  [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/tree/fb3fc7951f8a2312701935d3bd5072cefd3b141d)
 
--  Sometimes this logic be more complicated and unreadable JSX . For those cases we extract this logic and store in a variable.
+- Sometimes this logic be more complicated and unreadable JSX . For those cases we extract this logic and store in a variable or constant. And include variable/constant name within `{ }` in JSX.
   ``` tsx 
   //ListGroup.tsx
   function ListGroup() {
-    let items = ["New York", "San Francisco", "Tokyo", "London", "Paris"];
-    items = [];
-    
+    ...
     //store condition in variable
     const message = items.length === 0 ? <p>No item found</p> : null
 
     return (
       <>
         <h1>List</h1>
-        {/*render the constent*/}
+        {/*render the constant*/}
         {message}
-        <ul className="list-group">
-          {items.map((item) => (
-            <li key={item} className="list-group-item">
-              {item}
-            </li>
-          ))}
-        </ul>
+        ...
       </>
     );
   }
 
   export default ListGroup;
+
   ```
-- we can move above logic into function also
+  [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/tree/570ef703f3f501373e1bc238157d5434b9ce2e7b)
+
+- we can move above logic inside the function. And calling the function within `{}` in JSX. Benefit of using function is we can get different parameters depending on condition and rendering items according to those.
   ``` tsx 
   //ListGroup.tsx
   function ListGroup() {
-    let items = ["New York", "San Francisco", "Tokyo", "London", "Paris"];
-    items= [];
-
-    //store condition in variable
+    ...
+    //declare function which returns logic
     const getMessage = ()=>{
       return items.length === 0 ? <p>No item found</p> : null
     }
@@ -274,26 +267,105 @@ export default App;
         <h1>List</h1>
         {/* calling the functon */}
         {getMessage()}
-        <ul className="list-group">
-          {items.map((item) => (
-            <li key={item} className="list-group-item">
-              {item}
-            </li>
-          ))}
-        </ul>
+        ...
       </>
     );
   }
-
-  export default ListGroup;
   ```
+  [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/tree/feafb844cdda27d85c2fcd7b858211f36eb3945e)
 
 #### 3. &&
 - Mostly common use way for Conditional rendering
+- If our condition is true result will be paragraph element. But if the condition is false, result of entire expression is false and nothing would be render on the screen. 
   ``` tsx 
   {/* "logic" && "value that return when condition is true" */}
   {items.length ===0 && <p>No item found</p>}
   ```
-- explain how it works using console on chrome development tools
+  [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/tree/0ca0d089ab62658500e545582bba65b35996f1c3)
+- explain how it works using console on chrome development tools.
   ![](assets/Pasted%20image%2020240725135650.png)
 ---
+# Handle events
+- Here we see handle **Click event** on the component.
+- Clicked on each item of the list and get a out put in the console. In React each html has property called `onClick`.
+  ``` jsx 
+  //ListGroup.tsx
+  <li
+      key={item}
+      className="list-group-item"
+      onClick={() => console.log("Clicked")}
+    >
+  ```
+  [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/61a60a1370acec961ccca8030626e0bdfab30ae4/src/components/ListGroup.tsx)
+  ![](assets/Pasted%20image%2020240820192554.png)
+- Need to get clicked item name on console
+  ``` tsx 
+  {items.map((item) => (
+    <li
+      key={item}
+      className="list-group-item"
+      onClick={() => console.log(item)}
+    >
+      {item}
+    </li>
+  ))}
+
+  ```
+  [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/b2ae1716503502003b4db5865c24985fbd4af783/src/components/ListGroup.tsx)
+  ![](assets/Pasted%20image%2020240820195805.png)
+- When we mapping an items we can optionally add second parameter as `index`. From this we can see index of item we clicked.
+  ``` tsx 
+  {items.map((item,index) => (
+    <li
+      key={item}
+      className="list-group-item"
+      onClick={() => console.log(item,index)}
+    >
+      {item}
+    </li>
+  ))}
+  ```
+  [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/f5f0ed2b769672c5b096d318907e324fad102521/src/components/ListGroup.tsx)
+  ![](assets/Pasted%20image%2020240820205704.png)
+- Arrow function, which is calling on `onClick` can optionally has parameter that represent browser event. We can called it `e` or `event`. let's log it on console and see what we can see.
+  ``` tsx 
+  onClick={(e) => console.log(e)}
+  ```
+  [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/26791b6d6b24f8f46652d0efc7446f9e0994d107/src/components/ListGroup.tsx)
+  ![](assets/Pasted%20image%2020240820212659.png)
+- Type of this object is `SyntheticBaseEvent` which wrapped around around browser event object. This is built in class in React. Reason for having this is cross browser compatibility.
+  ![](assets/SmartSelect_20240820_213351_Samsung%20Notes.jpg)
+- Here event handling logic is very simple. If the logic is more complex we don't write the logic middle of the JSX markup. We move the logic in to separate function.
+  ![](assets/SmartSelect_20240820_220352_Samsung%20Notes.jpg)
+- We need to specify the type of the parameter `event`. If we hover the mouse over the `event` parameter in JSX we can see the type. 
+  ![](assets/Pasted%20image%2020240820221311.png)
+- When we pass `event` in inline JSX function TS compiler knows type of the parameter. That's why we don't get any warning earlier
+- But when we declare separate function TS compiler doesn't know type of parameter.
+- Once we put the type annotation we will get properties of event object from IntelliSense.
+  ![](assets/Pasted%20image%2020240820224121.png)
+  ``` tsx 
+  //must be import
+  import { MouseEvent } from "react";
+
+  function ListGroup() {
+    //Event handler
+    //the job is handling the event in this case click events
+    const handleClick=(event:MouseEvent)=>console.log(event)
+
+    return (
+      <>
+        ...
+          <li
+            key={item}
+            className="list-group-item"
+            // don't put () when calling event handler
+            onClick={handleClick}
+          >
+            {item}
+          </li>
+        ...
+      </>
+    );
+  }
+  ```
+  [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/67d074c7df6c9a336f091b4d38f4c90735f33a87/src/components/ListGroup.tsx)
