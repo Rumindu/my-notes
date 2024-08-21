@@ -53,7 +53,6 @@ export default App;
 ```
 [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/tree/6d6653990d7aa0048ffd0b26658f16d1c23b270d)
 - Get list group from [bootstrap documentation](https://getbootstrap.com/docs/5.3/components/list-group/). And replace `class` with `className`. Because `class` is reserved keyword in JS, therefore show a compile error.
-
 ---
 # Fragment
 - In React apps, a component can only return a single element. To return multiple elements, we have 3 solutions
@@ -168,7 +167,6 @@ export default App;
   }
   ```
   [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/tree/8c1218381fe948a32fca11c492639d198db4c9bc)
-
 ---
 # Conditional Rendering
 - To conditionally render content, we can use an `if statement` or a `ternary` operator or `&&` operator.
@@ -369,3 +367,5 @@ export default App;
   }
   ```
   [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/67d074c7df6c9a336f091b4d38f4c90735f33a87/src/components/ListGroup.tsx)
+---
+

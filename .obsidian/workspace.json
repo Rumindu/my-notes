@@ -14,6 +14,18 @@
               "type": "markdown",
               "state": {
                 "file": "React/React-Vite-TS-Mosh/2 Building Components.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3841c036ac763f6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Science.md",
                 "mode": "preview",
                 "source": false
               }
@@ -30,20 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "cdfd4c5585326148",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "To-do-task.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5,
-    "collapsed": true
+    "width": 275.51103591918945
   },
   "right": {
     "id": "d29c399f9b26c6f3",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/React-Vite-TS-Mosh/2 Building Components.md",
+                "file": "Data Science.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/React-Vite-TS-Mosh/2 Building Components.md",
+                "file": "Data Science.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/React-Vite-TS-Mosh/2 Building Components.md"
+                "file": "Data Science.md"
               }
             }
           }
@@ -171,14 +171,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2c1e78ca4dc42e7c",
+  "active": "3841c036ac763f6b",
   "lastOpenFiles": [
-    "React/React-Vite-TS-Mosh/1 Introduction.md",
-    "React/React-Vite-TS-Mosh/2 Building Components.md",
+    "Jobs.md",
+    "Data Science.md",
+    "CV  writing.md",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/7Simple Web Server.md",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/6Reading and writing files in NodeJS Asynchronous way.md",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/5Synchronous vs Asynchronous.md",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/4Reading and writing files in NodeJS Synchronous way.md",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/3Hello World In Node.md",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/2Node.JS REPL.md",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/1Node.JS introduction.md",
+    "Internship/Daily-notes/2024-01-10.md",
+    "Internship/Daily-notes/2024-01-11.md",
+    "Internship/Daily-notes/2024-01-04.md",
+    "Internship/Daily-notes/2023-11-30.md",
+    "Internship/Daily-notes/2024-01-03.md",
+    "Internship/Daily-notes/2024-01-02.md",
+    "Internship/Daily-notes/2023-12-13.md",
+    "Internship/Sahan shopping cart folder structure.md",
+    "Internship/prisma.md",
+    "Internship/notes.md",
+    "Internship/2023-12-13.md",
+    "Internship/2023-12-20.md",
+    "TS/11using-typs.md",
+    "TS/2 Set up Express project in TS.md",
+    "TS/1 setup-ts.md",
+    "Java/48 Polymorphism.md",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240820224121.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240820221311.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240820221227.png",
-    "assets/SmartSelect_20240820_220352_Samsung.md",
     "React/React-Vite-TS-Mosh/assets/SmartSelect_20240820_220352_Samsung Notes.jpg",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240820215914.png",
     "React/React-Vite-TS-Mosh/assets/SmartSelect_20240820_213351_Samsung Notes.jpg",
@@ -186,28 +209,6 @@
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240820205704.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240820195805.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240820192554.png",
-    "To-do-task.md",
-    "React/React component Name export and Default export.md",
-    "Java/49 Abstract Classes & Methods.md",
-    "Java/34 Abstraction.md",
-    "Java/33 Getters and Setters.md",
-    "Java/32 Encapsulation.md",
-    "Java/31 Procedural Programming in java.md",
-    "Java/30 Memory allocation.md",
-    "Java/48 Polymorphism.md",
-    "Java/47 Comparing Objects.md",
-    "Java/46 Upcasting and Downcasting Object.md",
-    "Java/45 Methods Overriding.md",
-    "Java/44 Access Modifiers.md",
-    "Java/37 Method Overloading.md",
-    "Java/36 Constructor.md",
-    "Java/35 Coupling.md",
-    "Java/29 Classes, Objects & this keyWord in java.md",
-    "Java/28 Classes.md",
-    "Java/15 Formatting  Numbers.md",
-    "Java/14 Math class.md",
-    "Java/6 Reference data types.md",
-    "Java/5 Primitive data types.md",
     "Traversy Next.js From Scratch premium-docs/images",
     "Traversy Next.js From Scratch premium-docs/10 -Pagination, Photo Lightbox & Deployment",
     "Traversy Next.js From Scratch premium-docs/09 - Messaging System",
