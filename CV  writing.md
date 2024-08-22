@@ -14,4 +14,4 @@
 - Add project you have done 
 ---
 # How to email a resume
- ![](assets/CV%20sending%20email%20template.pdf)
+ ![Sending email template.pdf](assets/CV%20sending%20email%20template.pdf)
