@@ -20,31 +20,14 @@
             }
           },
           {
-            "id": "3841c036ac763f6b",
+            "id": "480203af2f0259fb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2f5c0b0e776ed19b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/React-Vite-TS-Mosh/1 Introduction.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.51103591918945
+    "width": 275.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "d29c399f9b26c6f3",
@@ -110,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science.md",
+                "file": "React/React-Vite-TS-Mosh/2 Building Components.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science.md",
+                "file": "React/React-Vite-TS-Mosh/2 Building Components.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science.md"
+                "file": "React/React-Vite-TS-Mosh/2 Building Components.md"
               }
             }
           }
@@ -171,44 +155,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3841c036ac763f6b",
+  "active": "2c1e78ca4dc42e7c",
   "lastOpenFiles": [
-    "Jobs.md",
-    "Data Science.md",
-    "CV  writing.md",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/7Simple Web Server.md",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/6Reading and writing files in NodeJS Asynchronous way.md",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/5Synchronous vs Asynchronous.md",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/4Reading and writing files in NodeJS Synchronous way.md",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/3Hello World In Node.md",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/2Node.JS REPL.md",
-    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/1Node.JS introduction.md",
-    "Internship/Daily-notes/2024-01-10.md",
-    "Internship/Daily-notes/2024-01-11.md",
-    "Internship/Daily-notes/2024-01-04.md",
-    "Internship/Daily-notes/2023-11-30.md",
-    "Internship/Daily-notes/2024-01-03.md",
-    "Internship/Daily-notes/2024-01-02.md",
-    "Internship/Daily-notes/2023-12-13.md",
-    "Internship/Sahan shopping cart folder structure.md",
-    "Internship/prisma.md",
-    "Internship/notes.md",
-    "Internship/2023-12-13.md",
-    "Internship/2023-12-20.md",
-    "TS/11using-typs.md",
-    "TS/2 Set up Express project in TS.md",
-    "TS/1 setup-ts.md",
-    "Java/48 Polymorphism.md",
+    "React/React-Vite-TS-Mosh/assets/Pasted image 20240823124209.png",
+    "React/React-Vite-TS-Mosh/().md",
+    "React/React-Vite-TS-Mosh/2 Building Components.md",
+    "Obsidian Tips.md",
+    "Java/27 Introduction OOP.md",
+    "Java/29 Classes, Objects & this keyWord in java.md",
+    "Java/28 Classes.md",
+    "VS code.md",
+    "Tailwind CSS.md",
+    "React/React-Vite-TS-Mosh/assets/SmartSelect_20240820_220352_Samsung Notes.jpg",
+    "React/React-Vite-TS-Mosh/assets/SmartSelect_20240820_213351_Samsung Notes.jpg",
+    "React/React-Vite-TS-Mosh/assets/SmartSelect_20240814_101050_Samsung Notes.jpg",
+    "React/React-Vite-TS-Mosh/assets/SmartSelect_20240814_100710_Samsung Notes.jpg",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240820224121.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240820221311.png",
-    "React/React-Vite-TS-Mosh/assets/Pasted image 20240820221227.png",
-    "React/React-Vite-TS-Mosh/assets/SmartSelect_20240820_220352_Samsung Notes.jpg",
-    "React/React-Vite-TS-Mosh/assets/Pasted image 20240820215914.png",
-    "React/React-Vite-TS-Mosh/assets/SmartSelect_20240820_213351_Samsung Notes.jpg",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240820212659.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240820205704.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240820195805.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240820192554.png",
+    "React/1 Create Reat app in ts.md",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/9Building a simple API.md",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/8Routing.md",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/7Simple Web Server.md",
+    "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/6Reading and writing files in NodeJS Asynchronous way.md",
+    "Java/53 Interfaces.md",
+    "Java/52 Multiple Inheritance.md",
+    "Java/51 Deep Inheritance Hierarchies.md",
+    "Java/45 Methods Overriding.md",
+    "JEST/Jest tutorial by Alex Horea.md",
+    "JEST",
+    "Internship/prisma.md",
+    "Internship/notes.md",
+    "Internship/Daily-notes/2024-01-05.md",
+    "Internship/2023-12-20.md",
+    "Internship/2023-12-13.md",
+    "To-do-task.md",
+    "SLT.md",
     "Traversy Next.js From Scratch premium-docs/images",
     "Traversy Next.js From Scratch premium-docs/10 -Pagination, Photo Lightbox & Deployment",
     "Traversy Next.js From Scratch premium-docs/09 - Messaging System",
@@ -217,7 +202,6 @@
     "Traversy Next.js From Scratch premium-docs/06 - Managing Properties",
     "Traversy Next.js From Scratch premium-docs/05 - Creating Properties",
     "Traversy Next.js From Scratch premium-docs/04 - Next Auth & Google Provider",
-    "Traversy Next.js From Scratch premium-docs/03 - Database, API Routes & Property Display",
-    "Traversy Next.js From Scratch premium-docs/02 - Next.js Fundamentals & Project Start"
+    "Traversy Next.js From Scratch premium-docs/03 - Database, API Routes & Property Display"
   ]
 }
