@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.51103591918945,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -157,6 +157,7 @@
   },
   "active": "2c1e78ca4dc42e7c",
   "lastOpenFiles": [
+    "React/React-Vite-TS-Mosh/assets/Pasted image 20240824120411.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240823124209.png",
     "React/React-Vite-TS-Mosh/().md",
     "React/React-Vite-TS-Mosh/2 Building Components.md",
@@ -175,7 +176,6 @@
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240820212659.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240820205704.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240820195805.png",
-    "React/React-Vite-TS-Mosh/assets/Pasted image 20240820192554.png",
     "React/1 Create Reat app in ts.md",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/9Building a simple API.md",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/8Routing.md",
