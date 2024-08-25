@@ -577,6 +577,7 @@ export default App;
     ```
 - In `ListGroup` we destructor the prop and add this function to relevant event handler.
   ``` tsx 
+  //destructing props
   function ListGroup({onSelectItem}:Props) {
     return (
       ...
@@ -594,3 +595,24 @@ export default App;
   }
   ```
   [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/9d923068897d8249b4d12e8f0849469272c0c73a/src/components/ListGroup.tsx)
+---
+
+# State vs Props
+
+| Props                                   | State                               |
+| --------------------------------------- | ----------------------------------- |
+| Input or argument pass to the component | Component's Internal data managment |
+| Similar to function's arguments         | Similar to local variable           |
+| `*`Treat as immutable. (unchange)       | Can change data over time           |
+- `*`As an example in above code `heading` is pass as prop to the `ListGroup` component. But we aren't going to change the value of heading inside the `ListGroup` component. We can but it is consider as-anti pattern  
+- Any time both Prop or State was changed React will re-render the component and update the DOM accordingly.
+---
+
+# Passing Children
+- Sometimes we want to pass children to a component. like `<div> Hello </div>`. We need to create our component like this `<div>` element,
+- First let's create an `Alert` component and pass the Alert message as a prop from the App component. [like](#Passing%20Data%20via%20Props)
+  ``` tsx 
+  <Alert message="Danger!!!!" />
+  ```
+  [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/tree/4bec2138e69f4fe9dd498bc6aa790a96f92e3281)
+- 

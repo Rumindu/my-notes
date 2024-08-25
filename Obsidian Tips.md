@@ -8,7 +8,7 @@
 	- Obsidian supports 2 links formats
 		- Wikilink: `[[Three laws of motion]]`
 		- Markdown: `[Three laws of motion](Three%20laws%20of%20motion.md)`
-	- Better to use Markdown because apart from obsidian, markdown editors also support those links. Here `%20` use for represent a space.
+	- Better to use Markdown because apart from obsidian, markdown editors also support those links. Here ==`%20`== use for ==represent a space.==
 - [How to link to a header in Markdown](https://blog.markdowntools.com/posts/how-to-link-to-a-header-in-markdown#:~:text=In%20Markdown%2C%20you%20can%20create,the%20text%20of%20the%20heading.&text=To%20link%20to%20a%20header%2C%20you%20need%20to%20use%20the,id%E2%80%9D%20attribute%20of%20the%20heading.)
 
 ## Insert project folder structure

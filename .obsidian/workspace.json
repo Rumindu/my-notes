@@ -14,7 +14,19 @@
               "type": "markdown",
               "state": {
                 "file": "React/React-Vite-TS-Mosh/2 Building Components.md",
-                "mode": "preview",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75dea6e32cacc50e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian Tips.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -27,7 +39,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d29c399f9b26c6f3",
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/React-Vite-TS-Mosh/2 Building Components.md",
+                "file": "Obsidian Tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/React-Vite-TS-Mosh/2 Building Components.md",
+                "file": "Obsidian Tips.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/React-Vite-TS-Mosh/2 Building Components.md"
+                "file": "Obsidian Tips.md"
               }
             }
           }
@@ -155,13 +167,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2c1e78ca4dc42e7c",
+  "active": "75dea6e32cacc50e",
   "lastOpenFiles": [
+    "React/React-Vite-TS-Mosh/2 Building Components.md",
+    "Obsidian Tips.md",
+    "Java/whole numbers.md",
+    "Java/11 Arithmetic Expression.md",
+    "Java/35 Coupling.md",
+    "Java/42 The Object class.md",
+    "Java/46 Upcasting and Downcasting Object.md",
+    "HTML and CSS/1CSS-Selectors.md",
+    "mysql.md",
+    "Prizma ORM/Traversy YT.md",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240824120411.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240823124209.png",
     "React/React-Vite-TS-Mosh/().md",
-    "React/React-Vite-TS-Mosh/2 Building Components.md",
-    "Obsidian Tips.md",
     "Java/27 Introduction OOP.md",
     "Java/29 Classes, Objects & this keyWord in java.md",
     "Java/28 Classes.md",
@@ -175,7 +195,6 @@
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240820221311.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240820212659.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240820205704.png",
-    "React/React-Vite-TS-Mosh/assets/Pasted image 20240820195805.png",
     "React/1 Create Reat app in ts.md",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/9Building a simple API.md",
     "Node/Node.js, Express, MongoDB & More The Complete Bootcamp 2023 by Jonas Schmedtman/8Routing.md",
@@ -187,13 +206,6 @@
     "Java/45 Methods Overriding.md",
     "JEST/Jest tutorial by Alex Horea.md",
     "JEST",
-    "Internship/prisma.md",
-    "Internship/notes.md",
-    "Internship/Daily-notes/2024-01-05.md",
-    "Internship/2023-12-20.md",
-    "Internship/2023-12-13.md",
-    "To-do-task.md",
-    "SLT.md",
     "Traversy Next.js From Scratch premium-docs/images",
     "Traversy Next.js From Scratch premium-docs/10 -Pagination, Photo Lightbox & Deployment",
     "Traversy Next.js From Scratch premium-docs/09 - Messaging System",
