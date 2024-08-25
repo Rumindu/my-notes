@@ -549,4 +549,48 @@ export default App;
         ...
   ```
   [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/466e7851a438300e7b895560ea15c05f55868274/src/components/ListGroup.tsx)
+- So using props we can pass data to the component.
 ---
+
+# Passing Functions via component.
+- If we want to set something happen when list's item is selected like redirect to different page or get an alert. But it may be different from one application to another. Therefore we don't define this function inside the relevant component to preserve reusability. The function will be pass as a prop to the component. Component contains only just a signature of this function.
+- Define ==signature of function== inside the props interface.
+  ``` tsx 
+  //ListGroup.tsx
+  interface Props {
+    ...
+    // define method signature only
+    onSelectItem: (item:string)=>void
+  }
+  ```
+  [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/9d923068897d8249b4d12e8f0849469272c0c73a/src/components/ListGroup.tsx)
+  - Naming convention = on + `TypeOfEvent` here its `onSelectItem`
+  - type of this `onSelectItem` property is a function which has a parameter type string and return void
+- Now in `App` component we need to pass another prop to `ListGroup`
+  ``` tsx 
+  <ListGroup items={items} heading="Cities" onSelectItem={handleSelectItem}/>
+  ```
+  [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/9d923068897d8249b4d12e8f0849469272c0c73a/src/App.tsx)
+  - Here as a value for prop of `onSelectItem` we can pass either inline function or separate function. Here I pass separate function called `handleSelectItem`.
+    ``` tsx 
+    const handleSelectItem = (item: string) => console.log(item);
+    ```
+- In `ListGroup` we destructor the prop and add this function to relevant event handler.
+  ``` tsx 
+  function ListGroup({onSelectItem}:Props) {
+    return (
+      ...
+        <li
+          key={item}
+          className= "list-group-item"
+          onClick={() => {
+            onSelectItem(item)
+          }}
+        >
+          {item}
+        </li>
+      ...
+    );
+  }
+  ```
+  [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/9d923068897d8249b4d12e8f0849469272c0c73a/src/components/ListGroup.tsx)
