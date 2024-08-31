@@ -9,7 +9,7 @@
   ![](assets/Pasted%20image%2020240809142940.png)
   
 
-| Interface                                                    | Classes            |
-| ------------------------------------------------------------ | ------------------ |
-| What should be done<br>ex- <br>Data compression<br>Searching | How should be done |
+  | Interface                                                    | Classes            |
+  | ------------------------------------------------------------ | ------------------ |
+  | What should be done<br>ex- <br>Data compression<br>Searching | How should be done |
 - ex- Building an application for calculating taxes. Each year tax rules might change, but every year you need to able to calculate tax. So interface specifies what should be done, which is calculating taxes and different classes will provide different ways for calculating tax each year. So we can swap one implementation with another.

@@ -1,3 +1,5 @@
+[Short note by mosh](assets/Building%20Components(Summary).pdf)
+
 # Add Bootstrap to project
 - Install bootstrap `npm i bootstrap@5.2.3`
 - Remove `index.css` from the `src` folder and import bootstrap by removing `import './index.css'` and add `import 'bootstrap/dist/css/bootstrap.css'` at `main.tsx`.
@@ -615,4 +617,42 @@ export default App;
   <Alert message="Danger!!!!" />
   ```
   [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/tree/4bec2138e69f4fe9dd498bc6aa790a96f92e3281)
-- 
+- This is way of passing `message` to `Alert` component is kind of ugly. Wouldn't that be nicer if we could pass text as child to this component like `<Alert>Danger!!!</Alert>`
+- To do this we need to add a special prop called `children` that support all component to the Props Interface.
+  ``` tsx
+  //Alert.tsx 
+  interface Props{
+    //`message: String` is replaced by `children: String`
+    // type ReactNode also work
+    children: String
+  }
+  const Alert = ({children}:Props) => {
+    return (
+      <div className="alert alert-primary">{children}</div>
+    )
+  }
+  ```
+
+  ``` tsx 
+  //App.tsx
+  function App() {
+    return (
+      <div>
+        <Alert>Hello world</Alert>
+      </div>
+    );
+  }
+  ```
+  [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/tree/9e0b12cbc7d6b516f5d7a4d00fe3ef75eff4636b/src)
+- we can also pass html content like `<Alert><span>Danger!!!</span></Alert>`instead of a simple string.
+- If we are going to implement this one in above code we get an error
+  ![](assets/Pasted%20image%2020240825143617.png)
+- Because in Interface Props we define type of children as `string`. But here we aren't passing a string we are passing more complex structure. To solve that we need to change type children to `ReactNode`.
+  ``` tsx 
+  // Alert.tsx
+  interface Props {
+  //change type of children from string to ReactNode
+  children: ReactNode;
+  }
+  ```
+  [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/tree/3ae4f7c595c02953fccafd9bba7ba0bd691bac8d/src)
