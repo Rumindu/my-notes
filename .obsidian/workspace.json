@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "React/React-Vite-TS-Mosh/2 Building Components.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -147,10 +147,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2c1e78ca4dc42e7c",
+  "active": "e60d7afd128d8e99",
   "lastOpenFiles": [
-    "React/React-Vite-TS-Mosh/assets/Building Components(Summary).pdf",
+    "React/React-Vite-TS-Mosh/assets/Pasted image 20240901193820.png",
+    "React/React-Vite-TS-Mosh/assets/alert-gif.gif",
+    "React/React-Vite-TS-Mosh/assets/download.gif",
+    "React/React-Vite-TS-Mosh/assets/Pasted image 20240901114024.png",
+    "Java/22 Loops.md",
+    "Springboot-PSR.md",
     "React/React-Vite-TS-Mosh/2 Building Components.md",
+    "React/React-Vite-TS-Mosh/assets/Pasted image 20240831091332.png",
+    "React/React-Vite-TS-Mosh/assets/Pasted image 20240831090922.png",
+    "React/React-Vite-TS-Mosh/assets/Building Components(Summary).pdf",
     "React/React by Jonas Schmedtman notes/2 Essential js for React_230803_001649.pdf",
     "React/React-Vite-TS-Mosh/3 Styling Components.md",
     "React/React component Name export and Default export.md",
@@ -173,20 +181,13 @@
     "Auth0.md",
     "Internship/Sahan shopping cart folder structure.md",
     "Internship/prisma.md",
-    "Springboot-PSR.md",
     "Obsidian Tips.md",
     "mysql.md",
     "Mailtrap.md",
-    "CV  writing.md",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240825143617.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240824120411.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240823124209.png",
     "React/React-Vite-TS-Mosh/assets/SmartSelect_20240820_220352_Samsung Notes.jpg",
-    "React/React-Vite-TS-Mosh/assets/SmartSelect_20240820_213351_Samsung Notes.jpg",
-    "React/React-Vite-TS-Mosh/assets/SmartSelect_20240814_101050_Samsung Notes.jpg",
-    "React/React-Vite-TS-Mosh/assets/SmartSelect_20240814_100710_Samsung Notes.jpg",
-    "React/React-Vite-TS-Mosh/assets/Pasted image 20240820224121.png",
-    "React/React-Vite-TS-Mosh/assets/Pasted image 20240820221311.png",
     "JEST",
     "Traversy Next.js From Scratch premium-docs/images",
     "Traversy Next.js From Scratch premium-docs/10 -Pagination, Photo Lightbox & Deployment",

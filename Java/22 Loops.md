@@ -19,7 +19,7 @@ public class Main {
     public static void main(String[] args) {
         int i=0;
         //once the condition became false, the loop stops
-        //or upto/until condtion is true, the loop will run
+        //or The loop will run upto/until the condition becomes false.
         //If u confuse refer the below example
         while (i<5){
             System.out.println("Hello World");
