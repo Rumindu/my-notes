@@ -18,5 +18,6 @@
 	- for that need to use laptop keyboard
 	- on number pad
 	- while pressing the `alt` enter the suitable code using ***only numpad digit***
+    - `├` 195 [Alt Codes](https://www.freecodecamp.org/news/alt-codes-special-characters-keyboard-symbols-windows-list/)
 	- Then release the `alt` key
 - Get tree view folders +files `tree /f`
