@@ -65,19 +65,20 @@ export default App;
 ```
 [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/tree/a8f9416457d0a434d18e30c45b5b4051e6fe41ee)
 
-- Create dynamic content using JSX
+# Create dynamic content using JSX
   ``` tsx 
   //Message.tsx
   function Message(){
     const name ='Rumindu';
     if (name)
+      // dynamic content within { }
       return <h1>Hello {name}</h1>
     return <h1>Hello world</h1>
   }
 
   export default Message
   ```
-[Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/tree/5c3b77f3321d0406b75b00367e2a8388fad0a371)
+[Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/tree/5c3b77f3321d0406b75b00367e2a8388fad0a371/src)
 
 # How React Works
 - When our application starts, React takes a tree of components and builds a JavaScript data structure called the virtual DOM. This virtual DOM is different from the actual DOM in the browser. It’s a lightweight, in-memory representation of our component tree.

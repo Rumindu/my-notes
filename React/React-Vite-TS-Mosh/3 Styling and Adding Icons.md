@@ -52,7 +52,50 @@ export default ListGroup;
 	}
  	```
  	[Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/tree/40ca2418b59b6876e732a86520fb644c04e297af/src)
-
+---
 
 # CSS Modules
--  In vanilla CSS, we may encounter conflicts if the same CSS classes are defined in multiple files
+- In vanilla CSS, we may encounter clashes if the same CSS classes are defined in multiple files. As an example we declared another list-group class on `App.css` and importing it to `App.tsx` then set background to Blue. Apart from this in `ListGroup.css` we set background to Green. 
+	![](assets/Pasted%20image%2020240907131901.png)
+	[Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/tree/c7866963bc00d35790a79c19d243d664bedd92e4/src)
+- Here we can see a CSS clash. This is the problem CSS modules try to solve.
+- A CSS module is a CSS file in, which all class names are scoped locally, just like a JavaScript module. So they allow us to use the same CSS class name in different files, without worrying about name clashes.
+- First we need to rename file to convert existing CSS file to CSS module. Format is `"FileName".modules.css`
+  - ex- `ListGroup.css ---> ListGroup.modules.css`
+- Then need to update style sheet reference in the `ListGroup.tsx`
+	- In plain CSS - `import './ListGroup.css'`
+	- In CSS modules - `import styles from './ListGroup.modules.css'`
+- Referencing CSS module is just like importing component/object.
+- Now `styles` is just a regular JS object that has all CSS classes defined in `ListGroup.modules.css`. Therefore every CSS class defined here is going to be a part of `styles` object.
+- Apply CSS class name within `{ }` instead of `" "` like [rendering dynamic content](1%20Introduction#Create%20dynamic%20content%20using%20JSX). 
+  ![](assets/Pasted%20image%2020240908145939.png)
+- Now we are getting compiler error due to having hyphen(`-`) in CSS class name. In JS `-` isn't valid property name therefore we couldn't access this property using using dot(`.`) notation instead we have to use square bracket.
+	``` tsx 
+	//ListGroup.tsx
+	<ul className={styles['list-group']}>
+	```
+	[Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/tree/ba54fe8bfb1e490f37a1e838df8464a09fcf7672/src/components/ListGroup)
+- So now we couldn't see any CSS clashes. How does it work?
+  ![](assets/Pasted%20image%2020240908153129.png)
+  - So here we couldn't see `list-group` class name. It's encoded. As part of bundling application Vite takes all the CSS modules and create unique class. So it will prevent CSS clashing.
+- CSS modules with this `[ ]` is a little bit ugly. So usually when using CSS modules, prefer to use **Camal** notation. So instead of using `-` we use the Camal notation.
+  ``` css 
+	/*ListGroup.module.css*/
+	.listGroup{
+		list-style: none;
+		padding: 0%;
+	}
+	```
+- With that we can access this CSS class just like a regular JS object.
+  ``` tsx 
+	//ListGroup.tsx  
+	<ul className={styles.listGroup}>
+	```
+	[Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/2c40597b4f6d89b83dc8a60513449b5e5543fc2d/src/components/ListGroup/ListGroup.tsx)
+- what if we want to add multiple CSS classes to the element
+  ``` tsx 
+	//ListGroup.tsx 
+	<ul className={[styles.listGroup,styles.container].join(' ')}>
+	```
+- why `join`
+  ![](assets/Pasted%20image%2020240908215548.png)
