@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/React-Vite-TS-Mosh/3 Styling and Adding Icons.md",
+                "file": "TS/1 setup-ts.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "power",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,12 +90,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 286.5
   },
   "right": {
     "id": "d29c399f9b26c6f3",
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/React-Vite-TS-Mosh/3 Styling and Adding Icons.md",
+                "file": "TS/1 setup-ts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/React-Vite-TS-Mosh/3 Styling and Adding Icons.md",
+                "file": "TS/1 setup-ts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/React-Vite-TS-Mosh/3 Styling and Adding Icons.md"
+                "file": "TS/1 setup-ts.md"
               }
             }
           }
@@ -174,12 +174,17 @@
   },
   "active": "7779402a0dfd1015",
   "lastOpenFiles": [
+    "Auth0.md",
+    "React/React-Vite-TS-Mosh/2 Building Components.md",
+    "Springboot-PSR.md",
+    "Tailwind CSS.md",
+    "Docker/3 Linux.md",
+    "Docker/2 Installing Docker.md",
+    "React/React-Vite-TS-Mosh/3 Styling and Adding Icons.md",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240908215548.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240908153129.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240908145939.png",
     "React/React-Vite-TS-Mosh/1 Introduction.md",
-    "React/React-Vite-TS-Mosh/3 Styling and Adding Icons.md",
-    "React/React-Vite-TS-Mosh/2 Building Components.md",
     "Obsidian Tips.md",
     "git/Git-Stashing.pdf",
     "git/Github.pdf",
@@ -192,7 +197,6 @@
     "React/React-Vite-TS-Mosh/assets/download.gif",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240901114024.png",
     "Java/22 Loops.md",
-    "Springboot-PSR.md",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240831091332.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240831090922.png",
     "React/React-Vite-TS-Mosh/assets/Building Components(Summary).pdf",
@@ -203,7 +207,6 @@
     "React/React-Redux by Stephen Grider/1JSX.md",
     "React/React by Jonas Schmedtman notes/12 setting up react development environment/12react.md",
     "React/React by Jonas Schmedtman notes/From 14 to/14React.md",
-    "React/React by Jonas Schmedtman notes/From 14 to/Screenshot 2023-08-09 103537.png",
     "React/React by Jonas Schmedtman notes/From 14 to/Untitled.md",
     "React/React by Jonas Schmedtman notes/reactState by academind.md",
     "React/React by Jonas Schmedtman notes/1 Setup the environment _230729_132955.pdf",
@@ -214,9 +217,6 @@
     "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/35theoryPartOfComponents.md",
     "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/34someTipsToIdentifyBugs.md",
     "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/33Rendering the Root Component and Strict Mode.md",
-    "Auth0.md",
-    "Internship/Sahan shopping cart folder structure.md",
-    "Internship/prisma.md",
     "JEST",
     "Traversy Next.js From Scratch premium-docs/images",
     "Traversy Next.js From Scratch premium-docs/10 -Pagination, Photo Lightbox & Deployment"

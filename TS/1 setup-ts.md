@@ -17,7 +17,7 @@
 ### 3.  Install ts-node globally. (not much recommend)
 1. In the bash terminal `npm i -g ts-node` to install ts node globally
 2. Then `ts-node index.ts`
-- You can find the way to run powershell once u put error message on copilot chat . hint `Set-ExecutionPolicy Restricted` and `Set-ExecutionPolicy RemoteSigned`
+- You can find the way to run powershell once u put error message on copilot chat . hint `Set-ExecutionPolicy Restricted` to `Set-ExecutionPolicy RemoteSigned` in PowerShell with admin
 
 
 ---

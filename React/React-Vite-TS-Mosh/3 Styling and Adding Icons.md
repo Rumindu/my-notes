@@ -95,7 +95,8 @@ export default ListGroup;
 - what if we want to add multiple CSS classes to the element
   ``` tsx 
 	//ListGroup.tsx 
-	<ul className={[styles.listGroup,styles.container].join(' ')}>
+	<ul className={[styles.listGroup, styles.container].join(" ")}>
 	```
-- why `join`
+	[Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/tree/eb831acb2dffc5b3fc4064c17f7b6b490c93e247/src/components/ListGroup)
+- why `join` ?
   ![](assets/Pasted%20image%2020240908215548.png)
