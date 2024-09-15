@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9d71a412052b1f2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/React-Vite-TS-Mosh/1 Introduction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ce17e3c659cf7bd1",
             "type": "leaf",
             "state": {
@@ -42,9 +30,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3289c6db8c416a0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/React-Vite-TS-Mosh/2 Building Components.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7c283dd552da84c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/React-Vite-TS-Mosh/2 Building Components.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "92581c221c15291f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/React-Vite-TS-Mosh/1 Introduction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0ec57eb54f9a013f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/React-Vite-TS-Mosh/3 Styling and Adding Icons.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -73,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "power",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +126,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TS/1 setup-ts.md",
+                "file": "React/React-Vite-TS-Mosh/1 Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TS/1 setup-ts.md",
+                "file": "React/React-Vite-TS-Mosh/1 Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TS/1 setup-ts.md"
+                "file": "React/React-Vite-TS-Mosh/1 Introduction.md"
               }
             }
           }
@@ -172,19 +207,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7779402a0dfd1015",
+  "active": "92581c221c15291f",
   "lastOpenFiles": [
-    "Auth0.md",
+    "NEXT.js/NEXT.js.md",
+    "NEXT.js/1 NEXT.js fundamentals.md",
     "React/React-Vite-TS-Mosh/2 Building Components.md",
+    "NEXT.js",
+    "NEXT.js.md",
+    "React/React-Vite-TS-Mosh/3 Styling and Adding Icons.md",
+    "TS/1 setup-ts.md",
+    "mysql.md",
+    "React/React-Vite-TS-Mosh/1 Introduction.md",
+    "Auth0.md",
     "Springboot-PSR.md",
     "Tailwind CSS.md",
     "Docker/3 Linux.md",
     "Docker/2 Installing Docker.md",
-    "React/React-Vite-TS-Mosh/3 Styling and Adding Icons.md",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240908215548.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240908153129.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240908145939.png",
-    "React/React-Vite-TS-Mosh/1 Introduction.md",
     "Obsidian Tips.md",
     "git/Git-Stashing.pdf",
     "git/Github.pdf",
@@ -212,13 +253,7 @@
     "React/React by Jonas Schmedtman notes/1 Setup the environment _230729_132955.pdf",
     "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/42props.md",
     "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/38createMoreComponent.md",
-    "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/37theoryJSX.md",
-    "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/36creatingAndReusingAComponent.md",
-    "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/35theoryPartOfComponents.md",
-    "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/34someTipsToIdentifyBugs.md",
-    "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/33Rendering the Root Component and Strict Mode.md",
     "JEST",
-    "Traversy Next.js From Scratch premium-docs/images",
-    "Traversy Next.js From Scratch premium-docs/10 -Pagination, Photo Lightbox & Deployment"
+    "Traversy Next.js From Scratch premium-docs/images"
   ]
 }
