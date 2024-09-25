@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "02bd4d998ac6a712",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NEXT.js/3 Routing and Navigation.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3d84bbcce6bb8b00",
             "type": "leaf",
             "state": {
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NEXT.js/2 Styling.md",
+                "file": "NEXT.js/3 Routing and Navigation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NEXT.js/2 Styling.md",
+                "file": "NEXT.js/3 Routing and Navigation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NEXT.js/2 Styling.md"
+                "file": "NEXT.js/3 Routing and Navigation.md"
               }
             }
           }
@@ -195,14 +207,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7ef4f999d25be13f",
+  "active": "02bd4d998ac6a712",
   "lastOpenFiles": [
+    "NEXT.js/assets/Pasted image 20240925201248.png",
+    "NEXT.js/2 Styling.md",
+    "NEXT.js/1 NEXT.js fundamentals.md",
+    "NEXT.js/3 Routing and Navigation.md",
     "NEXT.js/assets/Pasted image 20240925062432.png",
     "NEXT.js/assets/Pasted image 20240925062409.png",
     "NEXT.js/assets/Pasted image 20240925060622.png",
     "NEXT.js/assets/Pasted image 20240925041642.png",
-    "NEXT.js/1 NEXT.js fundamentals.md",
-    "NEXT.js/2 Styling.md",
     "NEXT.js/Learn NEXT.js official learning project.md",
     "cookies.md",
     "Obsidian Tips.md",
@@ -228,7 +242,6 @@
     "Docker/2 Installing Docker.md",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240908215548.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20240908153129.png",
-    "React/React-Vite-TS-Mosh/assets/Pasted image 20240908145939.png",
     "git/Git-Stashing.pdf",
     "git/Github.pdf",
     "git/Git.pdf",
@@ -240,7 +253,6 @@
     "React/React component Name export and Default export.md",
     "React/React boostrap.md",
     "React/1 Create Reat app in ts.md",
-    "React/React-Redux by Stephen Grider/1JSX.md",
     "React/React by Jonas Schmedtman notes/1 Setup the environment _230729_132955.pdf",
     "JEST"
   ]
