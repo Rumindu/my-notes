@@ -29,7 +29,7 @@
 - From @auth0/auth0-react library we need to get `<Auth0Provider>` component and need to pass values for below props
 	- Domain == tenant name
 	- ClientID -> From the settings->Basic information
-	- audience -> From API settings
+	- audience == secret -> From API settings(Back-ends auth0 configuration)
 	- redirect uri -> Callback url
 -  We can appear login page as a pop up `{loginWithPopup}`or redirect to the another page `{loginWithRedirect}`
 
