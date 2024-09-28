@@ -1,10 +1,3 @@
-
- In this section, we'll dive deeper into routing and navigation. You will learn 
- - how to define Dynamic routes 
- - access route and query stream parameters, 
- - create layouts 
- - show, loading user interfaces
- - handle errors.
 # Routing Overview
 
 - In Next.js, routing is built upon the file system, simplifying the process of defining routes. Each folder inside the `app` directory represents a URL segment. For instance, creating a folder `users/new` will generate the URL `/users/new`. To expose a route publicly, a special file called `page.tsx` must be placed inside that folder. This `page` file renders the public-facing content.
@@ -261,7 +254,7 @@
       );
     };
     ```
-    [source code]https://github.com/Rumindu/next-app/blob/70222e9353e95933a5301bd2a1c02d5cbe664c5a/app/users/UserTable.tsx)
+    [source code](https://github.com/Rumindu/next-app/blob/70222e9353e95933a5301bd2a1c02d5cbe664c5a/app/users/UserTable.tsx)
 
 ---
 
@@ -403,7 +396,7 @@
 
 #### 2. **Pre-fetching Links in the Viewport**
 
-- Next.js **automatically pre-fetches** links that are visible in the viewport. This happens in the production environment.
+- Next.js **automatically pre-fetches** links that are visible in the viewport. This happens only in **the production environment**.
 - By doing so, Next.js reduces loading time when a user clicks on a link by **loading parts of the next page in advance**. This improves user experience as pages are rendered faster.
 - To observe this, you can run the application in **production mode** using: `npm run build npm start`
     
@@ -545,3 +538,149 @@ Programmatic navigation is essential when working with dynamic forms or actions 
   
     - Visit [DaisyUI](https://daisyui.com/components/loading/) for more components like loading dots, rings, or balls.
 ---
+
+# Handling "Not Found" Errors in Next.js
+
+In Next.js, you can customize how 404 pages (Not Found errors) are displayed to users, offering both general and specific custom error pages.
+
+1. **Default 404 Page**:
+    
+   - When a user navigates to a page that doesn't exist, Next.js serves a **default 404 page**. However, you can create a custom version of this page.
+
+2. **Creating a Custom 404 Page**:
+    
+   - To customize the 404 page for your entire app, add a file called `not-found.tsx` in the `app/` folder.
+   - In this file, export a React component that will render a custom message when a non-existent page is visited.
+    
+      ``` tsx 
+      // app/not-found.tsx
+      const NotFoundPage = () => {
+        // reason for having "doesn&apos;t" instead of "doesn't" describe at below S.S. s
+        return <div>The requested page doesn&apos;t exist.</div>;
+      };
+
+      export default NotFoundPage;
+      ```
+      [Source code](https://github.com/Rumindu/next-app/blob/94cc644df6a1a53f8bc2f5df49b882846a2efc70/app/not-found.tsx)
+      ![](assets/Pasted%20image%2020240927091259.png)
+      
+      ![](assets/Pasted%20image%2020240927091409.png)
+    
+3. **Customizing Not Found Pages for Specific Routes**:
+    
+    - You can also create **custom 404 pages for specific routes** or sections of your app.
+    - For example, in a user detail page (`/users/[id]`), you might want a more specific error message if the user ID doesn't exist.
+    - In your route folder (e.g., `/users/[id]`), add another `not-found.tsx` file, which will handle "Not Found" errors for that specific route.
+    
+      ``` tsx 
+      // app/user/[id]/not-found.tsx
+      const UserNotFoundPage = () => {
+        return (
+          <div>This user doesn&apos;t exist.</div>
+        )
+      }
+      ```
+      [Source code](https://github.com/Rumindu/next-app/blob/94cc644df6a1a53f8bc2f5df49b882846a2efc70/app/users/%5Bid%5D/not-found.tsx)
+    
+4. **Programmatically Triggering 404 Errors**:
+    
+    - You can trigger a 404 error in specific situations by calling the **`notFound()` function** from the `next/navigation` package.
+    - For example, if you're fetching a user by ID and the ID is greater than 10, you can trigger a 404:
+    
+      ```tsx
+      // app/users/[id]/page.tsx
+      import { notFound } from "next/navigation";
+
+      interface Props {
+        params: { id: number };
+      }
+
+      const UserDetailPage = ({ params: { id } }: Props) => {
+        if (id > 10) notFound();
+        return <div>UserDetailPage {id}</div>;
+      };
+      ```
+      [source code](https://github.com/Rumindu/next-app/blob/94cc644df6a1a53f8bc2f5df49b882846a2efc70/app/users/%5Bid%5D/page.tsx)
+---
+
+# Handling Unexpected Errors in Next.js
+
+- Next.js provides built-in mechanisms to handle unexpected errors and create custom error pages to enhance user experience. Here’s how you can handle errors effectively in your Next.js application:
+- To ==simulate an unexpected error, you can introduce an invalid endpoint== or similar issues in your component. For example, in the user table component, you can add an invalid endpoint to trigger an error.
+    
+    
+1. **Default Development vs. Production Error Pages**:
+    
+   - In **development mode**, Next.js shows detailed error messages that help you debug the issue. You’ll see where the error occurred along with the stack trace.
+   - In **production mode**, Next.js displays a generic error page, which can be customized.
+  
+2. **Creating a Custom Error Page**:
+    
+   - To create a custom error page, add an `error.tsx` file in the `app/` folder.
+   - In this file, export a React component that will render when an error occurs. It’s important to make this a **client component** to handle user interactions like retrying.
+      ``` tsx
+      // reason for `error` is being client component is explained in point 7
+      "use client";
+
+      const ErrorPage = () => {
+        return <div>An unexpected error has occurred.</div>;
+      };
+      ```
+      [source code](https://github.com/Rumindu/next-app/blob/987bf65be5d0336902a5ea7276f4af0a01b69357/app/error.tsx)
+    
+3. **Custom Error Pages for Specific Routes**:
+    
+   - You can create custom error pages for specific sections of your app. For example, inside the `users/` folder, you can add an `error.tsx` file to handle errors specific to user-related routes.
+   - In most cases, having a global error page is sufficient for catching all unexpected errors in the application.
+  
+4. **Handling Errors in the Root Layout**:
+    
+   - Errors that occur in the **root layout** cannot be caught by regular error pages. To handle errors in the layout, create a `global-error.tsx` file in the `app/` folder, which will act as a global error handler.
+
+5. **Accessing the Error Object**:
+    
+   - Next.js automatically passes the error object to the error component. You can log this error to an external service like **Sentry** for persistence and debugging.
+   - Use the `error` prop to access the error details
+      ``` tsx 
+      "use client";
+
+      interface Props {
+        error: Error;
+      }
+      const ErrorPage = ({ error }: Props) => {
+        console.log("Error", error);
+        return <div>An unexpected error has occurred.</div>;
+      };
+      ```
+      [source code](https://github.com/Rumindu/next-app/blob/86a9388a6c58e4284a42c2e71a583881793f5b87/app/error.tsx)
+  
+6. **Retrying After an Error**:
+    
+   - Sometimes errors may be temporary, so it’s useful to provide a retry option. The `reset` function passed to the error component allows you to reset the error state and attempt the operation again.
+   - Example of a retry button:
+      ``` tsx 
+      interface Props {
+        error: Error;
+        reset: () => void;
+      }
+      const ErrorPage = ({ error, reset }: Props) => {
+        console.log("Error", error);
+        return (
+          <>
+            <div>An unexpected error has occurred.</div>
+             {/*reason for `error` is being client component*/}
+            <button className="btn" onClick={() => reset()}>
+              Retry
+            </button>
+          </>
+        );
+      };
+      ```
+        [source code](https://github.com/Rumindu/next-app/blob/2176ec9c2ee86fab4cf0e85b6f1ea771b5ba7d97/app/error.tsx)
+7. **Caution with Retrying**:
+    
+   - Be careful when allowing retries, as it may lead to repetitive errors. Use the retry mechanism selectively in your app, where it makes sense to give users the option to retry.
+
+8. **Logging Errors**:
+    
+   - It is a best practice to log errors to a service like **Sentry** or a similar logging platform. This way, you can track, analyze, and fix errors more efficiently in production environments.
