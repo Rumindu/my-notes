@@ -47,6 +47,7 @@
       ``` tsx
       // app/users/[id]/page.tsx
       // ... 
+	    // first de-structure params then de-structure it more and grab id
       const UserDetailPage = ({ params: { id } }: Props) => {
         return <div>UserDetailPage {id}</div>;
       };

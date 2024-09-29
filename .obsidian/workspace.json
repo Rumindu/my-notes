@@ -38,25 +38,25 @@
               "type": "markdown",
               "state": {
                 "file": "NEXT.js/3 Routing and Navigation.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "f2f735a5df7eb7ca",
+            "id": "6f6f40c193400753",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/React component Name export and Default export.md",
-                "mode": "preview",
+                "file": "NEXT.js/4 Building APIs.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NEXT.js/3 Routing and Navigation.md",
+                "file": "NEXT.js/4 Building APIs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NEXT.js/3 Routing and Navigation.md",
+                "file": "NEXT.js/4 Building APIs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NEXT.js/3 Routing and Navigation.md"
+                "file": "NEXT.js/4 Building APIs.md"
               }
             }
           }
@@ -183,14 +183,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d84bbcce6bb8b00",
+  "active": "6f6f40c193400753",
   "lastOpenFiles": [
-    "React/React component Name export and Default export.md",
-    "React/React boostrap.md",
     "NEXT.js/3 Routing and Navigation.md",
+    "NEXT.js/4 Building APIs.md",
+    "React/React component Name export and Default export.md",
+    "NEXT.js/1 NEXT.js fundamentals.md",
+    "React/React boostrap.md",
     "NEXT.js/assets/Pasted image 20240927091409.png",
     "NEXT.js/assets/Pasted image 20240927091259.png",
-    "NEXT.js/1 NEXT.js fundamentals.md",
     "NEXT.js/assets/Pasted image 20240927055013.png",
     "NEXT.js/assets/Pasted image 20240926202036.png",
     "NEXT.js/image.png",
