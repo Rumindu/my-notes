@@ -432,3 +432,103 @@ This note covers how to validate request bodies using the Zod library in a Next.
         }
       ]
       ```
+---
+
+# Exercise: Building a Products API in Next.js
+
+1. **Goal**
+
+   - Create an API at `/api/products` that returns a list of products (each with an `id`, `name`, and `price`) and allows adding new products through `POST` requests with validation.
+
+
+2. Getting products with `GET`
+
+   - In the `/api` folder, create a new folder called `products`, then add a `route.tsx` file inside it.
+   - First, export the `GET` function, which returns a hardcoded list of products:
+
+      ``` tsx 
+      import { NextRequest, NextResponse } from "next/server";
+      import schema from "./schema";
+
+      export function GET(request: NextRequest) {
+      return NextResponse.json([
+         { id: 1, name: "Milk", price: 2.0 },
+         { id: 2, name: "John", price: 3.5 },
+      ]);
+      }
+      ```
+      [source code](https://github.com/Rumindu/next-app/blob/1af44313b51c27e86c36c1dfdae481ec913df5c9/app/api/products/route.tsx)
+
+   - Test this by sending a `GET` request to `/api/products` via Postman. You should receive a `200` response with the list of products.
+
+3. **Validating Input with Zod**
+
+   - Create a `schema.ts` file inside the `products` folder to define validation rules for a product using Zod:
+      ``` ts
+      import { z } from "zod";
+
+      const schema = z.object({
+      name: z.string().min(3),
+      price: z.number().min(1).max(100)
+      });
+
+      export default schema;
+      ```
+      [source code](https://github.com/Rumindu/next-app/blob/1af44313b51c27e86c36c1dfdae481ec913df5c9/app/api/products/schema.ts)
+
+4. **Creating Products with `POST` and Applying Validation**
+   - Add a POST function to handle new product creation in the `/api/products/route.tsx`
+   - Import the schema and use `safeParse` to validate the incoming request:
+      ``` tsx 
+      import productSchema from './schema';
+
+      export async function POST(request: NextRequest) {
+      const body = await request.json();
+      // Validate using Zod
+      const validation = schema.safeParse(body);
+
+      if (!validation.success)
+         return NextResponse.json(validation.error.errors, { status: 400 });
+
+      // If validation passes, create a new product
+      return NextResponse.json(
+         { id: 10, name: body.name, price: body.price },
+         { status: 201 }
+      );
+      }
+      ```
+        [source code](https://github.com/Rumindu/next-app/blob/1af44313b51c27e86c36c1dfdae481ec913df5c9/app/api/products/route.tsx)
+
+5. **Testing in Postman**
+
+   - **`GET` request**: Send a `GET` request to `/api/products` to receive the list of products.
+       
+   - **`POST` request**:
+       
+       - Set up a `POST` request to `/api/products`.
+       - Test validation by sending invalid data, such as an empty object `{}`. You should receive a `400 Bad Request` response with errors for the missing `name` and `price`.
+       - Sending valid data (e.g., `{"name": "Eggs", "price": 5}`) should return a `201 Created` response with the new product.
+
+
+
+6. **Key Points**
+
+   - **Hardcoded Data**: For simplicity, hardcoded product data is used. In real-world apps, this data would come from a database.
+   - **Validation**: Zod helps validate the request body, ensuring that only valid product data is processed.
+   - **Explicit Property Setting**: Instead of using the spread operator (`...body`), set the properties explicitly to avoid malicious users sending unwanted data. Use this 
+     
+      ``` tsx
+      return NextResponse.json(
+         { id: 10, name: body.name, price: body.price },
+         { status: 201 }
+      ); 
+      ``` 
+
+      instead of
+
+      ``` tsx 
+      return NextResponse.json(
+         { id: 10, ... body},
+         { status: 201 }
+      );
+      ```` 
