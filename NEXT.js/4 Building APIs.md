@@ -177,10 +177,258 @@ To create an API endpoint for submitting data (e.g., creating a new user) via a 
         return NextResponse.json({ id: 1, name: body.name }, { status: 201 });
       }
       ```
-      [source code](https://github.com/Rumindu/next-app/blob/3817cf1ba04b82c3ce1e72d3292d975a70f0879a/app/api/users/route.tsx)
+      [source code](https://github.com/Rumindu/next-app/blob/206e2d06a1e85698cfb2b1e62a4467d85cd23731/app/api/users/route.tsx)
 
 7. **Testing Validation in Postman**
 
    - Test by removing the `name` field or leaving it empty. The response should be a 400 status with an error message like "Name is required".
    - When the `name` is provided, the response should include the user object, and the status should be 201, indicating successful creation.
 ---
+
+# Updating an API Object in Next.js
+
+To update an object like a user via an API endpoint in Next.js, follow these steps:
+
+1. **PUT Request Setup**
+
+   - To update a user, you should send a PUT request to the endpoint representing an individual user (e.g. `/api/users/1`). This request should include a user object in the body.
+   - Inside the `users/[id]` folder, open the `route.tsx` file.
+   - Export a function called `PUT` to handle PUT requests for updating objects, just like how the GET request was handled.
+   - Use the `NextRequest` and `NextResponse` from `next/server`.
+
+2. ==**Choosing Between PUT and PATCH**==
+
+   - **PUT** is used to replace an entire object, while **PATCH** is for updating specific properties. In this case, Mosh recommends using `PUT` to replace the user.
+
+3. **Accessing Route Parameters**
+
+   - Just like in the GET request, access the route parameter (ID) using the following approach:
+      ``` tsx 
+      export async function PUT(
+        request: NextRequest,
+        { params }: { params: { id: number } }
+      ) {//...
+      }
+      ```
+
+4. Full code
+
+    ``` tsx 
+    export async function PUT(
+      request: NextRequest,
+      { params }: { params: { id: number } }
+    ) {
+      //request.json() returns a promise, so the function must be marked async
+      const body = await request.json();
+
+      // Validation: Name is required
+      if (!body.name)
+        return NextResponse.json({ error: "Name is required" }, { status: 400 });
+
+      // Simulate user not found for IDs greater than 10
+      if (params.id > 10)
+        return NextResponse.json({ error: "User not found" }, { status: 404 });
+
+      // Simulate user update
+      return NextResponse.json({ id: 1, name: body.name });
+    }
+    ```
+    
+
+5. **Testing with Postman**
+
+   - To test the PUT request, use Postman:
+     1. Set the request type to **PUT**.
+     2. Use the URL `http://localhost:3000/api/users/1`.
+     3. In the **Body** tab, select **raw** and **JSON**.
+     4. Provide a valid JSON object, e.g., `{"name": "Mosh Updated"}`.
+     5.  Send the request to see the updated user data in the response.
+
+6. **Handling Errors**
+
+   - If the `name` field is missing or empty, return a `400 Bad Request` response with the message "Name is required."
+   - If the user doesn't exist (e.g., `id > 10`), return a `404 Not Found` response with the message "User not found."
+   - For successful updates, return a `200 OK` status (or `201 Created` if a new object is created), along with the updated user object.
+---
+
+# Deleting an Object in Next.js API Route (DELETE Method)
+
+
+To delete a user, send a `DELETE` request to the endpoint that represents the specific user (e.g., `/api/users/1`). This endpoint should handle the request, validate the user ID, and simulate the deletion of the user from the database.
+
+1. **File Structure**
+
+   - Inside the `users/[id]` folder, open the `route.ts` file.
+   - Export a new handler function for handling the `DELETE` request.
+
+2. **Destructuring Route Parameters**
+
+   - Similar to the `PUT` handler, you need to access the route parameters and the request object. Here’s how to destructure the parameters directly in the function signature:
+   ``` tsx 
+     export async function DELETE(
+       request: NextRequest,
+       { params }: { params: { id: number } }
+     ) {// Use params.id to identify the user to delete
+     }
+   ```
+
+3. **Handling the Request**
+
+   1. **Simulate Fetching User from Database**:
+       
+       - In a real application, you would fetch the user from the database.
+       - For simulation purposes, assume that if the `id` is greater than `10`, the user does not exist. Return a `404 Not Found` response if the user is not found.
+   
+   2. **Simulate Deleting User**:
+       
+       - If the `id` is valid (e.g., `id <= 10`), simulate deleting the user by returning a `200 OK` response.
+       - You can either return an empty response or include details of the deleted user in the response body. This decision depends on your application's requirements.
+
+4. **Full Code Example**:
+
+    ``` tsx 
+    //app/api/users/[id]/route.tsx
+    export function DELETE(
+      request: NextRequest,
+      { params }: { params: { id: number } }
+    ) {
+      // Simulate user not found for IDs greater than 10
+      if (params.id > 10)
+        return NextResponse.json({ error: "User not found" }, { status: 404 });
+    // Simulate user deletion
+      return NextResponse.json({});
+    }
+    ```
+    [source code](https://github.com/Rumindu/next-app/blob/fbd69abc3ebfb95b6eb0fc128749e742728cfdb4/app/api/users/%5Bid%5D/route.tsx)
+
+5. **Testing with Postman**
+
+- Use a tool like Postman to test the `DELETE` request.
+    - Set the request type to `DELETE`.
+    - The endpoint should be `/api/users/1` (or any valid user ID).
+
+- If the user doesn't exist (e.g., `id > 10`), the response will be:
+
+  - **404 Not Found** with the message "User not found."
+
+- For valid users (e.g., `id <= 10`), the response will be:
+
+  - **200 OK** with an empty response body.
+---
+
+# Validating Requests with Zod in Next.js
+
+This note covers how to validate request bodies using the Zod library in a Next.js API route, which simplifies the process of validating complex objects.
+
+1. **Why Use a Validation Library Like Zod?**
+
+   - In a typical `PUT` or `POST` request, you might use `if` statements to validate incoming request data (e.g., checking for the presence of a `name` field). However, as objects become more complex, these `if` statements can become unwieldy. A validation library like [Zod](https://zod.dev/) helps by providing a more structured and reusable approach to validation.
+
+2. **Installing Zod**
+
+   - First, install Zod using npm:
+      ``` bash
+      npm install zod
+      ```
+
+3. **Creating a Schema for User Validation**
+
+   - In the `/api/users` folder, create a new file called `schema.ts`.
+   - Define the schema for the user object using Zod:
+
+      ``` ts 
+      import { z } from 'zod';
+
+      const schema = z.object({
+        //from adding second parameter to min() overriding the default error message ""String must contain at least 3 character(s)"
+        name: z.string().min(3,"Name must be at least 3 characters long"),
+        // You can add other properties like email or age, e.g.
+        // email: z.string().email(),
+        // age: z.number().min(18),
+      });
+
+      export default schema;
+      ```
+      [source code](https://github.com/Rumindu/next-app/blob/7623d3dd8b3ec22d08e7fec45910a5e0cc1c7038/app/api/users/schema.ts)
+
+
+   - The schema specifies that the `name` field is a string and must be at least 3 characters long. You can easily extend this to validate additional fields (e.g., `email`, `age`).
+
+4. **Using the Schema in the Route Handler**
+
+   - Go back to your API route file (e.g., `/api/users/[id]/route.ts` for `PUT` requests).
+   - Import the schema:
+      ``` tsx 
+      // app/api/users/[id]/route.tsx
+      import schema from "../schema";
+      ```
+   - Replace the manual validation (`if` statements) with Zod validation:
+
+      ``` tsx 
+      // app/api/users/[id]/route.tsx
+      export async function PUT(
+        request: NextRequest,
+        { params }: { params: { id: number } }
+      ) {
+        //request.json() returns a promise, so the function must be marked async
+        const body = await request.json();
+
+        // Validate request body using zod
+        const validation = schema.safeParse(body);
+
+        // Check if validation failed
+        if (!validation.success)
+          return NextResponse.json(validation.error.errors, { status: 400 });
+
+        // Simulate user not found for IDs greater than 10
+        if (params.id > 10)
+          return NextResponse.json({ error: "User not found" }, { status: 404 });
+
+        // Simulate user update
+        return NextResponse.json({ id: 1, name: body.name });
+      }
+      ```
+      [source code](https://github.com/Rumindu/next-app/blob/7623d3dd8b3ec22d08e7fec45910a5e0cc1c7038/app/api/users/%5Bid%5D/route.tsx)
+
+5. **Safe Parsing vs. Parsing**
+
+   - **`safeParse`**: This method does not throw exceptions. Instead, it returns an object with a `success` property (true or false) and either the validated data or an error.
+   - **`parse`**: This method throws an exception if the validation fails.
+   - In this example, we use `safeParse` to avoid exceptions and handle errors gracefully.
+
+6. **Handling Validation Errors**
+
+   - If validation fails, return the detailed error messages generated by Zod:
+      ``` tsx 
+      // app/api/users/[id]/route.tsx
+      if (!validation.success)
+          return NextResponse.json(validation.error.errors, { status: 400 });
+      ```
+   - Zod provides a structured error object, which contains details like the specific field that failed validation, error codes, and human-readable messages.
+
+7. **Testing in Postman**
+
+   - Use Postman to test the endpoint. For example, send a `PUT` request to update a user:
+     - Endpoint: `/api/users/1`
+     - Body:
+        ``` json 
+        {
+          "name":""
+        }
+        ```
+   - The response should be a `400 Bad Request` with an error message such as:
+      ``` json 
+      [
+        {
+          "code": "too_small",
+          "minimum": 3,
+          "type": "string",
+          "inclusive": true,
+          "exact": false,
+          "message": "Name must be at least 3 characters long",
+          "path": [
+            "name"
+          ]
+        }
+      ]
+      ```
