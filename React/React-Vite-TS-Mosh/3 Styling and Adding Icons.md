@@ -100,3 +100,51 @@ export default ListGroup;
 	[Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/tree/eb831acb2dffc5b3fc4064c17f7b6b490c93e247/src/components/ListGroup)
 - why `join` ?
   ![](assets/Pasted%20image%2020240908215548.png)
+---
+
+# [**React Icons in a React Application**](https://react-icons.github.io/react-icons/)
+
+1. **Install React Icons**
+    
+   - Install the library using the terminal:`npm install react-icons@4.7.1`
+        
+2. **Explore React Icons**
+    
+   - Visit the React Icons website to browse available icons.
+   - React Icons is collection of multiple icon libraries, such as:
+     - **Ant Design Icons** (prefix: `Ai`)
+     - **Bootstrap Icons** (prefix: `Bs`)
+     - **Box Icons** (prefix: `Bi`)
+     - etc.
+3. **Copy Icon**
+	![](assets/Pasted%20image%2020241002135710.png)
+	![](assets/Pasted%20image%2020241002135342.png)
+	![](assets/Pasted%20image%2020241002135754.png)
+    
+   - Find the icon you want, then click to copy its component name.
+  
+4. **Import Icon**
+    
+   - In your React component (e.g., `App.js`), import the icon:
+		``` tsx 
+		import { BsCalendar } from "react-icons/bs";
+		```
+        
+5. **Use the Icon**
+    
+   - Use the imported icon as a regular React component:
+		``` tsx 
+		const App = () => {
+			return (
+				<div><BsCalendar/></div>
+			)
+		```
+		[source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/608da8a11a8726e3ff526a06aabd0376bfbdd416/src/App.tsx)
+
+        
+6. **Customize Icon**
+    
+   - Icons can be customized by adjusting props such as size, color,...:
+		``` tsx 
+		<BsCalendar color="red" size="40"/>
+		```

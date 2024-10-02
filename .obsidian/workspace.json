@@ -20,43 +20,19 @@
             }
           },
           {
-            "id": "7ef4f999d25be13f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NEXT.js/2 Styling.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d84bbcce6bb8b00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NEXT.js/3 Routing and Navigation.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6f6f40c193400753",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NEXT.js/4 Building APIs.md",
-                "mode": "preview",
+                "file": "React/React-Vite-TS-Mosh/3 Styling and Adding Icons.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 420.5110321044922
   },
   "right": {
     "id": "d29c399f9b26c6f3",
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NEXT.js/4 Building APIs.md",
+                "file": "React/React-Vite-TS-Mosh/3 Styling and Adding Icons.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NEXT.js/4 Building APIs.md",
+                "file": "React/React-Vite-TS-Mosh/3 Styling and Adding Icons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NEXT.js/4 Building APIs.md"
+                "file": "React/React-Vite-TS-Mosh/3 Styling and Adding Icons.md"
               }
             }
           }
@@ -185,11 +161,19 @@
   },
   "active": "6f6f40c193400753",
   "lastOpenFiles": [
-    "NEXT.js/Learn NEXT.js official learning project.md",
+    "NEXT.js/1 NEXT.js fundamentals.md",
+    "React/React-Vite-TS-Mosh/3 Styling and Adding Icons.md",
+    "React/React-Vite-TS-Mosh/assets/Pasted image 20241002135754.png",
+    "React/React-Vite-TS-Mosh/assets/Pasted image 20241002135710.png",
+    "React/React-Vite-TS-Mosh/assets/Pasted image 20241002135355.png",
+    "React/React-Vite-TS-Mosh/assets/Pasted image 20241002135347.png",
+    "React/React-Vite-TS-Mosh/assets/Pasted image 20241002135342.png",
+    "NEXT.js/5 Database Integration with Prisma.md",
+    "React/React-Vite-TS-Mosh/2 Building Components.md",
     "NEXT.js/4 Building APIs.md",
+    "NEXT.js/Learn NEXT.js official learning project.md",
     "NEXT.js/3 Routing and Navigation.md",
     "React/React component Name export and Default export.md",
-    "NEXT.js/1 NEXT.js fundamentals.md",
     "React/React boostrap.md",
     "NEXT.js/assets/Pasted image 20240927091409.png",
     "NEXT.js/assets/Pasted image 20240927091259.png",
@@ -197,15 +181,8 @@
     "NEXT.js/assets/Pasted image 20240926202036.png",
     "NEXT.js/image.png",
     "NEXT.js/2 Styling.md",
-    "React/React-Vite-TS-Mosh/3 Styling and Adding Icons.md",
     "cookies.md",
-    "NEXT.js/assets/Pasted image 20240925201248.png",
-    "NEXT.js/assets/Pasted image 20240925062432.png",
-    "NEXT.js/assets/Pasted image 20240925062409.png",
-    "NEXT.js/assets/Pasted image 20240925060622.png",
-    "NEXT.js/assets/Pasted image 20240925041642.png",
     "Obsidian Tips.md",
-    "React/React-Vite-TS-Mosh/2 Building Components.md",
     "VS code.md",
     "Auth0.md",
     "mysql.md",
@@ -225,10 +202,8 @@
     "git/Git.pdf",
     "Data Science.md",
     "React/React-Vite-TS-Mosh/assets/Styling Components(Summary).pdf",
-    "Java/22 Loops.md",
     "React/React-Vite-TS-Mosh/assets/Building Components(Summary).pdf",
     "React/React by Jonas Schmedtman notes/2 Essential js for React_230803_001649.pdf",
-    "React/1 Create Reat app in ts.md",
     "React/React by Jonas Schmedtman notes/1 Setup the environment _230729_132955.pdf",
     "JEST"
   ]
