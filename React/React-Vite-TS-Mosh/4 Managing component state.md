@@ -86,16 +86,16 @@
     
    - Avoid deeply nested state structures as they are more difficult to update and maintain.
    - **Example of Deep Nesting** (to avoid):
-        ``` tsx 
-        const [person, setPerson] = useState({
-        contact: { address: { street: '' } }
-        });
-        ```
+      ``` tsx 
+      const [person, setPerson] = useState({
+         contact: { address: { street: '' } }
+      });
+      ```
         
    - Instead, **prefer a flat structure**:
-``` tsx 
-const [address, setAddress] = useState({ street: '' });
-```
+      ``` tsx 
+      const [address, setAddress] = useState({ street: '' });
+      ```
 ---
 
 # Keeping Components Pure in React
@@ -120,8 +120,8 @@ const [address, setAddress] = useState({ street: '' });
         let count = 0;
 
         const Message = () => {
-        count++; // Modifying count during rendering
-        return <div>Message {count}</div>;
+					count++; // Modifying count during rendering
+					return <div>Message {count}</div>;
         };
 
         export default Message;
@@ -139,9 +139,9 @@ const [address, setAddress] = useState({ street: '' });
         ``` tsx 
         //Message.tsx
         const Message = () => {
-        let count = 0; // Declared as part of rendering
-        count++;
-        return <div>Message {count}</div>;
+					let count = 0; // Declared as part of rendering
+					count++;
+					return <div>Message {count}</div>;
         };
 
         export default Message;
@@ -162,7 +162,7 @@ const [address, setAddress] = useState({ street: '' });
         ``` tsx 
         //main.tsx
         <React.StrictMode>
-            <App />
+					<App />
         </React.StrictMode>,
         ```
 
@@ -195,7 +195,9 @@ const [address, setAddress] = useState({ street: '' });
   4. If your component behaves unexpectedly in development with Strict Mode, double-check for impure logic (like modifying variables during rendering).
 ---
 
-# Updating Objects in React
+# Updating State Objects in React
+
+- When updating objects or arrays, we should treat them as immutable objects. Instead of mutating them, we should create new objects or arrays to update the state
 
 1. **Grouping Related State Variables into Objects**
     
@@ -250,11 +252,213 @@ const [address, setAddress] = useState({ street: '' });
       [source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/dd31dab0fbc7081389dfe20d46741fd1eab4d0f1/src/App.tsx)        
    - This is a more concise and clean way to update state in React.
 
-- **Key Takeaways:**
+-  **Key Takeaways:**
 
-  - **State in React is immutable**, meaning you should never directly modify the existing state objects.
-  - ==Always create a **new object** when updating state object.==
-  - Use the **spread operator (`...`)** to efficiently copy properties from the original object and update the necessary fields.
-  - For simple updates, you can perform the update inline without creating a separate object.
+  1. **State in React is immutable**, meaning you should never directly modify the existing state objects.
+  2. ==Always create a **new object** when updating state object.==
+  3. Use the **spread operator (`...`)** to efficiently copy properties from the original object and update the necessary fields.
+  4. For simple updates, you can perform the update inline without creating a separate object.
 ---
 
+# Updating Nested Objects in React
+
+1. **Creating a Nested Object in State**
+    
+   - In this example, the state is a `customer` object that has nested properties, like `name` and `address`. The `address` itself is another object with properties like `city` and `zipCode`.
+      ``` tsx 
+      const App = () => {
+      const [customer, setCustomer] = useState({
+				name: "John Doe",
+				address: { city: "New York", zipCode: "10001" },
+      });
+      ```
+      [source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/dd8cd284d2e19112ec81b2870d77070a811cade4/src/App.tsx)
+
+2. **The Spread Operator and Shallow Copy**
+    
+   - When updating a nested object, we use the **spread operator** to copy properties from the existing object. However, the spread operator performs a **shallow copy**, meaning it only copies references to nested objects, not the objects themselves.
+   - If you use the spread operator like this:
+      ``` tsx 
+      const newCustomer = { ...customer };
+      ```    
+   - Both the original and new `customer` objects will still reference the **same `address` object in memory**, which is unsuitable when updating state.
+  
+3. **Ensuring State Independence**
+    
+   - To ensure that the **new state object is independent** from the original state object (i.e., they don't share references to nested objects), we need to create a new object for the nested structure as well.
+   - When updating the `zipCode`, we should:
+     1. Spread the properties of the original `customer` object.
+     2. Create a **new `address` object** and spread the existing properties from the original `address`.
+     3. Update the specific field (`zipCode`) in the new `address` object.
+   
+4. **Example of Correctly Updating Nested State**
+    
+   - Here’s how to properly update the `zipCode`:
+      ``` tsx 
+      setCustomer({
+      ...customer, // Spread the existing customer object
+      address: {   // Create a new address object
+         ...customer.address, // Spread the existing address object
+         zipCode: "94112"     // Update the zipCode
+      }
+      });
+      ```
+      [source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/185df2ed79c5e90c6edac8ce38b1d06e5700feef/src/App.tsx)
+   - This ensures that the new `customer` object has a new `address` object and doesn't reference the old one, making the state update **fully independent**.
+  
+5. **Avoiding Deeply Nested Structures**
+    
+    - Mosh emphasizes that when working with state in React, **deeply nested structures** should be avoided. The more nested the object, the more complex the update logic becomes.
+    - **Flattening the state** or keeping a simpler structure makes it easier to manage and update.
+
+- **Key Takeaways:**
+
+  1. The **spread operator** in JavaScript performs a **shallow copy**, meaning nested objects are still shared between copies.
+  2. When updating nested state, ensure **independence** by creating new objects for any nested structures.
+  3. Avoid deeply nested state structures to reduce complexity and simplify update logic in React.
+---
+
+# Updating State Arrays in React
+
+1. **Creating an Array in State**
+    
+   - The `useState` hook can be used to store an array in a React component.
+      ``` tsx 
+      const [tags, setTags] = useState(["happy", "sad", "excited"]);
+      ```
+      [source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/5d2d6dc78ee3efae0b3e753a36194a27aa9ee42b/src/App.tsx)
+             
+2. **Adding Items to an Array**
+
+   - We don't modify the original array using methods like `.push()`.    
+   - To **add** a new item to the array, we create a new array by **spreading** the existing array and appending the new item:
+      ``` tsx 
+      setTags([...tags, "cheerful"]);
+      ```
+      [source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/1766db7552ed317f318f67faeba2eb453416ddcd/src/App.tsx)
+        
+3. **Removing Items from an Array**
+    
+   - To **remove** an item from an array, use the `.filter()` method, which returns a new array with only the items that meet the condition:
+      ``` tsx 
+      setTags(tags.filter((tag) => tag !== "sad"));
+      ```
+      [source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/1766db7552ed317f318f67faeba2eb453416ddcd/src/App.tsx)
+   - This ensures that the original array is not mutated and React gets a new array object to track.
+  
+4. **Updating Items in an Array**
+    
+   - If you need to **update** a specific item in the array, the `.map()` method is useful. This method creates a new array by iterating over each item, allowing you to modify the item that matches your condition:
+      ``` tsx 
+      setTags(tags.map((tag) => (tag === "excited" ? "thrilled" : tag)));
+      ```
+      [source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/1766db7552ed317f318f67faeba2eb453416ddcd/src/App.tsx)
+   - In this example, it changes `"happy"` to `"happiness"` while leaving other items unchanged.
+
+- **Key Takeaways**
+
+  1. When working with arrays in React state, **never mutate the original array**. Always create a new array using methods like **spread**, **filter**, or **map**.
+  2. Use the **spread operator** to copy existing items when adding or modifying arrays.
+  3. Use `.filter()` to **remove** items from an array.
+  4. Use `.map()` to **update** specific items in the array.
+---
+
+# Updating a State Array of Objects in React
+
+1. **Array of Objects in State**
+    
+   - You can use the `useState` hook to store an array of objects in a React component. For example:
+		``` tsx 
+		const [bugs, setBugs] = useState([
+			{ id: 1, title: "Bug 1", fixed: false },
+			{ id: 2, title: "Bug 2", fixed: false },
+		]);
+		```
+            
+2. **Updating an Object in an Array**
+    
+   - To update a specific object in the array (like marking a bug as fixed), we need to follow these steps:
+     - Use the `.map()` method to **create a new array**.
+     - Inside `.map()`, check the condition to identify the object you want to update (e.g., using `id`).
+     - For the object that needs to be updated, create a **new object** using the **spread operator** to copy existing properties and override the specific property (e.g., `fixed`).
+     - For other objects, return them as they are.
+     - Example of marking the first bug as fixed:
+		``` tsx 
+		setBugs(bugs.map((bug) => (bug.id === 1 ? { ...bug, fixed: true } : bug)));
+		```
+		[source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/9948636d02e8058a16e94a24e44ff9914cad70de/src/App.tsx)
+        
+3. **Visualizing the Update**
+    
+   - Initially, we have two bug objects: `B1` and `B2`. After the click event, a **new array** is created where:
+     - `B1` is replaced with `B1*` (a new object with `fixed: true`).
+     - `B2` remains unchanged. This process ensures that React detects changes to the array and only re-renders the part of the DOM corresponding to the updated object.
+			
+		![](assets/Pasted%20image%2020241007194118.png)
+  
+4. **Key Point**
+    
+    - You don't need to create a brand new copy of every object in the array. Only the object that needs modification (in this case, `B1`) is replaced with a new one. The rest of the objects remain the same.
+
+- **Key Takeaways:**
+
+  - Use `.map()` to iterate over the array and identify the object to update.
+  - Create a **new object** for the one that needs changes, using the **spread operator** to copy existing properties and override specific fields.
+  - React only re-renders the part of the DOM that corresponds to the updated object, optimizing performance.
+---
+
+# Simplifying Update Logic with Immer
+
+1. **Why Use Immer?**
+    
+   - Updating arrays and objects immutably in React can be complex and repetitive. Immer simplifies this process by allowing mutations on a **draft** version of the state, while keeping the actual state immutable behind the scenes.
+
+2. **Installation**
+    
+   - First, install Immer using:
+		``` bash 
+		npm install immer
+		```
+    
+3. **Example: Updating an Array of Bugs**
+    
+    - The task is to mark the first bug in an array of bugs as "fixed" when a button is clicked.
+
+4. **Using Immer in React**
+    
+   - Import the `produce` function from Immer:
+		``` tsx 
+		import produce from "immer";
+		```
+        
+   - Instead of mapping through the bugs array and creating new objects, Immer allows you to directly modify a **draft** of the state:
+		``` tsx 
+		setBugs(
+			produce((draft) => {
+				const bug = draft.find((bug) => bug.id === 1);
+				if (bug) {
+					bug.fixed = true;
+				}
+			})
+		)
+		```
+		[source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/7a8956444f5d1752af506990aecda16c989f1184/src/App.tsx)
+         
+5. **How It Works**
+    
+    - The `produce` function takes a function that receives **draft**, a **proxy object** representing a mutable version of the state.
+    - You can directly mutate this **draft** as if it were a regular JavaScript object. Behind the scenes, Immer keeps track of the changes and applies them immutably, creating a new state object.
+  
+6. **Rendering the State**
+    
+   - To visualize the changes, iterate through the `bugs` array and conditionally render "fixed" or "new" based on the bug’s state:
+		``` tsx 
+		{bugs.map((bug) => {
+			return (
+				<p key={bug.id}>
+					{bug.title} {bug.fixed ? "Fixed" : "New"}
+				</p>
+			);
+		})}
+		```
+		[source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/7a8956444f5d1752af506990aecda16c989f1184/src/App.tsx)
