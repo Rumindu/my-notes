@@ -61,7 +61,7 @@
         [source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/011b3117dcef3906c3a2685a816c4460001edd0d/src/components/ListGroup/Form.tsx)
 ---
 
-# Note on Handling Form Submission 
+# Handling Form Submission 
 
 1. **Handling form submission:**
     
@@ -112,3 +112,87 @@
       <form onSubmit={handleSubmit}>
       ```
 ---
+
+# Accessing Input Fields
+
+1. **Using the `useRef` hook:**
+    
+   - React provides the `useRef` hook to reference DOM elements directly.
+   - To reference an input field, import `useRef` and call it with an initial value of `null`.
+      ``` tsx 
+      import { useRef } from 'react';
+      // ...
+      //useRef returns the refernce object
+      const nameRef = useRef<HTMLInputElement>(null);
+      ```
+        
+2. **Associating the ref with an input field:**
+    
+   - Use the `ref` attribute to link the `useRef` object with the input field.
+      ``` tsx 
+      <input ref={nameRef} id="name" ... />
+      ```
+
+        
+3. **Accessing the input value:**
+    
+   - Upon form submission, access the input value using the `current` property of the ref object.
+   - The input field's value can be retrieved through `nameRef.current.value`.
+  
+      ![](assets/Pasted%20image%2020241009070512.png)
+   
+   - To prevent getting this error Handle null-checks to ensure `nameRef.current` is not `null`.
+      ``` tsx
+      if (nameRef.current !== null) {
+         console.log(nameRef.current.value); 
+      }
+      ```
+        
+4. **Dealing with TypeScript:**
+    
+   - TypeScript requires specifying the type of the element being referenced. In this case, use `HTMLInputElement`.
+   - Without specifying, TypeScript will throw an error (e.g., `Property 'value' does not exist on type 'never'`).
+      
+      ![](assets/Pasted%20image%2020241009070830.png)
+   
+   - To prevent getting this error
+      ``` tsx 
+      const nameRef = useRef<HTMLInputElement>(null);
+      ```
+        
+5. **Repeating for multiple input fields:**
+    
+   - Repeat the process for additional inputs, such as for age:
+      ``` tsx 
+      const ageRef = useRef<HTMLInputElement>(null);
+      // ....
+      <input ref={ageRef} />
+      ```
+   - Access the value the same way and convert to the necessary type if needed (e.g., `parseInt` for numbers).
+  
+6. **Creating an object to send:**
+    
+   - Typically when submitting the form, we need to send and object to the server to be save. Therefore instead of logging values individually, create an object to store the input values.
+      ``` tsx 
+      const person = { name: "", age: "" };
+      const handleSubmit = (event: FormEvent) => {
+         event.preventDefault();
+         if (nameRef.current !== null) {
+         person.name = nameRef.current.value;
+         }
+         if (ageRef.current !== null) {
+         person.age = parseInt(ageRef.current.value);
+         }
+         console.log(person)
+      };
+      ```
+        
+7. **Why initialize with `null`:**
+    
+   - React's DOM is created after the component renders, so there’s no DOM node to reference at the time of initialization.
+   - Always initialize ref objects with `null` to avoid issues, as the `current` property will later be updated by React when the DOM node is rendered.
+   - This avoids unexpected behavior when referencing DOM nodes.
+
+8. **Personal opinion (Mosh):**
+    
+   - Mosh mentions that initializing the ref object with `null` is cumbersome and could have been handled better by React itself, as it feels like a design flaw. However, it’s necessary to follow this approach due to how React handles DOM nodes.
