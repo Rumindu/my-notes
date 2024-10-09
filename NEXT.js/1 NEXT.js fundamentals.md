@@ -226,6 +226,7 @@ export default function Home() {
 - In Next.js, there are 2 main ways to fetch data: **on the client** or **on the server**. Each approach has its advantages and limitations. This guide explores both methods and demonstrates the best practices for fetching data in Next.js. Here we use [JSONPlaceholder](https://jsonplaceholder.typicode.com/)API end point to get dummy data
 - To fetch data on the client side, we typically use React hooks like `useState` and `useEffect`. These hooks allow us to store data in state and fetch it from an API when the component mounts.
   ``` jsx
+  'use client';
   import React, { useState, useEffect } from 'react';
 
   function Users() {

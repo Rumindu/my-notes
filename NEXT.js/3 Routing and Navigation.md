@@ -51,6 +51,9 @@
       const UserDetailPage = ({ params: { id } }: Props) => {
         return <div>UserDetailPage {id}</div>;
       };
+      //For Below approach no need to define separate interface for props. 
+      //It is done on inline
+      //const UserDetailPage = ({ params: { id } }:{ params: { id: string } }) => {...
       ```
       [source code](https://github.com/Rumindu/next-app/blob/c9fdbd28bae8f8a216d17a115cde3bfbcca6e5f7/app/users/%5Bid%5D/page.tsx)
     
@@ -145,11 +148,11 @@
 
 - In Next.js, query string parameters allow you to pass additional data in the URL that can affect how a page is rendered. Here's how you can access and use these parameters on the server side in Next.js.
 
-- ## 1. **Defining Query String Parameters:**
+- ## 1. Defining Query String Parameters:
 
 - A query string is the part of a URL that comes after a `?` and allows for dynamic data to be passed. For example, a URL like `/products?sortOrder=price` has a query string parameter `sortOrder` with the value `price`.
 
-- ## 2. **Accessing Query String Parameters:**
+- ## 2. Accessing Query String Parameters:
 
 - In Next.js, query parameters are accessed using the `searchParams` property in the `props`. Here’s how to access and use them:
 
