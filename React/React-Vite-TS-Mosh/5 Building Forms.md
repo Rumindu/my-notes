@@ -283,3 +283,89 @@
    - While some advocate for using `useRef` in performance-critical situations, Mosh advises against premature optimization unless the form becomes complex and performance issues arise.
 ---
 
+# Forms with React Hook Form
+
+1. **Introduction to React Hook Form:**
+    
+   - Managing form state with `useState` can become tedious as forms grow complex. Every input field requires both `onChange` and `value` attributes.
+   - `React Hook Form` simplifies form handling by reducing the amount of code.
+   - Install the library: `npm install react-hook-form@7.43`
+        
+2. **Using `useForm` Hook:**
+    
+   - Start by importing and using the `useForm` hook from React Hook Form.
+      ``` tsx 
+      import { useForm } from "react-hook-form";
+      const { register, handleSubmit } = useForm();//handleSubmit explain on point 6
+      ```     
+   - The `useForm` hook returns an object containing various properties and methods to handle form functionality, such as `register`, `reset`, `setError`, and more.
+
+3. **Registering Input Fields:**
+    
+   - To register an input field, use the `register` function provided by `useForm`.
+   - This function attaches necessary event handlers like `onBlur`, `onChange`, and a `ref`, without needing to explicitly set `value` or `onChange` attributes:
+      ``` tsx 
+      console.log(register("name"));
+      ```
+      [source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/2d9a5d9ac55f809e7c93f5940a9724007f8ddb47/src/components/ListGroup/Form.tsx)
+
+      ![](assets/Pasted%20image%2020241017120054.png)
+      
+   - We pass input field's id as an argument to the `register` function and it will return the object which contain `onBlur`, `onChange`, and a `ref` properties. To get those properties as props of `<input>` we spread the object using spread operator(.`...register("id_of_input_fileld")`).   
+      ``` tsx 
+      <input {...register("name")} />
+      <input {...register("age")} />
+      ```
+
+4. **Avoiding Re-renders:**
+    
+   - React Hook Form uses `ref` objects to manage form values, meaning it avoids re-rendering the component every time a user types, which makes it more efficient compared to the traditional `useState` approach.
+
+5. **Removing Unnecessary Code:**
+    
+   - Since React Hook Form handles state internally, you no longer need to use `useState` to manage the form state.
+   - You also don't need to write `onChange` handlers or use the `value` attribute for each field.
+      ``` tsx 
+      const { register } = useForm(); // No need for useState to store person object
+      ```
+        
+6. **Handling Form Submission:**
+    
+   - React Hook Form provides a `handleSubmit` function, which you can use to manage form submission.
+   - You pass it a callback function that receives the form data as its argument:
+      ``` tsx
+      // ... 
+      const { register, handleSubmit } = useForm();;
+      // ...
+      <form onSubmit={handleSubmit(data=>console.log(data))}>
+         <input {...register("name")} />
+         <input {...register("age")} />
+         <button type="submit">Submit</button>
+      </form>
+      ```
+      [source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/2d9a5d9ac55f809e7c93f5940a9724007f8ddb47/src/components/ListGroup/Form.tsx)
+        
+7. **Real world application and TypeScript Considerations:**
+   
+    - In real world application there is more than console log. Therefore we implement this logic in separate function like `onSubmit`.
+    - In TypeScript, when defining the `onSubmit` function, you might encounter a type error. The form data is typed as `FieldValues` by default, which you can use to annotate the data parameter:
+      
+      ![](assets/Pasted%20image%2020241017115437.png)
+      
+      ``` tsx 
+      import { FieldValues } from "react-hook-form";
+      //....
+      const onSubmit = (data: FieldValues) => {
+         console.log(data);
+      };
+      //....
+      <form onSubmit={handleSubmit(onSubmit)}>
+
+      ```
+      [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/8b6ee528e5d3cde5968b3acfc9ed82d90fa3a0b7/src/components/ListGroup/Form.tsx)
+    
+        
+8. **Advantages:**
+    
+    - **Less code:** React Hook Form significantly reduces the amount of boilerplate code needed for managing forms.
+    - **Performance:** By using `refs`, it avoids unnecessary re-renders, making it more efficient, especially for large forms.
