@@ -15,5 +15,6 @@
   },
   "showInlineTitle": false,
   "defaultViewMode": "preview",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "foldHeading": true
 }

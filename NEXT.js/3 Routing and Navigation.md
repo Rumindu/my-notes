@@ -610,7 +610,7 @@ In Next.js, you can customize how 404 pages (Not Found errors) are displayed to 
 # Handling Unexpected Errors in Next.js
 
 - Next.js provides built-in mechanisms to handle unexpected errors and create custom error pages to enhance user experience. Here’s how you can handle errors effectively in your Next.js application:
-- To ==simulate an unexpected error, you can introduce an invalid endpoint== or similar issues in your component. For example, in the user table component, you can add an invalid endpoint to trigger an error.
+- To ==simulate an unexpected error, you can introduce an invalid endpoint== or similar issues in your component. For example, in the [user table component](https://github.com/Rumindu/next-app/blob/987bf65be5d0336902a5ea7276f4af0a01b69357/app/users/UserTable.tsx), you can add an invalid endpoint to trigger an error.
     
     
 1. **Default Development vs. Production Error Pages**:

@@ -1,0 +1,1 @@
+- Can't put error type in catch blog when fetching data inside try catch block.

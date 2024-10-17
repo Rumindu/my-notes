@@ -213,7 +213,7 @@
 2. **Immutability of State objects in React**
     
    - When updating an **State object** (or array) in React, you should **not directly modify** the original object. Instead, you must create a **new object** and update its properties.
-   - **Example of an incorrect update**:
+   - ==**Example of an incorrect update**:==
       ``` tsx 
       drink.price = 6; 
       setDrink(drink); // This won't work because React doesn’t detect the change.
@@ -243,7 +243,7 @@
       [source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/9dcdfbc6f9f512e8b7034d5dc5e60e0e67a85ef7/src/App.tsx)
    - This spreads all the properties from the `drink` object into `newDrink` and updates the `price`.
   
-5. **Inline Object Updates**
+5. ==**Inline Object Updates**==
     
    - In simple cases, you can directly use the spread operator within the `setDrink` function without creating a separate object:
       ``` tsx 

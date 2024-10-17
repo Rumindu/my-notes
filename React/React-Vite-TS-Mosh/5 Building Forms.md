@@ -1,3 +1,4 @@
+- File path of all code snippets `src/components/ListGroup/Form.tsx`
 # Building a Form in React
 
 1. **Setting up the form:**
@@ -107,22 +108,22 @@
          console.log("submitted");
       };
       ```
-    - **Reference** `handleSubmit` function in the `onSubmit` event. **not calling just a referencing**. It means not put `()` after the function name
+    - **Reference** `handleSubmit` function in the `onSubmit` event. **not calling just a referencing**. It means don't type braces`()` after the function name
       ``` tsx 
       <form onSubmit={handleSubmit}>
       ```
 ---
 
-# Accessing Input Fields
+# Accessing Input Fields using the `useRef` hook:
 
-1. **Using the `useRef` hook:**
+1. **The `useRef` hook:**
     
    - React provides the `useRef` hook to reference DOM elements directly.
-   - To reference an input field, import `useRef` and call it with an initial value of `null`.
+   - To reference an input field, import `useRef` and call it with an initial value of `null`. Reason for initial value being null is explain in point 7
       ``` tsx 
       import { useRef } from 'react';
       // ...
-      //useRef returns the refernce object
+      //useRef returns the reference object
       const nameRef = useRef<HTMLInputElement>(null);
       ```
         
@@ -186,6 +187,7 @@
          console.log(person)
       };
       ```
+      [source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/tree/c8c835d434e4f0fd8aa0b472e5262b8ff2d2cec4)
         
 7. **Why initialize with `null`:**
     
@@ -196,3 +198,88 @@
 8. **Personal opinion (Mosh):**
     
    - Mosh mentions that initializing the ref object with `null` is cumbersome and could have been handled better by React itself, as it feels like a design flaw. However, it’s necessary to follow this approach due to how React handles DOM nodes.
+--- 
+
+# Accessing Input Fields using the `useState`:
+- Video name "5- Controlled Components"
+1. **Using the `useState` hook:**
+    
+   - Instead of using the `useRef` hook to get input values, you can use the `useState` hook to control the form’s state. 
+   - Initialize a state object (e.g., `person`) with properties like `name` and `age`.
+      ``` tsx 
+      const [person, setPerson] = useState({ name: '', age: '' });
+      ``` 
+        
+2. **Handling the `onChange` event:**
+    
+   - Each input field has an `onChange` event that fires every time the user types.
+   - Use this event to update the corresponding state property when a user types in the input field. [update state object](./4%20Managing%20component%20state#Updating%20State%20Objects%20in%20React)
+   - For example, to update the `name` field:
+      ``` tsx 
+      <input
+         type="text"
+         value={person.name}
+         onChange={(event) => setPerson({ ...person, name: event.target.value })}
+      />
+      ```
+   - Similarly, for `age`. But here we need to `parseInt()` target's value:
+  
+      ![](assets/Pasted%20image%2020241017051043.png)
+
+      ``` tsx 
+      <input
+         type="number"
+         value={person.age}
+         onChange={(event) => setPerson({ ...person, age: parseInt(event.target.value) || '' })}
+      />
+      ```
+      [source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/d9050cf460d06677b59929e12ef53a8506c9202d/src/components/ListGroup/Form.tsx)
+        
+3. **Controlling the component state:**
+    
+    - React maintains the state, and each keystroke updates the corresponding state variable.
+    - The component is re-rendered whenever the state is updated. While some argue this could impact performance, it usually isn’t a significant issue for most forms.
+
+4. **Single source of truth:**
+    
+   - To avoid input fields and state becoming out of sync, set the `value` attribute of the input fields to the state variables (`person.name` and `person.age`).
+   - This ensures React controls the state of the input fields, making them "controlled components":
+      ``` tsx 
+      <input type="text" value={person.name} onChange={...} />
+      <input type="number" value={person.age} onChange={...} />
+      ```
+        
+5. **Handling initial state issues:**
+    
+   - By default, setting the `age` field to `0` displays the number `0` in the input box, which can be undesirable.
+  
+      ![](assets/Pasted%20image%2020241017051459.png)
+
+	- To solve this, initialize `age` as an empty string instead of `0` and remove `parseInt` form age's input field:
+      ``` tsx 
+      const [person, setPerson] = useState({ name: '', age: '' });
+      ```
+      [source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/653ce1f3f003009d16334acab6cb344949e97875/src/components/ListGroup/Form.tsx)
+      
+      ![](assets/Pasted%20image%2020241017060635.png)
+      
+6. **Submitting the form:**
+    
+   - On form submission, log or us  e the `person` object:
+      ``` tsx 
+      const handleSubmit = (event: FormEvent) => {
+         event.preventDefault();
+         console.log(person);
+      };
+      ```
+        
+7. **Controlled vs uncontrolled components:**
+    
+   - A controlled component is one where React manages the input state through state variables.
+   - This approach ensures that the form's data is always consistent and easier to manage.
+
+8. **Performance considerations:**
+    
+   - While some advocate for using `useRef` in performance-critical situations, Mosh advises against premature optimization unless the form becomes complex and performance issues arise.
+---
+

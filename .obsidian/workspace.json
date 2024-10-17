@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "React/React-Vite-TS-Mosh/5 Building Forms.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19016be14fc523f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "React/React-Vite-TS-Mosh/4 Managing component state.md",
                 "mode": "preview",
                 "source": false
@@ -20,7 +32,31 @@
             }
           },
           {
-            "id": "4a34a7ef816ca66c",
+            "id": "4af83bcc2bfffc3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/47 Comparing Objects.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e4e3c5cd471e92f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/React-Vite-TS-Mosh/5 Building Forms.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf225df530dc7230",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,33 +66,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b5ea371613085c18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/React-Vite-TS-Mosh/2 Building Components.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad8c9af2f00564c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/React-Vite-TS-Mosh/4 Managing component state.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380.5110321044922,
-    "collapsed": true
+    "width": 380.5110321044922
   },
   "right": {
     "id": "d29c399f9b26c6f3",
@@ -184,24 +195,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a34a7ef816ca66c",
+  "active": "e4e3c5cd471e92f9",
   "lastOpenFiles": [
+    "React/React-Vite-TS-Mosh/assets/Pasted image 20241017060635.png",
+    "Obsidian Tips.md",
+    "React/React-Vite-TS-Mosh/5 Building Forms.md",
+    "Java/47 Comparing Objects.md",
+    "React/React-Vite-TS-Mosh/4 Managing component state.md",
+    "React/React-Vite-TS-Mosh/1 Introduction.md",
+    "Java/34 Abstraction.md",
+    "Java/35 Coupling.md",
+    "React/React-Vite-TS-Mosh/assets/Pasted image 20241017051459.png",
+    "React/React-Vite-TS-Mosh/assets/Pasted image 20241017051043.png",
+    "React/React-Vite-TS-Mosh/assets/Pasted image 20241017050631.png",
+    "React/React-Vite-TS-Mosh/6 Data Fetching.md",
+    "NEXT.js/5 Database Integration with Prisma.md",
+    "NEXT.js/3 Routing and Navigation.md",
+    "NEXT.js/4 Building APIs.md",
+    "NEXT.js/2 Styling.md",
+    "NEXT.js/1 NEXT.js fundamentals.md",
+    "React/React-Vite-TS-Mosh/2 Building Components.md",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20241009070830.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20241009070512.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20241009051111.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20241009050700.png",
-    "React/React-Vite-TS-Mosh/2 Building Components.md",
     "git/Git.pdf",
-    "React/React-Vite-TS-Mosh/5 Building Forms.md",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20241008213107.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20241008213048.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20241008210713.png",
-    "React/React-Vite-TS-Mosh/assets/Pasted image 20241008210626.png",
-    "React/React-Vite-TS-Mosh/4 Managing component state.md",
-    "NEXT.js/3 Routing and Navigation.md",
-    "NEXT.js/4 Building APIs.md",
-    "NEXT.js/1 NEXT.js fundamentals.md",
-    "NEXT.js/2 Styling.md",
     "NEXT.js/Learn NEXT.js official learning project.md",
     "git/Git-Stashing.pdf",
     "git/Github.pdf",
@@ -210,21 +231,11 @@
     "React-Native/React-native-net-ninja/8touchableCompoenent.md",
     "HTML and CSS/1CSS-Selectors.md",
     "JEST/Jest tutorial by Alex Horea.md",
-    "Obsidian Tips.md",
     "Springboot-PSR.md",
     "Tailwind CSS.md",
     "TS/68Static-methods-&-properties.md",
     "TS/69Abstract-classes.md",
     "TS/70Singleton-private-constructor.md",
-    "React/React-Vite-TS-Mosh/1 Introduction.md",
-    "React-Native/React-native-net-ninja/4inputFields.md",
-    "React/React-Vite-TS-Mosh/3 Styling and Adding Icons.md",
-    "React/React-Vite-TS-Mosh/assets/Pasted image 20241007194118.png",
-    "React-Native/React-native-net-ninja/6list&ScrollView.md",
-    "React-Native/React-native-net-ninja/7flatListComponent.md",
-    "Java/9 Arrays.md",
-    "React/React-Vite-TS-Mosh/assets/Pasted image 20241003053924.png",
-    "React/React-Vite-TS-Mosh/assets/Pasted image 20241003050219.png",
     "NEXT.js/assets",
     "NEXT.js",
     "React/React-Vite-TS-Mosh/assets/Styling Components(Summary).pdf",
