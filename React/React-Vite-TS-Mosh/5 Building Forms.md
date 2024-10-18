@@ -230,7 +230,9 @@
       <input
          type="number"
          value={person.age}
-         onChange={(event) => setPerson({ ...person, age: parseInt(event.target.value) || '' })}
+         onChange={(event) => setPerson({ ...person, 
+            age: parseInt(event.target.value)})
+         }
       />
       ```
       [source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/d9050cf460d06677b59929e12ef53a8506c9202d/src/components/ListGroup/Form.tsx)
@@ -369,3 +371,216 @@
     
     - **Less code:** React Hook Form significantly reduces the amount of boilerplate code needed for managing forms.
     - **Performance:** By using `refs`, it avoids unnecessary re-renders, making it more efficient, especially for large forms.
+---
+
+# Applying Validation with React Hook Form
+
+1. **Introduction to Validation:**
+    
+   - Validation rules can be applied directly to form fields when using React Hook Form. This eliminates the need for manually implementing validation logic for each input.
+   - Example: For the "name" field, you can require a minimum length of 3 characters using validation rules.
+
+2. **Setting Validation Rules:**
+    
+   - Validation rules are passed as the second argument to the `register` function when registering input fields.
+      ``` tsx 
+      <input {...register("name", { required: true, minLength: 3 })} />
+      ```
+   - Supported validation rules include `required`, `minLength`, `maxLength`, and more.
+
+3. **Handling Form Errors:**
+    
+   - ==React Hook Form only calls the `handleSubmit` function if the form is valid==. If validation fails, error messages can be displayed to the user.
+   - To show error message to user '`formState` property from the object which is returned from `useForm()`.
+      ``` tsx 
+      const { formState } = useForm();
+      console.log("formState",formState)
+      ```
+
+      ![](assets/Pasted%20image%2020241017211743.png)
+      
+   - Let's console log the `formState.errors` to get better understanding of the error object:
+      ``` tsx 
+      console.log("formState.errors",formState.errors)
+      ```
+
+      ![](assets/Pasted%20image%2020241017212236.png)
+
+	- At initially we get an empty object(above image) but when submitted the form without any value for the name field we have name in the error field and the type is required.
+  
+      ![](assets/Pasted%20image%2020241017213020.png)
+
+   - We can use this error object to the show the validation message to the user.
+
+4. **Displaying Error Messages:**
+    
+   - Display error messages conditionally based on the presence of validation errors for each field:
+      ``` tsx 
+      {formState.errors.name?.type === 'required' && <p>Name is required.</p>}
+      // ...
+      {formState.errors.name?.type === "minLength" && (
+         <p>Name must be at least 3 characters long.</p>
+      )}
+      ```  
+      [source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/29126d0f72309c67f57b749973a176bb94076895/src/components/ListGroup/Form.tsx)      
+   - Optional chaining (`?.`) is used to avoid runtime errors when accessing properties on an empty `errors` object.
+
+5. **Refactoring Error Display:**
+    
+   - To avoid repeating `formState.errors` throughout the code, it's better to de-structure the `errors` property at the top of the component.
+      ``` tsx 
+      // nested destructuring in js
+      const { formState: { errors } } = useForm();
+      // ...
+      {errors.name?.type === 'required' && <p>Name is required.</p>}
+      ```
+      [source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/32c2393cf09f712137f37867756e7a747eb1eb73/src/components/ListGroup/Form.tsx)
+        
+6. **Display Error Message with Conditional Rendering with Optional Chaining and some styling:**
+    
+   - The `errors` object may not always have the property for a specific input field, so optional chaining (`?.`) is used to avoid errors:
+      ``` tsx 
+      {errors.name?.type === 'required' && <p className="text-danger">Name is required.</p>}
+      ```
+      [source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/32c2393cf09f712137f37867756e7a747eb1eb73/src/components/ListGroup/Form.tsx)
+        
+7. **TypeScript Integration:**
+   - Currently if we type `errors.` TS IntelliSense doesn't suggest names of input fields.
+   - Define the shape of the form using an interface to improve type safety and autocompletion when accessing form fields.
+   - Example:
+      ``` tsx 
+      interface FormData {
+         name: string;
+         age: number;
+      }
+
+      function Form() {
+         const {
+            register,
+            handleSubmit,
+            formState: { errors },
+         } = useForm<FormData>();
+      ```
+      [source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/24403325fe857e26146196edf54cc7ce01cd967f/src/components/ListGroup/Form.tsx)
+   - Passing the `FormData` interface to the `useForm` hook improves the development experience by providing type checking and better auto-completion when working with form fields.
+
+8. **Benefits of Using React Hook Form for Validation:**
+    
+    - The library simplifies form validation logic by reducing boilerplate code.
+    - Validation is baked into the form, meaning you don't need to manually implement it for every field.
+    - React Hook Form ensures better performance since it avoids unnecessary re-renders when handling form state and validation.
+---
+
+# Schema-Based Validation with Zod 
+
+1. **Introduction to Schema-Based Validation:**
+    
+   - As forms become more complex, maintaining validation rules directly in the component markup becomes cumbersome.
+   - **Schema-based validation** is a better approach for handling complex validation logic, as it centralizes all validation rules in one place.
+   - Several libraries can be used for schema-based validation, including **Joi**, **Yup**, and **Zod**.
+   - **Zod** is a trending library that simplifies schema definition with a fluent and expressive API.
+
+2. **Setting Up Zod:**
+    
+   - Install Zod in your project using: `npm install zod@3.20.6`   
+   - Import Zod at the top of your component:
+      ``` tsx 
+      import { z } from 'zod';
+      ``` 
+        
+3. **Defining a Schema:**
+    
+   - Create a Zod schema using `z.object()`, defining each field and its validation rules:
+      ``` tsx 
+      const schema = z.object({
+         name: z.string().min(3, "Name must be at least 3 characters long"),
+         age: z.number().min(18, "Age must be at least 18"),
+      });
+      ```
+   - This schema defines that:
+        - `name` should be a string with a minimum length of 3 characters.
+        - `age` should be a number with a minimum value of 18.
+
+4. **TypeScript Integration:**
+    
+   - Use Zod to generate TypeScript types automatically based on the defined schema.
+      ``` tsx 
+      type FormData = z.infer<typeof schema>;
+      ```
+   - This approach removes the need for manually creating a TypeScript interface for form data, ensuring consistency between the schema and the TypeScript types.
+      ``` tsx 
+      // no more need this from previous lesson, above line do this task
+      interface FormData {
+         name: string;
+         age: number;
+      }
+      ```
+
+5. **Integrating Zod with React Hook Form:**
+    
+   - Install `@hookform/resolvers` to use Zod with React Hook Form: `npm install @hookform/resolvers@2.9.11`
+   - Import the Zod resolver:
+      ``` tsx 
+      import { zodResolver } from '@hookform/resolvers/zod';
+      ```  
+   - Use the Zod resolver when calling `useForm`:
+      ``` tsx 
+      const {
+         register,
+         handleSubmit,
+         formState: { errors },
+      } = useForm<FormData>({
+         resolver: zodResolver(schema),
+      });
+      ```
+      
+6. **Simplifying Error Handling:**
+    
+   - With schema-based validation, there’s no need to define validation rules separately in the `register` function. All rules are defined in the Zod schema.
+   - Modify error message rendering to dynamically use Zod’s error messages:
+      ``` tsx 
+      {errors.name && <p className="text-danger">{errors.name.message}</p>}
+      // ...
+      {errors.age && <p className="text-danger">{errors.age.message}</p>}
+      ```
+   - This approach allows you to keep a single paragraph for each field's error message.
+
+7. **Customizing Error Messages:**
+    
+   - Zod allows custom error messages to be passed as part of the validation rules:
+      ``` tsx 
+      name: z.string().min(3, { message: "Name must be at least 3 characters long" }),
+      age: z.number().min(18, { message: "Age must be at least 18" }),
+      ```
+   - This customizes the default error messages to be more user-friendly and specific to your application needs.
+
+8. **Handling Type Conversion for Input Fields:**
+    
+   - By default, form inputs return values as strings. When working with numbers, you need to explicitly instruct React Hook Form to treat the input value as a number:
+      ``` tsx 
+      <input {...register("age", { valueAsNumber: true })} />
+      ```        
+   - This converts the input value to a number, preventing issues like receiving `NaN` (Not a Number) when the input is empty.
+
+9. **Handling Empty or Invalid Inputs:**
+    
+   - If the age input is empty, Zod will treat it as an invalid value. Customize the error message using `invalid_type_error`:
+      ``` tsx 
+      age: z
+         .number({
+            invalid_type_error: "Age field is required",
+         })
+         .min(18, "Age must be at least 18")
+      ```       
+   - This ensures a clearer error message when an invalid or empty value is submitted.
+
+10. **Benefits of Schema-Based Validation with Zod:**
+    
+    - Centralizes validation logic in a single schema, making the codebase cleaner and more maintainable.
+    - Automatically integrates with TypeScript to ensure strong typing and better developer experience.
+    - Provides detailed and customizable error messages without cluttering the component markup.
+    - Zod’s fluent API makes it easy to define, compose, and reuse validation rules.
+
+11. **Further Exploration:**
+    
+    - Zod provides additional features like custom validation logic, advanced schemas, and more. For deeper understanding, refer to the official Zod documentation: [Zod Documentation](https://zod.dev/).
