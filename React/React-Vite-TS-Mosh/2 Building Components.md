@@ -169,6 +169,7 @@ export default App;
   }
   ```
   [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/tree/8c1218381fe948a32fca11c492639d198db4c9bc)
+- As a second parameter we can pass index in the map explain in [Handle events](#Handle%20events)
 ---
 # Conditional Rendering
 - To conditionally render content, we can use an `if statement` or a `ternary` operator or `&&` operator.
@@ -313,7 +314,7 @@ export default App;
   ```
   [Source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/b2ae1716503502003b4db5865c24985fbd4af783/src/components/ListGroup.tsx)
   ![](assets/Pasted%20image%2020240820195805.png)
-- When we mapping an items we can optionally add second parameter as `index`. From this we can see index of item we clicked.
+- ==When we mapping an items we can optionally add second parameter as `index`. From this we can see index of item we clicked.==
   ``` tsx 
   {items.map((item,index) => (
     <li

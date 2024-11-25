@@ -337,7 +337,7 @@
    - You pass it a callback function that receives the form data as its argument:
       ``` tsx
       // ... 
-      const { register, handleSubmit } = useForm();;
+      const { register, handleSubmit } = useForm();
       // ...
       <form onSubmit={handleSubmit(data=>console.log(data))}>
          <input {...register("name")} />
@@ -356,11 +356,13 @@
       
       ``` tsx 
       import { FieldValues } from "react-hook-form";
-      //....
+      //...
+      const { register, handleSubmit } = useForm();
+      //...
       const onSubmit = (data: FieldValues) => {
          console.log(data);
       };
-      //....
+      //...
       <form onSubmit={handleSubmit(onSubmit)}>
 
       ```
@@ -472,7 +474,7 @@
 ---
 
 # Schema-Based Validation with Zod 
-
+  [source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/49901b4b3fb7c80ee6ae395caf73e7c06f202c85/src/components/ListGroup/Form.tsx)
 1. **Introduction to Schema-Based Validation:**
     
    - As forms become more complex, maintaining validation rules directly in the component markup becomes cumbersome.
@@ -493,8 +495,8 @@
    - Create a Zod schema using `z.object()`, defining each field and its validation rules:
       ``` tsx 
       const schema = z.object({
-         name: z.string().min(3, "Name must be at least 3 characters long"),
-         age: z.number().min(18, "Age must be at least 18"),
+         name: z.string().min(3),
+         age: z.number().min(18),
       });
       ```
    - This schema defines that:
@@ -508,8 +510,9 @@
       type FormData = z.infer<typeof schema>;
       ```
    - This approach removes the need for manually creating a TypeScript interface for form data, ensuring consistency between the schema and the TypeScript types.
-      ``` tsx 
-      // no more need this from previous lesson, above line do this task
+      ``` tsx
+      //This code is from previous lesson 
+      //Now we can this interface and above line do it's task also
       interface FormData {
          name: string;
          age: number;
@@ -523,7 +526,7 @@
       ``` tsx 
       import { zodResolver } from '@hookform/resolvers/zod';
       ```  
-   - Use the Zod resolver when calling `useForm`:
+   - Passing `zodResolver` configuration object when calling `useForm`:
       ``` tsx 
       const {
          register,
@@ -543,6 +546,7 @@
       // ...
       {errors.age && <p className="text-danger">{errors.age.message}</p>}
       ```
+      [source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/49901b4b3fb7c80ee6ae395caf73e7c06f202c85/src/components/ListGroup/Form.tsx)
    - This approach allows you to keep a single paragraph for each field's error message.
 
 7. **Customizing Error Messages:**

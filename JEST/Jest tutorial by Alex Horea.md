@@ -1,7 +1,10 @@
-* Jest is most popular testing frame work for js/ts
-## Initialize TS project with Jest
+# Jest Introduction
+- Jest is most popular JS/TS testing framework developed by Facebook.
+- Jest is a test runner. It will give us global functions like `test`, `describe` and `expect`. Which help us to organize out test and assertions.
+- Jest is all in one solution. It has a test runner, assertion library and matchers library
+# Initialize TS project with Jest
 
-1. Initialize empty node project `npm init
+1. Initialize empty node project `npm init -y`
 2. Then install those dependencies `npm i -D typescript jest ts-jest @types/jest ts-node`
 	* `-D` for represent those are development dependencies.
 3.  To initialize a configuration for ts-jest `npx ts-jest config:init`

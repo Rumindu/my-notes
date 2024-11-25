@@ -266,7 +266,7 @@
 # Layouts in Next.js
 
 - ## What is a Layout?
-- A **layout** in Next.js is a **shared UI structure** that is used across multiple pages of an application. Layouts allow developers to define a consistent visual framework (like headers, footers, and navigation) that wraps around individual pages' content. This makes it easier to maintain and organize large applications where multiple pages need common interface components.
+- A **layout** in Next.js is a **shared UI structure** that is used across multiple pages of an application. Layouts allow developers to define a consistent visual framework (like headers, footers, and navigation) that wraps around individual page's content. This makes it easier to maintain and organize large applications where multiple pages need common interface components.
 
 - ## Root Layout
 - **Purpose**: The root layout defines a **common UI** structure that is shared across all pages in a Next.js application. This includes elements like the `<html>`, `<body>`, and common components such as navigation bars or footers.
