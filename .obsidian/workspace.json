@@ -6,65 +6,73 @@
       {
         "id": "3ff64fa17391dc7b",
         "type": "tabs",
+        "dimension": 51.67958656330749,
         "children": [
-          {
-            "id": "e4e3c5cd471e92f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NEXT.js/4 Building APIs.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4 Building APIs"
-            }
-          },
-          {
-            "id": "f78a18844f64b9e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JavaScript"
-            }
-          },
           {
             "id": "9a26d2359090a84e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/18 Logical operators.md",
+                "file": "React/React-Vite-TS-Mosh/4 Managing component state.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "18 Logical operators"
+              "title": "4 Managing component state"
             }
           },
           {
-            "id": "cd0a1c8abc12a58c",
+            "id": "d2396ed8d536aaaa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NEXT.js/2 Styling.md",
+                "file": "React/React-Vite-TS-Mosh/3 Styling and Adding Icons.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2 Styling"
+              "title": "3 Styling and Adding Icons"
+            }
+          },
+          {
+            "id": "8e9c5b8cda047c66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/React-Vite-TS-Mosh/5 Building Forms.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5 Building Forms"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
+      },
+      {
+        "id": "e0dfc265e72a5e72",
+        "type": "tabs",
+        "dimension": 48.320413436692505,
+        "children": [
+          {
+            "id": "f78a18844f64b9e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/React-Vite-TS-Mosh/6 Data Fetching.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6 Data Fetching"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +103,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "record",
+                "query": "memory-allo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -120,7 +128,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380.5110321044922
+    "width": 327.5
   },
   "right": {
     "id": "d29c399f9b26c6f3",
@@ -205,17 +213,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e60d7afd128d8e99",
+  "active": "8e9c5b8cda047c66",
   "lastOpenFiles": [
-    "NEXT.js/4 Building APIs.md",
+    "React/React-Vite-TS-Mosh/assets/Pasted image 20241229201331.png",
+    "React/React-Vite-TS-Mosh/6 Data Fetching.md",
+    "React/React-Vite-TS-Mosh/5 Building Forms.md",
+    "React/React-Vite-TS-Mosh/2 Building Components.md",
+    "NEXT.js/2 Styling.md",
+    "React/React-Vite-TS-Mosh/3 Styling and Adding Icons.md",
+    "React/React-Vite-TS-Mosh/4 Managing component state.md",
+    "Java/18 Logical operators.md",
+    "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/37theoryJSX.md",
+    "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/36creatingAndReusingAComponent.md",
+    "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/35theoryPartOfComponents.md",
+    "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/34someTipsToIdentifyBugs.md",
+    "React/React by Jonas Schmedtman notes/5 - Working With Components Props and JSX/33Rendering the Root Component and Strict Mode.md",
     "JavaScript.md",
+    "Java/30 Memory allocation.md",
+    "Java/assets/memory-alloation-java.png",
+    "NEXT.js/4 Building APIs.md",
     "NEXT.js/3 Routing and Navigation.md",
     "NEXT.js/5 Database Integration with Prisma.md",
     "NEXT.js/Learn NEXT.js official learning project.md",
-    "NEXT.js/2 Styling.md",
     "NEXT.js/1 NEXT.js fundamentals.md",
-    "React/React-Vite-TS-Mosh/4 Managing component state.md",
-    "React/React-Vite-TS-Mosh/5 Building Forms.md",
     "VS code.md",
     "().md",
     "React/React by Jonas Schmedtman notes/2 Essential js for React_230803_001649.pdf",
@@ -224,17 +244,6 @@
     "React/React-Redux by Stephen Grider/1JSX.md",
     "React-Native/React-Native-Academind/1uptoStyles/react-native-my-note.md",
     "Tailwind CSS.md",
-    "Springboot-PSR.md",
-    "Obsidian Tips.md",
-    "mysql.md",
-    "Mailtrap.md",
-    "Data Science.md",
-    "CV  writing.md",
-    "cookies.md",
-    "Auth0.md",
-    "Java/18 Logical operators.md",
-    "React/React-Vite-TS-Mosh/6 Data Fetching.md",
-    "React/1 Create Reat app in ts.md",
     "git/Git-Stashing.pdf",
     "git/Github.pdf",
     "git/Github_241125_120349.pdf",
@@ -248,7 +257,6 @@
     "React/React-Vite-TS-Mosh/assets/Pasted image 20241017060635.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20241017051459.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20241017051043.png",
-    "React/React-Vite-TS-Mosh/assets/Pasted image 20241017050631.png",
     "NEXT.js/assets",
     "NEXT.js",
     "React/React-Vite-TS-Mosh/assets/Styling Components(Summary).pdf",

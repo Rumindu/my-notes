@@ -124,6 +124,7 @@
       import { useRef } from 'react';
       // ...
       //useRef returns the reference object
+      //need to put `<HTMLInputElement>` type, explain in point 4
       const nameRef = useRef<HTMLInputElement>(null);
       ```
         
@@ -150,13 +151,11 @@
       ```
         
 4. **Dealing with TypeScript:**
-    
+   - Even after setup a null check we can see the different error message. 
+      ![](assets/Pasted%20image%2020241229201331.png)
    - TypeScript requires specifying the type of the element being referenced. In this case, use `HTMLInputElement`.
    - Without specifying, TypeScript will throw an error (e.g., `Property 'value' does not exist on type 'never'`).
-      
-      ![](assets/Pasted%20image%2020241009070830.png)
-   
-   - To prevent getting this error
+   - To prevent getting this error add `HTMLInputElement` type.
       ``` tsx 
       const nameRef = useRef<HTMLInputElement>(null);
       ```
@@ -187,7 +186,7 @@
          console.log(person)
       };
       ```
-      [source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/tree/c8c835d434e4f0fd8aa0b472e5262b8ff2d2cec4)
+      [source code](https://github.com/Rumindu/codeWithMosh-react-course-part1/blob/c8c835d434e4f0fd8aa0b472e5262b8ff2d2cec4/src/components/ListGroup/Form.tsx)
         
 7. **Why initialize with `null`:**
     

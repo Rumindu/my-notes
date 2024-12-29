@@ -1,1 +1,1 @@
-- Can't put error type in catch blog when fetching data inside try catch block.
+- Can't put error type in catch block when fetching data inside try catch block.
