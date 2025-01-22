@@ -44,7 +44,7 @@ D---E             M      \
       \         /          \
        F---G---H (develop)  \         
                              \ 
-                    Revert (removes F,G,H changes)
+                    Revert (removes A,B,C changes)
 ```
 ## Key Points
 - -m 1: Preserves feature branch history (A,B,C)
