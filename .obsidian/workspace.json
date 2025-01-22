@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/React-Vite-TS-Mosh/10 Global State Management.md",
-                "mode": "source",
+                "file": "git/Git-Revert-Merge-Commit.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10 Global State Management"
+              "title": "Git-Revert-Merge-Commit"
             }
           }
         ],
@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5,
-    "collapsed": true
+    "width": 322.5
   },
   "right": {
     "id": "d29c399f9b26c6f3",
@@ -194,9 +193,11 @@
   },
   "active": "be4e70cf9198f973",
   "lastOpenFiles": [
+    "JEST/Jest tutorial by Alex Horea.md",
+    "git/Git-Revert-Merge-Commit.md",
+    "React/React-Vite-TS-Mosh/10 Global State Management.md",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20250114114540.png",
     "React/React-Vite-TS-Mosh/5 Building Forms.md",
-    "React/React-Vite-TS-Mosh/10 Global State Management.md",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20250114074452.png",
     "React/React-Vite-TS-Mosh/3 Styling and Adding Icons.md",
     "React/React-Vite-TS-Mosh/6 Data Fetching.md",
@@ -204,7 +205,6 @@
     "React/React-Vite-TS-Mosh/2 Building Components.md",
     "React/React-Vite-TS-Mosh/4 Managing component state.md",
     "VS code.md",
-    "JEST/Jest tutorial by Alex Horea.md",
     "JS",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20241229201331.png",
     "NEXT.js/2 Styling.md",
@@ -236,7 +236,6 @@
     "React/React-Vite-TS-Mosh/assets/Pasted image 20241017211743.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20241017120054.png",
     "React/React-Vite-TS-Mosh/assets/Pasted image 20241017115437.png",
-    "React/React-Vite-TS-Mosh/assets/Pasted image 20241017060635.png",
     "NEXT.js/assets",
     "NEXT.js",
     "React/React-Vite-TS-Mosh/assets/Styling Components(Summary).pdf"
