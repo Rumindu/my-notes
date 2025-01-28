@@ -110,11 +110,16 @@ export default function Table({
 - Act: Render component/trigger actions
 - Assert: Verify expected outcomes
 
-### 3. Required Mocks Setup
+### 3. Required Mocks **Setup**
 ``` tsx 
-jest.mock('../selection-context', () => ({
-  useSelection: jest.fn()
-}))
+jest.mock(
+  // First param: Module path to mock
+  "@/app/recruiter/jobs/[id]/find-candidates-search-result/components/selection-context",
+  // Second param: Factory function returning mock implementation
+  () => ({
+    useSelection: jest.fn(), // Creates a mock function for useSelection hook
+  })
+);
 
 jest.mock('../applications-table', () => ({
   TableLayout: ({ children }: { children: React.ReactNode }) => <div data-testid="table-layout">{children}</div>,
