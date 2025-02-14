@@ -11,3 +11,6 @@ console.log(bar); // true
 ```
 [MDN Object destructuring assigning to new variable names](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#assigning_to_new_variable_names)
 [TS object destructuring](https://www.typescriptlang.org/docs/handbook/variable-declarations.html#object-destructuring)
+# Callback function
+- A **callback function** is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action. [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
+- 
