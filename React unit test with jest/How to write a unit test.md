@@ -1,101 +1,101 @@
 # How to Write a unit test?
 - This is the `Table` component, we are planing to do unit tests.
-``` tsx
-"use client";
-import {
-  TableLayout,
-  TableCell,
-  TableRow,
-} from "@/app/recruiter/jobs/[id]/find-candidates-search-result/components/applications-table";
-import { TableActionUpdateStatus } from "@/app/recruiter/jobs/[id]/find-candidates-search-result/components/table-action-update-status";
-import { Checkbox } from "@/components/ui/checkbox";
-import { cn } from "@/lib/utils";
-import { useSelection } from "@/app/recruiter/jobs/[id]/find-candidates-search-result/components/selection-context";
+  ``` tsx
+  "use client";
+  import {
+    TableLayout,
+    TableCell,
+    TableRow,
+  } from "@/app/recruiter/jobs/[id]/find-candidates-search-result/components/applications-table";
+  import { TableActionUpdateStatus } from "@/app/recruiter/jobs/[id]/find-candidates-search-result/components/table-action-update-status";
+  import { Checkbox } from "@/components/ui/checkbox";
+  import { cn } from "@/lib/utils";
+  import { useSelection } from "@/app/recruiter/jobs/[id]/find-candidates-search-result/components/selection-context";
 
-const headings = [
-  "",
-  "#",
-  "Name",
-  "Current Designation",
-  "Proposed Designation",
-  "Status",
-  "Matching Score",
-  "Actions",
-];
-export type Applicant = {
-  id: string;
-  name: string;
-  currentDesignation: string;
-  proposedDesignation: string;
-  matchingScore: number;
-  status: string;
-  action: string;
-};
-type FindCandidatesSearchResultTableProps = {
-  applicants: Array<Applicant>;
-};
-
-export default function Table({
-  applicants,
-}: FindCandidatesSearchResultTableProps) {
-  const { selectedIds, toggleSelection } = useSelection();
-
-  const ActionDisplay = ({ action }: { action: string }) => {
-    return (
-      <div className="flex h-10 w-full min-w-36 items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm text-muted-foreground">
-        {action}
-      </div>
-    );
+  const headings = [
+    "",
+    "#",
+    "Name",
+    "Current Designation",
+    "Proposed Designation",
+    "Status",
+    "Matching Score",
+    "Actions",
+  ];
+  export type Applicant = {
+    id: string;
+    name: string;
+    currentDesignation: string;
+    proposedDesignation: string;
+    matchingScore: number;
+    status: string;
+    action: string;
   };
-  if (applicants.length === 0) {
+  type FindCandidatesSearchResultTableProps = {
+    applicants: Array<Applicant>;
+  };
+
+  export default function Table({
+    applicants,
+  }: FindCandidatesSearchResultTableProps) {
+    const { selectedIds, toggleSelection } = useSelection();
+
+    const ActionDisplay = ({ action }: { action: string }) => {
+      return (
+        <div className="flex h-10 w-full min-w-36 items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm text-muted-foreground">
+          {action}
+        </div>
+      );
+    };
+    if (applicants.length === 0) {
+      return (
+        <TableLayout headings={headings}>
+          <TableRow>
+            <TableCell colSpan={10} className="text-center">
+              No data found
+            </TableCell>
+          </TableRow>
+        </TableLayout>
+      );
+    }
+
     return (
       <TableLayout headings={headings}>
-        <TableRow>
-          <TableCell colSpan={10} className="text-center">
-            No data found
-          </TableCell>
-        </TableRow>
+        {applicants.map((application) => (
+          <TableRow
+            key={application.id}
+            className={cn("bg-neutral-100", application.action && "bg-green-300")}
+          >
+            <TableCell>
+              <Checkbox
+                checked={
+                  application.action ? true : selectedIds.includes(application.id)
+                }
+                disabled={!!application.action}
+                onCheckedChange={() => toggleSelection(application.id)}
+              />
+            </TableCell>
+            <TableCell>{application.id}</TableCell>
+            <TableCell>{application.name}</TableCell>
+            <TableCell>{application.currentDesignation}</TableCell>
+            <TableCell>{application.proposedDesignation}</TableCell>
+            <TableCell>{application.status}</TableCell>
+            <TableCell>{`${application.matchingScore}/10`}</TableCell>
+            <TableCell>
+              {application.action ? (
+                <ActionDisplay action={application.action} />
+              ) : (
+                <TableActionUpdateStatus
+                  data={{ applicationId: application.id.toString() }}
+                />
+              )}
+            </TableCell>
+          </TableRow>
+        ))}
       </TableLayout>
     );
   }
-
-  return (
-    <TableLayout headings={headings}>
-      {applicants.map((application) => (
-        <TableRow
-          key={application.id}
-          className={cn("bg-neutral-100", application.action && "bg-green-300")}
-        >
-          <TableCell>
-            <Checkbox
-              checked={
-                application.action ? true : selectedIds.includes(application.id)
-              }
-              disabled={!!application.action}
-              onCheckedChange={() => toggleSelection(application.id)}
-            />
-          </TableCell>
-          <TableCell>{application.id}</TableCell>
-          <TableCell>{application.name}</TableCell>
-          <TableCell>{application.currentDesignation}</TableCell>
-          <TableCell>{application.proposedDesignation}</TableCell>
-          <TableCell>{application.status}</TableCell>
-          <TableCell>{`${application.matchingScore}/10`}</TableCell>
-          <TableCell>
-            {application.action ? (
-              <ActionDisplay action={application.action} />
-            ) : (
-              <TableActionUpdateStatus
-                data={{ applicationId: application.id.toString() }}
-              />
-            )}
-          </TableCell>
-        </TableRow>
-      ))}
-    </TableLayout>
-  );
-}
-```
+  ```
 [source code](https://github.com/Rumindu/interview-process-comments/blob/bb0afdda62e41c4ce580f374985f98891ee5779d/app/recruiter/jobs/%5Bid%5D/find-candidates-search-result/components/table.tsx)
 
 ## Unit Testing Plan for Table Component
@@ -110,8 +110,9 @@ export default function Table({
 - Act: Render component/trigger actions
 - Assert: Verify expected outcomes
 
-### 3. Required Mocks **Setup**
+### 3. Required Mocks Setups
 ``` tsx 
+// Explanation of the jest.mock's parameters.
 jest.mock(
   // First param: Module path to mock
   "@/app/recruiter/jobs/[id]/find-candidates-search-result/components/selection-context",

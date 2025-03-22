@@ -5,7 +5,7 @@
 
 ## Implementing Auth 0 for React-node full stack app
 
-- [You tube link from Mafia Codes](https://www.youtube.com/watch?v=GGGjnBkN8xk
+- [You tube link from Mafia Codes](https://www.youtube.com/watch?v=GGGjnBkN8xk)
 
 ### Front-end
 #### Setup front-end side in auth 0 dashboard side
