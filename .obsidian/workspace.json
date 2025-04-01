@@ -113,6 +113,8 @@
               "state": {
                 "sortOrder": "alphabetical",
                 "autoReveal": false
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
