@@ -247,9 +247,6 @@ WantedBy=default.target
 ```bash
 # After creating the service file, run these commands:
 
-# Reload systemd configuration
-sudo systemctl daemon-reload
-
 # Enable auto-start at boot
 sudo systemctl enable rclone-gdrive@$USER.service
 
@@ -258,6 +255,9 @@ sudo systemctl start rclone-gdrive@$USER.service
 
 # Check if it's working
 sudo systemctl status rclone-gdrive@$USER.service
+
+# Reload systemd configuration
+sudo systemctl daemon-reload
 ```
 
 ### Service Management Commands:
