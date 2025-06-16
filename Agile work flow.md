@@ -1,0 +1,1 @@
+1. Sprint spillover- In Agile project execution, "sprint spillover" refers to ==tasks or user stories that were planned for completion within a sprint but extend beyond the planned sprint duration==.
