@@ -7,3 +7,8 @@
 - editor: `shift+alt` column selection in editor
 - terminal: for column selection press `alt` and select in terminal
 - [Find all references](https://youtu.be/_4rSbklsVkk?t=2744) 
+- **Restart TypeScript server**
+	- In VS Code, press `Ctrl+Shift+P` → "TypeScript: Restart TS server".
+- Restart all the extensions.
+	- n VS Code, press `Ctrl+Shift+P` → "Developer: Restart extension host"
+  
