@@ -1,0 +1,4 @@
+- Vs code key mapping short cuts installing extension from market place
+- VS code Line wrapper - write click on line number column and select soft-wrap
+- Highlighted opened file in the explore menu -right clicked on Project(top left corner) ![](assets/Pasted%20image%2020250621125247.png)
+- 
