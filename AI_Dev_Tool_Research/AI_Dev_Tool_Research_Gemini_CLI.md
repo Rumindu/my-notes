@@ -11,12 +11,12 @@ This document outlines a comparison of various AI-powered development tools to i
 | **GitHub Copilot**         | [$10 (Individual)](https://github.com/features/copilot#pricing)                         | [$19 (Business)](https://github.com/features/copilot#pricing)                             | Unlimited code completions, chat support, debugging, security remediation.                                      |
 | **JetBrains AI Assistant** | [$10 (AI Pro)](https://www.jetbrains.com/ai-ides/buy/?section=personal&billing=monthly) | [$20 (AI Pro)](https://www.jetbrains.com/ai-ides/buy/?section=commercial&billing=monthly) | Integrated into JetBrains IDEs, local AI support, cloud credits for extensive AI usage.                         |
 | **JetBrains Junie**        | [$20 (AI Ultimate)](https://www.jetbrains.com/junie/)                                   | [$40 (AI Ultimate)](https://www.jetbrains.com/junie/)                                     | AI agent for multi-step tasks, integrated into JetBrains IDEs. (Part of AI Assistant)                           |
-| **Claude CLI**             | [$20 (Pro)](https://www.anthropic.com/pricing)                                          | [API-based pricing](https://www.anthropic.com/pricing)                                    | Access to Claude models via CLI, higher usage limits than free tier.                                            |
+| **Claude CLI**             | [$20 (Pro)](https://www.anthropic.com/pricing)                                          | [$25 (Team)](https://www.anthropic.com/pricing#team-&-enterprise)                         | Access to Claude models via CLI, higher usage limits than free tier.                                            |
 | **Gemini CLI**             | [Free Tier / Pay-as-you-go](https://ai.google.dev/pricing)                              | [Pay-as-you-go / Subscription](https://ai.google.dev/pricing)                             | Access Gemini models via CLI, generous free tier, enterprise-grade features on Vertex AI.                       |
 | **OpenAI Codex**           | [$20 (Plus)](https://openai.com/pricing)                                                | [$25 (Team)](https://openai.com/pricing)                                                  | Advanced AI coding assistant, supports GPT models, unlimited reasoning tasks.                                   |
 | **TabNine**                | [$9 (Dev)](https://www.tabnine.com/pricing)                                             | [$39 (Enterprise)](https://www.tabnine.com/pricing)                                       | AI-powered code completion, personalized models, enterprise-grade security.                                     |
 | **Lovable AI**             | [$20-$25 (Starter/Pro)](https://lovable.dev/pricing)                                    | [$30 (Teams)](https://lovable.dev/pricing)                                                | AI-powered UI/UX design, credit-based system, unlimited private projects.                                       |
-| **Figma Dev Mode**         | [~$15 (Dev Seat)](https://www.figma.com/pricing/)                                       | [$25 (Dev Mode only)](https://www.figma.com/pricing/)                                     | Improved design-to-dev handoff, integrated into Figma's paid plans.                                             |
+| **Figma Dev Mode**         | [$15 (Dev Seat)](https://www.figma.com/pricing/)                                        | [$25 (Dev Seat)](https://www.figma.com/pricing/)                                          | Improved design-to-dev handoff, integrated into Figma's paid plans.                                             |
 | **Google Stitch**          | [Free (in Google Labs)](https://labs.google/stitch)                                     | [Free (in Google Labs)](https://labs.google/stitch)                                       | AI design tool for generating UI from text prompts, sketches, or screenshots.                                   |
 | **Google Firebase Studio** | [Free (up to 10 workspaces)](https://firebase.google.com/studio)                        | [Free (up to 10 workspaces)](https://firebase.google.com/studio)                          | AI-powered app development platform, integrates with Firebase and Google Cloud services.                        |
 
@@ -35,19 +35,29 @@ This document outlines a comparison of various AI-powered development tools to i
     - 500 prompt credits/month across all models
     - **IMPORTANT:** Currently limited Sonnet model support compared to competitors
     - Unlimited Fast Tab completion
-    - SWE-1 model access (promotional 0 credits)
+    - [SWE-1](https://docs.windsurf.com/windsurf/models) model access (promotional 0 credits)
     - **NEW:** O3 model at 1x credit per prompt
 - **Teams:** [$30/month](https://windsurf.ai/pricing)
     - 500 credits per user
     - Windsurf Reviews
     - Admin dashboard with analytics
     - SSO available (+$10/user/month)
-- **Enterprise:** Starting at $60/month (1,000 credits/user)
+- **Enterprise:** Starting at [$60/month](https://windsurf.com/pricing) (1,000 credits/user)
 
 ### GitHub Copilot
 
-- **Individual:** $10/month or $100/year. Includes unlimited code completions, chat support, debugging assistance, and security remediation.
-- **Organization (Business):** $19/user/month. Includes all Individual features plus user management, IP indemnity, and data privacy features.
+- **Free:** New tier with 50 agent mode requests, 2,000 completions/month
+- **Pro:** [$10/month](https://github.com/features/copilot)
+  - **NEW:** 6x(300) more premium requests than Free tier
+  - **IMPORTANT:** Additional premium requests available at $0.04/request
+  - **NEW:** Coding agent (preview) for autonomous code changes
+  - **NEW:** Code review functionality
+  - Access to Claude 3.7/4 Sonnet, Gemini 2.5 Pro, o3 models
+- **Pro+:** [$39/month](https://github.com/features/copilot)
+  - **NEW:** 30x more premium requests than Free
+  - Access to Claude Opus 4, o3, GPT-4.5
+- **Organization (Business):** [$19/month](https://github.com/features/copilot)
+  - IP indemnity and enterprise controls
 
 ### JetBrains AI Assistant
 
@@ -100,8 +110,8 @@ This document outlines a comparison of various AI-powered development tools to i
 
 ### Figma Dev Mode
 
-- **Individual (Dev Seat):** ~$15/user/month on the Professional plan.
-- **Organization (Dev Mode only):** $25/user/month on the Organization plan.
+- **Individual (Dev Seat):** $15/user/month on the Professional plan.
+- **Organization (Dev Seat):** $25/user/month on the Organization plan.
 
 ### Google Stitch
 
