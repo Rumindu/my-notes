@@ -40,16 +40,16 @@
 
 - **Extra fact- 
 	If the just object name is inside the `System.Out.Print()` method, By default it calls `toString()` methods in the relevant object. Therefore here we specifically no need to call `toString()` inside the `System.out.println()`
-	``` java 
-  //main.java
-  public class Main {
-      public static void main(String[] args) {
-          var textBox=new TextBox();
-          //override toString() method
-          System.out.println(textBox);//TextBox
-          //no need to explicitly call toString()
-          //System.out.println(textBox.toString());
-      }
-  }
-  ```
+``` java 
+//main.java
+public class Main {
+    public static void main(String[] args) {
+        var textBox=new TextBox();
+        //override toString() method
+        System.out.println(textBox);//TextBox
+        //no need to explicitly call toString()
+        //System.out.println(textBox.toString());
+    }
+}
+```
 [GitHub](https://github.com/Rumindu/CodeWithMosh-The-Ultimate-Java-Mastery-Series/tree/overridding-methods)
