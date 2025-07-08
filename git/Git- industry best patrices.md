@@ -1,0 +1,3 @@
+-  [Git workflow by AtlasAssians](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+- Commit message structure - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). 
+- 
