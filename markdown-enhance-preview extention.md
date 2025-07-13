@@ -1,0 +1,3 @@
+- enable dual markdown preview buttons![disable default markdown preview](assets/hide%20default%20cs%20code%20markdown%20preview.png)
+- For Ubuntu system PDF function export by chrome doesn't work without having this![](assets/Pasted%20image%2020250713135604.png)
+- 
