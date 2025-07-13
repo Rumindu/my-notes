@@ -47,16 +47,16 @@ This document outlines a comparison of various AI-powered development tools to i
 ### GitHub Copilot
 
 - **Free:** New tier with 50 agent mode requests, 2,000 completions/month
-- **Pro:** [$10/month](https://github.com/features/copilot)
+- **Pro:** [$10/month](https://github.com/features/copilot/plans#compare)
   - **NEW:** 6x(300) more premium requests than Free tier
   - **IMPORTANT:** Additional premium requests available at $0.04/request
   - **NEW:** Coding agent (preview) for autonomous code changes
   - **NEW:** Code review functionality
   - Access to Claude 3.7/4 Sonnet, Gemini 2.5 Pro, o3 models
-- **Pro+:** [$39/month](https://github.com/features/copilot)
+- **Pro+:** [$39/month](https://github.com/features/copilot/plans#compare)
   - **NEW:** 30x more premium requests than Free
   - Access to Claude Opus 4, o3, GPT-4.5
-- **Organization (Business):** [$19/month](https://github.com/features/copilot)
+- **Organization (Business):** [$19/month](https://github.com/features/copilot#pricing)
   - IP indemnity and enterprise controls
 
 ### JetBrains AI Assistant
