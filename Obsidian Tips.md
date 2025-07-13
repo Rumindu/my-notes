@@ -23,3 +23,21 @@
     - `├` 195 [Alt Codes](https://www.freecodecamp.org/news/alt-codes-special-characters-keyboard-symbols-windows-list/)
 	- Then release the `alt` key
 - Get tree view folders +files `tree /f`
+
+## An option to highlight a "Note" and "Warning" using block-quote
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
+
+![](assets/Pasted%20image%2020250710155830.png)
