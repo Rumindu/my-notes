@@ -43,7 +43,7 @@ Please organize the content logically and suggest what screenshots/diagrams I sh
 /create-note Generate a Spring Boot note using this transcript following my template format:
 
 Template Requirements:
-- Simple bullet points (like React notes style)
+- Simple bullet points
 - Table of contents with "<!-- omit from toc -->" comment
 - Clear sections for main topics
 - Code examples with brief comments when applicable
