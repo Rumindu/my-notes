@@ -65,7 +65,7 @@ public class MyApp {
 
 Template Requirements:
 
-- Simple bullet points (like React notes style)
+- Simple bullet points
 - Table of contents with "<!-- omit from toc -->" comment
 - Clear sections for main topics
 - Code examples with brief comments when applicable
