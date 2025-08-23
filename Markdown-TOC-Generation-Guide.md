@@ -83,6 +83,7 @@ The "Markdown All in One" extension is the most popular TOC generator for VS Cod
   "markdown.extension.list.indentationSize": "adaptive"
 }
 ```
+- ![manual auto update TOC](assets/Screenshot%202025-08-23%20184429.png)
 
 ### Available slugifyMode Options
 
