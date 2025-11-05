@@ -15,3 +15,8 @@
 - [Viewing and customizing keyboard short cuts](https://code.visualstudio.com/docs/configure/keybindings#_keyboard-shortcuts-editor)vs code docs link
 ![Vs code keyboard shortcuts for Linux](assets/keyboard-shortcuts-linux.pdf)
 - ![](assets/Pasted%20image%2020250629223611.png)
+
+# Agent mode
+- To access another repo files add this repo to the work space![](assets/Pasted%20image%2020251026232540.png)
+- [More about vs code MCP servers- official docs](https://code.visualstudio.com/docs/copilot/customization/mcp-servers)
+- ![](assets/Pasted%20image%2020251026233542.png)
