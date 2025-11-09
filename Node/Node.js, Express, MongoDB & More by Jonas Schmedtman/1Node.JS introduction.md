@@ -2,7 +2,7 @@
 
 * Node.JS is a JavaScript runtime(environment) built on google open source V8 JavaScript engine.
 
-![](./assets/Screenshot%202023-11-23%20085212.png)
+![](assets/Screenshot%202023-11-23%20085212.png)
 * We are using Node.JS as a web server. then we can use JS on the server side of web development. 
 
 ## Why & When use Node.js

@@ -21,7 +21,7 @@ console.log(data1);
 });
 ```
 ****Output***
-![](./assets/Pasted%20image%2020231218164723.png)
+![](assets/Pasted%20image%2020231218164723.png)
 
 * Here at first 'start.txt' is reading in the background. While this process is running background rest of the code executing procedurally. Once it completes node will call to the **call back** function mentioning in here. (*We should pass those arguments according to the above order*). below code phrase will further more explain this process
 
@@ -34,7 +34,7 @@ console.log('Will read file!');
 ```
 ***
 ****Output***
-	![asynchronous console output](./assets/Pasted%20image%2020231218155921.png)
+	![asynchronous console output](assets/Pasted%20image%2020231218155921.png)
 \* Here we can see, after the 'will read file!' console logging the content of the text file.
 ## Asynchronous function within an Asynchronous function
 ```js
@@ -46,7 +46,7 @@ fs.readFile('./txt/start.txt', 'utf-8', (err, data1) => {
 console.log('Will read file!');
 ```
 ****Output***
-![](./assets/Pasted%20image%2020231218170416.png)
+![](assets/Pasted%20image%2020231218170416.png)
 
 ## Read and Write files asynchronously
 
@@ -79,5 +79,5 @@ console.log('Will read file!');
 	console.log('Will read file!');
 ```
 ****Output***
-![](./assets/Pasted%20image%2020231218174503.png)
+![](assets/Pasted%20image%2020231218174503.png)
 [source codes](https://github.com/Rumindu/work-Node.js-Jonas-Schmedtman/tree/main/2%20-%20Introduction%20to%20Nodejs%20and%20NPM/1File%20read%20and%20write)

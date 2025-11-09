@@ -15,13 +15,13 @@ server.listen(8000, '127.0.0.1',()=>{
   console.log('Listening to requests on port 8000');
  })
 ```
-![](./assets/Pasted%20image%2020231219121623.png)
+![](assets/Pasted%20image%2020231219121623.png)
 ****Output***
-![](./assets/Pasted%20image%2020231219120854.png)
+![](assets/Pasted%20image%2020231219120854.png)
 * Once we create request through the browser we can see requested url and /favicon.ico. this favicon.ico request is generate by browser. and here we get empty url because we aren't passing any value.
 
-![](./assets/Pasted%20image%2020231219121231.png)
-![](./assets/Pasted%20image%2020231219121311.png)
+![](assets/Pasted%20image%2020231219121231.png)
+![](assets/Pasted%20image%2020231219121311.png)
 
 ## Simple routing implementation
 
@@ -43,7 +43,7 @@ server.listen(8000, '127.0.0.1',()=>{
  })
 
 ```
-![](./assets/Pasted%20image%2020231219142541.png)
+![](assets/Pasted%20image%2020231219142541.png)
 
 * If we request something else other than /overview and /products, server doesn't know what to do. So browser is just spinning.
 * To prevent that just need to add else part
@@ -60,7 +60,7 @@ server.listen(8000, '127.0.0.1',()=>{
     }
   })
   ```
-  ![](./assets/Pasted%20image%2020231219143335.png)
+  ![](assets/Pasted%20image%2020231219143335.png)
 ## Setting up http status code
 
 * If the page isn't fund status code is `404` . to send it as response we use `res.writeHead()` function.
@@ -79,7 +79,7 @@ const server=http.createServer((req, res) => {
  })
 ```
 * We can see this status code in the development tools-> network tab
-![](./assets/Pasted%20image%2020231219144844.png)
+![](assets/Pasted%20image%2020231219144844.png)
 
 * By default if the page is available `200` status code will send
 
@@ -94,6 +94,6 @@ const server=http.createServer((req, res) => {
         res.end('<h1>Page not found!</h1>');
   ```
 
-![](./assets/Pasted%20image%2020231219145727.png)
+![](assets/Pasted%20image%2020231219145727.png)
 
 [Source codes](https://github.com/Rumindu/work-Node.js-Jonas-Schmedtman/blob/main/2%20-%20Introduction%20to%20Nodejs%20and%20NPM/3SimpleRouting.js)

@@ -19,7 +19,7 @@ console.log(text);
 
 * Here is the console log-
 
-![](./assets/Pasted%20image%2020231129192535.png)
+![](assets/Pasted%20image%2020231129192535.png)
 # Writing text to the file (Synchronous way ).
 
 ```js
