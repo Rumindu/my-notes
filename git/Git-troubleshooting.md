@@ -8,3 +8,8 @@ git config pull.rebase false
   - Select **Windows Credentials**.
   - Look for entries under "Generic Credentials" related to `git:https://github.com` or `github.com`.![](assets/Pasted%20image%2020250720195812.png)
   - Expand them and click "Remove".
+- If remote branch couldn't find it in VS code branch list, fetch the remote branch first and then checkout it
+  - eg- if branch name is "asd" which doesn't appear in vs code first
+	`git fetch origin asd`
+	then 
+	`git checkout asd`
