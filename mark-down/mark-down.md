@@ -108,3 +108,7 @@ Task List isn't appearing in VS code markdown preview. but in github it will sho
 * like this
 
 ![git hub preview](./images/Screenshot%202023-11-12%20001541.png)![[Pasted image 20231123063118.png]]
+
+- Admonitions are frequently used in documentation to call attention to warnings, notes, and tips. [Admonitions](https://www.markdownguide.org/hacks/#admonitions)
+- [An option to highlight a "Note" and "Warning" using blockquote](https://github.com/orgs/community/discussions/16925)
+![](assets/Pasted%20image%2020251230154107.png)
