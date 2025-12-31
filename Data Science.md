@@ -1,1 +1,2 @@
-[Top3 free resources for AI](https://www.facebook.com/reel/1894512497688697)
+- [Top3 free resources for AI](https://www.facebook.com/reel/1894512497688697)
+- [I can't STOP reading these Machine Learning Books!](https://www.youtube.com/shorts/vdRp_w9f-qM)
