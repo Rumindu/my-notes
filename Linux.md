@@ -11,3 +11,5 @@ sudo kill -9 2680 2688 # 2680 and 2688 are process IDs and -9 for Force kill
 	3. If the directory contains files or sub-directories `rm -rf dir_name`
 2. Extension manager for top bar customization
 3. Install the .deb file `sudo apt install ./your_package_name.deb`
+
+- Learning Linux road map [codeHub](https://www.facebook.com/reel/1288300219505113)
