@@ -28,4 +28,5 @@ You need to add a bucket policy that allows public read access to your images. H
 
 ## S3 bucket industry best parties.
 - [Is your S3 bucket leaking right now?](https://www.facebook.com/reel/837806325788145)
-- 
+- [AWS Athena S3 SQL query](https://www.facebook.com/reel/889489253593543)
+- using "Amazon CloudFront " (learn..)
