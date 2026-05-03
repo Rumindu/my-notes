@@ -260,27 +260,7 @@ Since CVs typically don't have bibliographies, a simple single-pass recipe with 
 
 ## 6. Configuring XeLaTeX as Default Compiler
 
-### Option 1: Using Extension Sidebar
-
-You can select a compiler directly from the LaTeX Workshop extension panel:
-
-1. Open the **LaTeX** panel in VS Code's sidebar (click the TeX icon)
-2. Expand **COMMANDS** → **Build LaTeX project**
-3. Choose from available recipes:
-   - `Recipe: latexmk (xelatex)` ✓ Recommended
-   - `Recipe: latexmk (lualatex)`
-   - `Recipe: latexmk`
-   - etc.
-
-> [!Note]
-> The full recipe list is only visible when no default compiler is set in `settings.json`. If you have configured a default recipe in settings, only that recipe will appear.
-
-![](assets/Screenshot%202025-12-30%20144015.png)
-![](assets/Screenshot%202025-12-30%20143908.png)
-
----
-
-### Option 2: Workspace Settings (Recommended)
+### Option 1: Workspace Settings (Recommended)
 
 Create or edit `.vscode/settings.json` in your project folder:
 
@@ -330,6 +310,27 @@ Create or edit `.vscode/settings.json` in your project folder:
 | `-interaction=nonstopmode` | Continues compilation without stopping for errors          |
 | `-file-line-error`         | Shows file name and line number in error messages          |
 | `%DOC%`                    | Placeholder for the document name                          |
+
+---
+
+### Option 2: Using Extension Sidebar
+
+You can select a compiler directly from the LaTeX Workshop extension panel:
+
+1. Open the **LaTeX** panel in VS Code's sidebar (click the TeX icon)
+2. Expand **COMMANDS** → **Build LaTeX project**
+3. Choose from available recipes:
+   - `Recipe: latexmk (xelatex)` ✓ Recommended
+   - `Recipe: latexmk (lualatex)`
+   - `Recipe: latexmk`
+   - etc.
+
+> [!Note]
+> The full recipe list is only visible when the `latex-workshop.latex.recipes: []` array in `settings.json` is not defined. If you have configured custom recipes in settings, only those recipes will appear (as here it will show the `xelatex` recipe).
+
+![](assets/Pasted%20image%2020260503222546.png)
+![](assets/Pasted%20image%2020260503222659.png)
+![](assets/Pasted%20image%2020260503222733.png)
 
 ---
 
